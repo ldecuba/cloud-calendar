@@ -21,8 +21,6 @@ GitHub Actions refreshes the calendar every Monday at 05:15 UTC. The updater rea
 - In-person events in the Netherlands in the next 92 days.
 - Existing curated events that are still inside the calendar window.
 
-The `dist/decuba-style` concept includes an autoplaying weekly event slider. It uses the current Monday-to-Sunday week when events are available, otherwise it advances to the next active week. Source-page Open Graph images are collected during the weekly refresh and used when available.
-
 Run the same refresh locally with:
 
 ```powershell
