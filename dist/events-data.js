@@ -24,6 +24,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "AI"
       ],
       "cost": "Free",
@@ -44,6 +46,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "AI Applications",
+        "Microsoft AI",
         "Copilot",
         "GitHub",
         "AI",
@@ -67,6 +70,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
         "Microsoft 365",
         "Copilot",
         "AI"
@@ -89,6 +93,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Developer Tools",
+        "Microsoft AI",
         "Copilot",
         "GitHub",
         "AI"
@@ -111,6 +116,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "AI Applications",
+        "Microsoft AI",
         "Azure",
         "AI",
         "Data"
@@ -133,6 +139,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "AI Applications",
+        "Microsoft AI",
         "Azure",
         "AI"
       ],
@@ -154,6 +161,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
         "Azure",
         "AI",
         "Data"
@@ -176,6 +184,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Developer Tools",
+        "Microsoft AI",
         "Copilot",
         "GitHub",
         "AI",
@@ -199,6 +208,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "AI"
       ],
       "cost": "Free",
@@ -219,6 +230,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "Azure",
         "AI"
       ],
@@ -240,11 +253,11 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
         "Copilot",
         "GitHub",
         "AI",
-        "Data",
-        "Security"
+        "Data"
       ],
       "cost": "Free",
       "language": "English",
@@ -264,6 +277,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "AI",
         "Security"
       ],
@@ -285,6 +300,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
         "AI"
       ],
       "cost": "Free",
@@ -305,6 +321,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
         "Copilot",
         "AI"
       ],
@@ -367,6 +384,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "AI"
       ],
       "cost": "Free",
@@ -387,6 +406,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "Azure",
         "AI",
         "Security"
@@ -409,6 +430,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
         "AI"
       ],
       "cost": "Free",
@@ -429,6 +451,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "AI Applications",
+        "Microsoft AI",
         "Azure",
         "AI"
       ],
@@ -490,6 +513,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
         "Copilot",
         "GitHub",
         "AI"
@@ -512,6 +536,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "Azure",
         "AI",
         "Security"
@@ -534,6 +560,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "AI Applications",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "AI",
         ".NET"
       ],
@@ -555,6 +583,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "AI Applications",
+        "Microsoft AI",
         "Azure",
         "AI",
         "Data"
@@ -577,6 +606,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
         "Azure",
         "Fabric",
         "AI",
@@ -622,6 +652,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
         "AI"
       ],
       "cost": "Free",
@@ -662,6 +694,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Data and Analytics",
+        "Microsoft AI",
         "Azure",
         "AI",
         "Data"
@@ -704,6 +737,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Open Source",
+        "Microsoft AI",
         "AI"
       ],
       "cost": "Free",
@@ -724,6 +758,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Developer Tools",
+        "Microsoft AI",
         "Microsoft 365",
         "Copilot",
         "GitHub"
@@ -746,6 +781,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "location": "Worldwide livestream",
       "topics": [
         "Personal and Business Development",
+        "Microsoft AI",
         "Copilot",
         "GitHub",
         "AI"
@@ -757,6 +793,118 @@ window.CLOUD_CALENDAR_EVENTS = {
       "source": "Microsoft Reactor",
       "verified": "2026-09-25",
       "description": "GitHub Copilot Proficiency Model & Insiders List - Discover a new way to validate your GitHub Copilot skills directly in your daily workflow—without needing to take a traditional exam. We’ll explore how verified proficiency evaluates telemetry and real feature usage to measure growth across 5 levels (Beginner to Expert). Plus, learn how to join the Insiders List to get updates, shape the beta experience, and access hands-on GitHub Skills exercises. Exam name: GH-700: Enhancing Operational Efficiency with Agentic AI (Beta) Cert name: GitHub Certified: Agentic AI for Business Professionals - Get a first look at the new GH-700 certification exam built for product managers, program managers, technical project managers, and business analysts. We’ll unpack the exam objectives, covering how non-developer business professionals can leverage GitHub Copilot, custom agents, Model Context Protocol (MCP) integrations, and human-in-the-loop workflows to streamline business operations and boost productivity. Special Bonus: Stay tuned until the end of the live broadcast to claim an exclusive exam voucher discount code for your next certification!",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27598",
+      "title": "Microsoft Certifications Explained!",
+      "start": "2026-10-22T12:00:00.000Z",
+      "end": "2026-10-22T20:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Personal and Business Development",
+        "Microsoft AI",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27598",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Microsoft certifications can feel like a maze of exams, role-based certifications, specializations, and constantly evolving technologies. In this session, we’ll cut through the complexity and make sense of the Microsoft certification landscape. Whether you’re starting your certification journey, looking to level up your career, or wondering which certification to pursue next, we’ll explore the different paths, what the certifications really mean, and how to choose the right ones for your goals. We’ll also look at the impact of AI and the latest changes to Microsoft’s certification portfolio. Come ready to rethink your certification strategy and leave with a clearer roadmap for your next Microsoft certification.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27576",
+      "title": "Model Mondays - Spotlight on Open Models",
+      "start": "2026-10-26T17:30:00.000Z",
+      "end": "2026-10-27T01:30:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27576",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Open models such as Kimi-K and Inkling give developers additional choices for reasoning, coding, and agentic workloads, with different tradeoffs in capability, flexibility, and deployment. Join us as we explore these models in Microsoft Foundry and see how evaluation can help identify the right open model for an AI agent. Explore the Resources Read the Newsletter Continue the conversation on the Discord [event ID:27576]",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27616",
+      "title": "Build Your First Copilot Plugin with WorkIQ Developer Tools",
+      "start": "2026-10-28T16:00:00.000Z",
+      "end": "2026-10-29T00:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Developer Tools",
+        "Microsoft AI",
+        "Microsoft 365",
+        "Copilot",
+        "GitHub"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27616",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Go hands-on with WorkIQ Developer Tools as we walk through building your first Copilot plugin, from setup to a working extension. We’ll use a WIQD Cookbook recipe as part of the walkthrough, showing how these practical, easy-to-follow guides can help developers turn WorkIQ concepts into working solutions and reuse proven patterns for their own scenarios. Get started: https://microsoft.github.io/wiqd Practical guide: https://aka.ms/wiqd/cookbooks",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27631",
+      "title": ".NET + Foundry, better together",
+      "start": "2026-10-29T16:00:00.000Z",
+      "end": "2026-10-30T00:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "AI Applications",
+        "Microsoft AI",
+        "Microsoft Foundry",
+        "AI",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27631",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry features and services. With live demos, code, and plenty of curiosity, each episode offers something new for .NET developers looking to learn, experiment, and build with AI.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27456",
+      "title": "Modeling Your Business with Ontologies in Fabric IQ",
+      "start": "2026-10-29T16:00:00.000Z",
+      "end": "2026-10-30T00:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Azure",
+        "Fabric",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27456",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Learn how to create the semantic foundation that powers business-aware agents. In this session, we'll explore how ontologies in Fabric IQ model the entities, relationships, and concepts that define your organization. You'll see how a well-designed ontology helps agents navigate complex business domains, connect information across systems, and reason more effectively using business context. 🔗 Resources: https://aka.ms/iq-series 📌 This event is a part of a series, learn more here: https://aka.ms/microsoftiqlive #MSFTReactor #learnconnectbuild #foundryiq #serverless #knowledgebases #agentdevelopment #retrieval #datagrounding #azureaifoundry #enterpriseknowledge",
       "managedBy": "microsoft-developer-events"
     },
     {
@@ -779,6 +927,207 @@ window.CLOUD_CALENDAR_EVENTS = {
       "source": "Sessionize / organizer",
       "verified": "2026-09-25",
       "description": "A one-day northern Netherlands community event with sessions on Microsoft 365, Power Platform, AI, governance, security and adoption."
+    },
+    {
+      "id": "reactor-27577",
+      "title": "Model Mondays - Spotlight on NVIDIA models",
+      "start": "2026-11-02T18:30:00.000Z",
+      "end": "2026-11-03T03:30:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27577",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "NVIDIA models give developers options for building and deploying AI workloads that require strong reasoning, generation, and accelerated inference across a range of application scenarios. Join us as we explore NVIDIA models in Microsoft Foundry and see how they can be evaluated and used to build effective AI agents. Explore the Resources Read the Newsletter Continue the conversation on the Discord [event ID:27577]",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27615",
+      "title": "Advanced Extensibility Patterns with WorkIQ Developer Tools",
+      "start": "2026-11-04T17:00:00.000Z",
+      "end": "2026-11-05T02:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Developer Tools",
+        "Microsoft AI",
+        "Microsoft 365",
+        "Copilot",
+        "GitHub"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27615",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Go beyond the basics and explore advanced extensibility patterns with WorkIQ Developer Tools, from enterprise integrations and grounding to actions and orchestration approaches for richer Copilot experiences. See how the patterns introduced throughout the series can be applied to real development scenarios, with WIQD resources and cookbook recipes available as practical references when you’re ready to build. Get started: https://microsoft.github.io/wiqd Practical guide: https://aka.ms/wiqd/cookbooks",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27525",
+      "title": ".NET Conf 2026 Day 1",
+      "start": "2026-11-10T16:00:00.000Z",
+      "end": "2026-11-11T09:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Open Source",
+        "Microsoft AI",
+        "Copilot",
+        "AI",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27525",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "The conference kicks off with the official release of .NET 11! Join the .NET and Visual Studio product team members as they unveil new features and enhancements, including C# 15, performance improvements, ASP.NET Core updates, Blazor enhancements, .NET MAUI, Aspire, and AI-powered development. You’ll also get deep dives into Visual Studio including new productivity features, debugging enhancements, and Copilot",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27590",
+      "title": "Building AI solutions for small businesses with Microsoft 365 Copilot",
+      "start": "2026-11-10T19:00:00.000Z",
+      "end": "2026-11-11T04:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "AI Applications",
+        "Microsoft AI",
+        "Microsoft 365",
+        "Copilot",
+        "AI",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27590",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Artificial intelligence is no longer just for large enterprises. Microsoft 365 Copilot gives small businesses access to AI-powered tools that can help improve productivity, automate routine tasks, and free up time to focus on growth. In this introductory session, attendees will learn how Microsoft 365 Copilot integrates with familiar Microsoft 365 applications, including Word, Excel, PowerPoint, Outlook, and Teams. Through practical demonstrations and real-world business scenarios, participants will discover how Copilot can help create content, analyze data, summarize meetings, manage email, and streamline everyday workflows. The session also introduces best practices for responsible AI adoption, effective prompting, and identifying business processes where AI can deliver immediate value. Attendees will leave with a clear understanding of how to get started with Microsoft 365 Copilot and where to continue learning through Microsoft Learn and official Microsoft documentation. Who should attend small business owners Entrepreneurs Startup founders Business managers Marketing and sales professionals Anyone looking to improve productivity using Microsoft 365 Copilot Learning objectives Understand what Microsoft 365 Copilot is and how it works. Explore practical business use cases across Microsoft 365 applications. Learn prompt-writing techniques to achieve better results. Identify opportunities to automate repetitive business tasks. Discover Microsoft Learn resources to continue building AI skills after the session.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27531",
+      "title": ".NET Conf 2026 Day 2",
+      "start": "2026-11-11T16:00:00.000Z",
+      "end": "2026-11-12T09:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Open Source",
+        "Microsoft AI",
+        "Azure",
+        "AI",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27531",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Join us for an applied deep dive with product teams from across Microsoft and learn how to get the most out of .NET at scale. Explore practical guidance for building secure, cloud-native applications with Azure, AI, testing, and containers—and take away proven techniques you can apply to modern development projects.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27530",
+      "title": ".NET Conf 2026 Community Day",
+      "start": "2026-11-12T16:00:00.000Z",
+      "end": "2026-11-13T09:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Open Source",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27530",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Hear from open-source project leaders, .NET partners, .NET Foundation leaders, MVP community members, and other speakers from around the world as they share real-world lessons, advanced techniques, and innovative projects built with .NET. Discover practical approaches and fresh ideas you can apply to your own work.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27632",
+      "title": ".NET + Foundry, better together",
+      "start": "2026-11-12T17:00:00.000Z",
+      "end": "2026-11-13T02:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "AI Applications",
+        "Microsoft AI",
+        "Microsoft Foundry",
+        "AI",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27632",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry features and services. With live demos, code, and plenty of curiosity, each episode offers something new for .NET developers looking to learn, experiment, and build with AI.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27457",
+      "title": "Governing IQ-Powered Agents in Production with Agent 365",
+      "start": "2026-11-12T17:00:00.000Z",
+      "end": "2026-11-13T02:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Azure",
+        "AI",
+        "Security"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27457",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Learn how to operate and govern IQ-powered agents in production with Agent 365. In this session, we'll explore the challenges that arise as agents move beyond development and into real-world use, including visibility, policy enforcement, and lifecycle management. You'll learn how Agent 365 works alongside the Microsoft IQ stack to help organizations monitor, manage, and govern agents at scale while maintaining trust, security, and operational control. 🔗 Resources: https://aka.ms/iq-series 📌 This event is a part of a series, learn more here: https://aka.ms/microsoftiqlive #MSFTReactor #learnconnectbuild #foundryiq #serverless #knowledgebases #agentdevelopment #retrieval #datagrounding #azureaifoundry #enterpriseknowledge",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27596",
+      "title": ".NET Conf 2026 Community Day 2",
+      "start": "2026-11-13T16:00:00.000Z",
+      "end": "2026-11-14T09:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Open Source",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27596",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "Hear from open-source project leaders, .NET partners, .NET Foundation leaders, MVP community members, and other speakers from around the world as they share real-world lessons, advanced techniques, and innovative projects built with .NET. Discover practical approaches and fresh ideas you can apply to your own work.",
+      "managedBy": "microsoft-developer-events"
     },
     {
       "id": "microsoft-ignite-2026-online",
@@ -859,6 +1208,29 @@ window.CLOUD_CALENDAR_EVENTS = {
       "source": "Microsoft Developer Events",
       "verified": "2026-09-25",
       "description": "Microsoft Developer Events event. Check the event page for the latest agenda and registration details.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27634",
+      "title": ".NET + Foundry, better together",
+      "start": "2026-12-03T17:00:00.000Z",
+      "end": "2026-12-04T02:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "AI Applications",
+        "Microsoft AI",
+        "Microsoft Foundry",
+        "AI",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27634",
+      "source": "Microsoft Reactor",
+      "verified": "2026-09-25",
+      "description": "What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry features and services. With live demos, code, and plenty of curiosity, each episode offers something new for .NET developers looking to learn, experiment, and build with AI.",
       "managedBy": "microsoft-developer-events"
     }
   ]

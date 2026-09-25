@@ -16,7 +16,8 @@ node scripts/build-event-data.mjs
 
 GitHub Actions refreshes the calendar every Monday at 05:15 UTC. The updater reads the official Microsoft Developer Events directory and selects:
 
-- English Microsoft Reactor livestreams in the next 92 days.
+- Priority English Microsoft Reactor livestreams about Microsoft AI, Copilot, Microsoft Foundry, and Microsoft 365 in the next 92 days.
+- A smaller selection of other English Microsoft Reactor livestreams.
 - In-person events in the Netherlands in the next 92 days.
 - Existing curated events that are still inside the calendar window.
 

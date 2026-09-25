@@ -7,7 +7,8 @@ const eventsPath = resolve(root, 'dist', 'events.json');
 const sourceUrl = 'https://developer.microsoft.com/en-us/events';
 const managedBy = 'microsoft-developer-events';
 const windowDays = 92;
-const maxOnlineEvents = 30;
+const maxPriorityOnlineEvents = 45;
+const maxOtherOnlineEvents = 15;
 
 const locationTimeZones = [
   [/netherlands|nederland|amsterdam|utrecht|rotterdam|groningen|eindhoven/i, 'Europe/Amsterdam'],
@@ -127,6 +128,11 @@ function isReactorOnlineEvent(card) {
   return isReactor && isLiveOnline && isEnglish;
 }
 
+function isMicrosoftAiEvent(card) {
+  const text = `${card.Title} ${card.Description} ${(card.EventTopics || []).join(' ')}`;
+  return /microsoft foundry|azure ai|copilot|microsoft 365|m365|workiq|agent 365|\bai\b|agents?/i.test(text);
+}
+
 export function selectCards(cards, now) {
   const windowEnd = addDays(now, windowDays);
   const inWindow = (card) => {
@@ -136,9 +142,13 @@ export function selectCards(cards, now) {
   const netherlands = cards.filter((card) => inWindow(card) && isNetherlandsEvent(card));
   const online = cards
     .filter((card) => inWindow(card) && isReactorOnlineEvent(card))
-    .sort((left, right) => new Date(left.StartDateTime) - new Date(right.StartDateTime))
-    .slice(0, maxOnlineEvents);
-  return [...netherlands, ...online];
+    .sort((left, right) => new Date(left.StartDateTime) - new Date(right.StartDateTime));
+  const priorityOnline = online.filter(isMicrosoftAiEvent).slice(0, maxPriorityOnlineEvents);
+  const priorityUrls = new Set(priorityOnline.map((card) => card.URL));
+  const otherOnline = online
+    .filter((card) => !priorityUrls.has(card.URL))
+    .slice(0, maxOtherOnlineEvents);
+  return [...netherlands, ...priorityOnline, ...otherOnline];
 }
 
 function cleanText(value) {
@@ -161,6 +171,8 @@ function inferredTopics(card) {
   const topics = (card.EventTopics || []).filter(Boolean);
   const text = `${card.Title} ${card.Description}`.toLowerCase();
   const candidates = [
+    ['Microsoft AI', /microsoft foundry|azure ai|copilot|agent|\bai\b/],
+    ['Microsoft Foundry', /microsoft foundry|foundry agent|\.net \+ foundry/],
     ['Microsoft 365', /microsoft 365|m365|workiq/],
     ['Azure', /azure/],
     ['Fabric', /fabric/],

@@ -46,8 +46,31 @@ test('selects English Reactor livestreams and Netherlands in-person events', () 
   assert.deepEqual(selected.map(({ Title }) => Title), ['Dutch community day', 'Azure agents with GitHub Copilot']);
 });
 
+test('prioritizes Microsoft AI events before the general online cap', () => {
+  const generalCards = Array.from({ length: 20 }, (_, index) => ({
+    ...reactorCard,
+    Title: `General developer event ${index}`,
+    URL: `https://developer.microsoft.com/reactor/events/${20000 + index}`,
+    StartDateTime: `2026-10-${String(index + 1).padStart(2, '0')}T10:00:00`,
+    EndDateTime: `2026-10-${String(index + 1).padStart(2, '0')}T11:00:00`,
+    EventTopics: ['Developer Tools'],
+    Description: 'General developer tooling session.',
+  }));
+  const lateFoundryEvent = {
+    ...reactorCard,
+    Title: 'Microsoft Foundry agents in production',
+    URL: 'https://developer.microsoft.com/reactor/events/29999',
+    StartDateTime: '2026-12-01T10:00:00',
+    EndDateTime: '2026-12-01T11:00:00',
+  };
+  const selected = selectCards([...generalCards, lateFoundryEvent], new Date('2026-09-25T00:00:00Z'));
+  assert(selected.some(({ Title }) => Title === lateFoundryEvent.Title));
+});
+
 test('maps cards and retains curated events when refreshing', () => {
   const automatic = mapCard(reactorCard, '2026-09-25');
+  assert(automatic.topics.includes('Microsoft AI'));
+  assert(automatic.topics.includes('Copilot'));
   const curated = {
     id: 'curated-event',
     title: 'Curated event',
