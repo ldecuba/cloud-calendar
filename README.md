@@ -12,6 +12,21 @@ After editing `dist/events.json`, regenerate the browser-safe data file:
 node scripts/build-event-data.mjs
 ```
 
+## Automatic updates
+
+GitHub Actions refreshes the calendar every Monday at 05:15 UTC. The updater reads the official Microsoft Developer Events directory and selects:
+
+- English Microsoft Reactor livestreams in the next 92 days.
+- In-person events in the Netherlands in the next 92 days.
+- Existing curated events that are still inside the calendar window.
+
+Run the same refresh locally with:
+
+```powershell
+node scripts/update-events.mjs
+node scripts/build-event-data.mjs
+```
+
 ## Publish
 
-Push the repository to GitHub on the `main` branch. The GitHub Actions workflow deploys `dist` to GitHub Pages automatically.
+Push the repository to GitHub on the `main` branch. The GitHub Actions workflow tests the updater and deploys `dist` to GitHub Pages automatically.
