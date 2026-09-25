@@ -4,6 +4,7 @@ import {
   eventsForDisplayWeek,
   extractCards,
   extractSocialImage,
+  imagePathForUrl,
   localDateTimeToIso,
   mapCard,
   mergeEvents,
@@ -41,6 +42,14 @@ test('extracts and resolves an Open Graph event image', () => {
     extractSocialImage(html, 'https://events.example.com/session/42'),
     'https://events.example.com/images/event-card.png?x=1&y=2',
   );
+});
+
+test('creates a stable local path for downloaded event images', () => {
+  assert.equal(
+    imagePathForUrl('https://example.com/event.png', 'image/png'),
+    imagePathForUrl('https://example.com/event.png', 'image/png'),
+  );
+  assert.match(imagePathForUrl('https://example.com/event.png', 'image/png'), /^event-images\/[a-f0-9]{20}\.png$/);
 });
 
 test('uses the current week or falls forward to the next week with events', () => {

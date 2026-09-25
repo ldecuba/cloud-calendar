@@ -1,9 +1,11 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const eventsPath = resolve(root, 'dist', 'events.json');
+const eventImagesPath = resolve(root, 'dist', 'event-images');
 const sourceUrl = 'https://developer.microsoft.com/en-us/events';
 const managedBy = 'microsoft-developer-events';
 const windowDays = 92;
@@ -253,9 +255,36 @@ export function eventsForDisplayWeek(events, now) {
   return { weekStart: startOfUtcWeek(now), events: [] };
 }
 
+export function imagePathForUrl(imageUrl, contentType = '') {
+  const extension = contentType.includes('png') ? 'png'
+    : contentType.includes('webp') ? 'webp'
+      : contentType.includes('gif') ? 'gif'
+        : contentType.includes('svg') ? 'svg'
+          : 'jpg';
+  const hash = createHash('sha256').update(imageUrl).digest('hex').slice(0, 20);
+  return `event-images/${hash}.${extension}`;
+}
+
+async function cacheImage(imageUrl, fetchImpl) {
+  const response = await fetchImpl(imageUrl, {
+    redirect: 'follow',
+    signal: AbortSignal.timeout(10000),
+    headers: { 'user-agent': 'Cloud-Calendar-NL/1.0 (+https://github.com/ldecuba/cloud-calendar)' },
+  });
+  if (!response.ok) return undefined;
+  const contentType = response.headers.get('content-type') || '';
+  if (!contentType.startsWith('image/')) return undefined;
+  const relativePath = imagePathForUrl(response.url || imageUrl, contentType);
+  await mkdir(eventImagesPath, { recursive: true });
+  await writeFile(resolve(root, 'dist', relativePath), Buffer.from(await response.arrayBuffer()));
+  return relativePath;
+}
+
 async function enrichDisplayWeekImages(events, existingEvents, now, fetchImpl) {
   const cachedImages = new Map(
-    existingEvents.filter((event) => event.url && event.image).map((event) => [event.url, event.image]),
+    existingEvents
+      .filter((event) => event.url && event.image && !/^https?:/i.test(event.image))
+      .map((event) => [event.url, event.image]),
   );
   for (const event of events) {
     if (!event.image && cachedImages.has(event.url)) event.image = cachedImages.get(event.url);
@@ -271,7 +300,8 @@ async function enrichDisplayWeekImages(events, existingEvents, now, fetchImpl) {
         headers: { 'user-agent': 'Cloud-Calendar-NL/1.0 (+https://github.com/ldecuba/cloud-calendar)' },
       });
       if (!response.ok) return;
-      event.image = extractSocialImage(await response.text(), response.url || event.url);
+      const socialImage = extractSocialImage(await response.text(), response.url || event.url);
+      if (socialImage) event.image = await cacheImage(socialImage, fetchImpl);
     } catch (error) {
       console.warn(`Could not load image for ${event.title}: ${error.message}`);
     }

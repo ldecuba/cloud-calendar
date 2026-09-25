@@ -36,7 +36,7 @@
       "verified": "2026-09-25",
       "description": "Mistral models offer developers a versatile family of models for reasoning, coding, multilingual, and multimodal workloads, with options suited to different requirements for capability, speed, and efficiency. Join us as we explore the Mistral family in Microsoft Foundry and see how these models can support practical agent workflows. Explore the Resources Read the Newsletter Continue the conversation on the Discord",
       "managedBy": "microsoft-developer-events",
-      "image": "https://developer.microsoft.com/reactor/images/reactor-card-v2.png"
+      "image": "event-images/1c4ee5023c0ea23220d4.png"
     },
     {
       "id": "reactor-27594",
@@ -61,7 +61,7 @@
       "verified": "2026-09-25",
       "description": "Every application contains business rules, architectural patterns, internal frameworks, and development standards that generic AI cannot fully understand. Without that context, modernization efforts can produce inconsistent results and require significant manual review. Learn how GitHub Copilot Modernization custom skills help organizations bring their institutional knowledge directly into the modernization process. See how custom skills can encode business logic, software factory patterns, and governance requirements to generate more consistent, accurate, and production-ready outcomes across applications and teams. Through a live demonstration, you'll see how custom skills transform modernization workflows by turning tribal knowledge into reusable guidance that scales across projects. Join us to learn how to preserve organizational expertise while accelerating application modernization with AI. Key Takeaway: Custom skills help organizations modernize faster while ensuring AI-generated changes align with their unique standards, practices, and business requirements.",
       "managedBy": "microsoft-developer-events",
-      "image": "https://developer.microsoft.com/reactor/images/reactor-card-v2.png"
+      "image": "event-images/1c4ee5023c0ea23220d4.png"
     },
     {
       "id": "reactor-27402",
@@ -85,7 +85,7 @@
       "verified": "2026-09-25",
       "description": "Copilot Dev Camp Summit – Fall Edition 2026 is a global, community-driven event designed for developers and makers to explore the latest innovations in Microsoft 365 Copilot and extensibility. Join us for a curated set of sessions, live demos, and real-world insights covering topics such as declarative agents, custom engines, and integration patterns—alongside inspiring stories from the community. Whether you're building your first Copilot experience or scaling advanced scenarios, the Summit offers practical guidance, hands-on learning, and opportunities to connect with experts and peers worldwide. Learn more about Copilot Dev Camp | Slot | Title | Content Type | Speaker(s) | Duration | |--|--|--|--|--| | 8:00am - 8:15am | Welcome | Pre-recorded/Sim-Live | Barnam Bora, Paolo Pialorsi | 15 mins | | 8:15am - 9:00am | Beyond Text: The New SharePoint Copilot Apps Experience | Live | Paolo Pialorsi | 45 mins | | 9:00am - 9:30am | Product Group Interaction, Q&A, and Quiz | Live | Vesa Juvonen, Bert Jansen, Paolo Pialorsi | 30 mins | | 9:30am - 10:15am | Declarative Agents Unleashed: What's New, What's Next | Pre-recorded | Rabia Williams | 45 mins | | 10:15am - 10:45am | Product Group Interaction, Q&A, and Quiz | Live | Rachit Malik, Rabia Williams | 30 mins | | 10:45am - 11:30am | Inside Microsoft IQ: The Intelligence Platform Behind Agents | Live | Ayca Bas, Pamela Fox | 45 mins | | 11:30am - 12:00am | Product Group Interaction, Q&A, and Quiz | Live | Matt Gotteiner, Ayca Bas, Pamela Fox | 30 mins |",
       "managedBy": "microsoft-developer-events",
-      "image": "https://developer.microsoft.com/reactor/images/reactor-card-v2.png"
+      "image": "event-images/1c4ee5023c0ea23220d4.png"
     },
     {
       "id": "reactor-27550",
@@ -109,7 +109,7 @@
       "verified": "2026-09-25",
       "description": "Join this beginner-friendly livestream to learn how to build agentic applications with the GitHub Copilot SDK for Java, without implementing the agent loop yourself. Unlike calling a model API directly, the SDK gives your application programmatic access to Copilot’s agent runtime, including conversation management, planning, tool orchestration, streaming events, and session state. During the session, we’ll explore clients, sessions, prompts, and the agent runtime. You’ll learn how to create multi-turn conversations, stream responses in real time, expose application functions as tools, connect external capabilities through MCP servers, and control agent behavior with hooks and permission handlers. We’ll also help you understand when to use the Copilot SDK instead of the interactive Copilot CLI: use the CLI for developer tasks in the terminal, and use the SDK when you want to embed Copilot’s agentic capabilities in your own application or service. No prior experience with the GitHub Copilot SDK is required.",
       "managedBy": "microsoft-developer-events",
-      "image": "https://developer.microsoft.com/reactor/images/reactor-card-v2.png"
+      "image": "event-images/1c4ee5023c0ea23220d4.png"
     },
     {
       "id": "reactor-27538",
@@ -133,7 +133,7 @@
       "verified": "2026-09-25",
       "description": "What happens when you take AI out of the lab and deploy it in the Australian outback? Join Microsoft MVP Daniel Brown, live from the opal fields of Coober Pedy, South Australia, as he explores how OpalAI was built to use artificial intelligence to help identify opal-bearing material during mining operations. Using OpalAI as a real-world case study, we'll explore the complete journey: Collecting and preparing field data Building an AI solution with Microsoft Azure Integrating AI into an application Deploying AI in a challenging real-world environment We'll also examine the practical engineering challenges that emerge outside controlled environments, including: Changing lighting conditions Dust and environmental interference Camera positioning False positives Confidence thresholds Ongoing model improvement The session will culminate in a live field demonstration, running material through OpalAI from an active opal claim in Coober Pedy to see whether AI can identify potential opal in real time. Key Takeaways Developers will leave with practical lessons for designing, building, and deploying AI applications that connect: Software Artificial Intelligence The Physical World Attendees will also receive Microsoft resources to support their continued AI learning journey.",
       "managedBy": "microsoft-developer-events",
-      "image": "https://developer.microsoft.com/reactor/images/reactor-card-v2.png"
+      "image": "event-images/1c4ee5023c0ea23220d4.png"
     },
     {
       "id": "reactor-27394",
@@ -156,7 +156,7 @@
       "verified": "2026-09-25",
       "description": "AI agents need to run code, call APIs, and fan out in parallel - but doing that safely at scale is hard. This session shows how to build agentic workloads on hardware-isolated, sub-second, disposable compute that agents can provision themselves. Watch a live research-agent swarm spin up a fleet of secure sandboxes in parallel, run real work in true isolation, and tear it down automatically - with keyless auth throughout. Powered by Azure Container Apps Sandboxes. You'll learn • Why untrusted agent code and multi-agent fan-out break traditional container/VM approaches • The pattern for safe, ephemeral, per-agent compute: isolation, instant start, scale-to-zero, snapshot/resume • How agents can self-provision compute as a tool to extend their own capabilities • Controlling blast radius with hardware isolation, egress policies, and keyless managed identity • A working orchestration pattern for parallel agent swarms you can adapt to your own workloads",
       "managedBy": "microsoft-developer-events",
-      "image": "https://developer.microsoft.com/reactor/images/reactor-card-v2.png"
+      "image": "event-images/1c4ee5023c0ea23220d4.png"
     },
     {
       "id": "reactor-27452",
@@ -180,7 +180,7 @@
       "verified": "2026-09-25",
       "description": "Learn how to design knowledge bases that span multiple domains. This session focuses on retrieval strategies that bring together work data, structured business context, and real-time web signals. We’ll explore how to orchestrate these sources so agents can reason across them effectively, rather than treating each in isolation. 🔗 Resources: https://aka.ms/iq-series 📌 This event is a part of a series, learn more here: https://aka.ms/microsoftiqlive #MSFTReactor #learnconnectbuild #foundryiq #serverless #knowledgebases #agentdevelopment #retrieval #datagrounding #azureaifoundry #enterpriseknowledge",
       "managedBy": "microsoft-developer-events",
-      "image": "https://developer.microsoft.com/reactor/images/reactor-card-v2.png"
+      "image": "event-images/1c4ee5023c0ea23220d4.png"
     },
     {
       "id": "reactor-27619",
@@ -205,7 +205,7 @@
       "verified": "2026-09-25",
       "description": "Join this beginner-friendly livestream to learn how to build agentic applications with the GitHub Copilot SDK for .NET, without implementing the agent loop yourself. Unlike calling a model API directly, the SDK gives your application programmatic access to Copilot’s agent runtime, including conversation management, planning, tool orchestration, streaming events, and session state. During the session, we’ll explore clients, sessions, prompts, and the agent runtime. You’ll learn how to create multi-turn conversations, stream responses in real time, expose application functions as tools, connect external capabilities through MCP servers, and control agent behavior with hooks and permission handlers. We’ll also help you understand when to use the Copilot SDK instead of the interactive Copilot CLI: use the CLI for developer tasks in the terminal, and use the SDK when you want to embed Copilot’s agentic capabilities in your own application or service. No prior experience with the GitHub Copilot SDK is required.",
       "managedBy": "microsoft-developer-events",
-      "image": "https://developer.microsoft.com/reactor/images/reactor-card-v2.png"
+      "image": "event-images/1c4ee5023c0ea23220d4.png"
     },
     {
       "id": "reactor-27545",

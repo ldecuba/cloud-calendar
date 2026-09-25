@@ -20,7 +20,7 @@ run(process.execPath, ['scripts/build-event-data.mjs']);
 if (!existsSync(resolve(root, '.git'))) run(git, ['init', '-b', input.branch]);
 run(git, ['config', 'user.name', 'Cloud Calendar NL']);
 run(git, ['config', 'user.email', 'calendar@local.invalid']);
-run(git, ['add', '.openai/hosting.json', 'dist/index.html', 'dist/events.json', 'dist/events-data.js', 'dist/deliverits-logo.png']);
+run(git, ['add', '.openai/hosting.json', 'dist/index.html', 'dist/events.json', 'dist/events-data.js', 'dist/event-images', 'dist/deliverits-logo.png']);
 const pending = spawnSync(git, ['diff', '--cached', '--quiet'], { cwd: root });
 if (pending.status !== 0) run(git, ['commit', '-m', 'Build Microsoft Cloud events calendar']);
 const remotes = run(git, ['remote']).split(/\s+/).filter(Boolean);

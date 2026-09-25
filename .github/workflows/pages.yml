@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/events.json dist/events-data.js
+          git add dist/events.json dist/events-data.js dist/event-images
           if ! git diff --cached --quiet; then
             git commit -m "Update calendar events"
             git push
