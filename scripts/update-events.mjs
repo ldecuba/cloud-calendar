@@ -203,6 +203,81 @@ function eventId(card, start) {
   return `${slug(sourceName(card))}-${slug(card.Title)}-${start.slice(0, 10)}`;
 }
 
+function decodeHtml(value) {
+  return value
+    .replaceAll('&amp;', '&')
+    .replaceAll('&quot;', '"')
+    .replaceAll('&#39;', "'")
+    .replaceAll('&lt;', '<')
+    .replaceAll('&gt;', '>');
+}
+
+export function extractSocialImage(html, pageUrl) {
+  const tags = html.match(/<meta\b[^>]*>/gi) || [];
+  for (const tag of tags) {
+    const attributes = {};
+    for (const match of tag.matchAll(/([:\w-]+)\s*=\s*(["'])(.*?)\2/g)) {
+      attributes[match[1].toLowerCase()] = match[3];
+    }
+    const key = (attributes.property || attributes.name || '').toLowerCase();
+    if (!['og:image', 'og:image:url', 'twitter:image', 'twitter:image:src'].includes(key)) continue;
+    if (!attributes.content) continue;
+    try {
+      return new URL(decodeHtml(attributes.content), pageUrl).href;
+    } catch {
+      return undefined;
+    }
+  }
+  return undefined;
+}
+
+function startOfUtcWeek(value) {
+  const date = new Date(value);
+  const start = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  start.setUTCDate(start.getUTCDate() - ((start.getUTCDay() + 6) % 7));
+  return start;
+}
+
+export function eventsForDisplayWeek(events, now) {
+  let weekStart = startOfUtcWeek(now);
+  for (let offset = 0; offset < 14; offset += 1) {
+    const weekEnd = addDays(weekStart, 7);
+    const matches = events.filter((event) => {
+      const eventStart = new Date(event.start);
+      const eventEnd = new Date(event.end || event.start);
+      return eventStart < weekEnd && eventEnd >= weekStart;
+    });
+    if (matches.length) return { weekStart, events: matches };
+    weekStart = weekEnd;
+  }
+  return { weekStart: startOfUtcWeek(now), events: [] };
+}
+
+async function enrichDisplayWeekImages(events, existingEvents, now, fetchImpl) {
+  const cachedImages = new Map(
+    existingEvents.filter((event) => event.url && event.image).map((event) => [event.url, event.image]),
+  );
+  for (const event of events) {
+    if (!event.image && cachedImages.has(event.url)) event.image = cachedImages.get(event.url);
+  }
+
+  const displayWeek = eventsForDisplayWeek(events, now);
+  await Promise.all(displayWeek.events.map(async (event) => {
+    if (event.image || !event.url) return;
+    try {
+      const response = await fetchImpl(event.url, {
+        redirect: 'follow',
+        signal: AbortSignal.timeout(10000),
+        headers: { 'user-agent': 'Cloud-Calendar-NL/1.0 (+https://github.com/ldecuba/cloud-calendar)' },
+      });
+      if (!response.ok) return;
+      event.image = extractSocialImage(await response.text(), response.url || event.url);
+    } catch (error) {
+      console.warn(`Could not load image for ${event.title}: ${error.message}`);
+    }
+  }));
+}
+
 export function mapCard(card, verified) {
   const timeZone = timeZoneFor(card.Location);
   const start = localDateTimeToIso(card.StartDateTime, timeZone);
@@ -287,6 +362,8 @@ export async function updateEvents({ now = new Date(), fetchImpl = fetch } = {})
 
   const existing = JSON.parse(await readFile(eventsPath, 'utf8'));
   const windowEndDate = addDays(now, windowDays);
+  const events = mergeEvents(existing.events || [], automaticEvents, now, windowEndDate);
+  await enrichDisplayWeekImages(events, existing.events || [], now, fetchImpl);
   const output = {
     lastUpdated: verified,
     windowStart: verified,
@@ -295,7 +372,7 @@ export async function updateEvents({ now = new Date(), fetchImpl = fetch } = {})
       { name: 'Microsoft Reactor', url: sourceUrl, selection: 'English online livestreams' },
       { name: 'Microsoft Developer Events', url: sourceUrl, selection: 'In-person events in the Netherlands' },
     ],
-    events: mergeEvents(existing.events || [], automaticEvents, now, windowEndDate),
+    events,
   };
 
   await writeFile(eventsPath, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
