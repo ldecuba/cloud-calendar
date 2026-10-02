@@ -12,13 +12,24 @@
       "name": "Microsoft Developer Events",
       "url": "https://developer.microsoft.com/en-us/events",
       "selection": "In-person events in the Netherlands"
+    },
+    {
+      "name": "I amsterdam business calendar",
+      "url": "https://www.iamsterdam.com/en/business/calendar?sectors=tech",
+      "selection": "Technology and AI events in the Netherlands"
+    },
+    {
+      "name": "World AI Week",
+      "url": "https://worldaiweek.ai/all-events-2026/",
+      "selection": "AI events in Amsterdam"
+    },
+    {
+      "name": "Dutch Cloud Native Day",
+      "url": "https://www.dutchcloudnativeday.nl/",
+      "selection": "Cloud native and platform engineering events in the Netherlands"
     }
   ],
   "events": [
-    {"id":"wpninjasnl-meeting-5-2026","title":"#WPNinjasNL Meeting #5 2026","start":"2026-10-08T15:30:00+02:00","end":"2026-10-08T21:00:00+02:00","format":"In person","location":"RawWorks, De Vork 2, Odijk","topics":["Modern Workplace","Security","Microsoft 365","Azure"],"cost":"Free","language":"Dutch / English","organizer":"Workplace Ninja User Group Netherlands","url":"https://www.meetup.com/nl-NL/wpninjasnl/events/311956819/","source":"Workplace Ninja User Group Netherlands","verified":"2026-10-02","description":"Three technical sessions on preventing data leaks around AI, common security misconfigurations, and zero-trust mesh architecture, followed by community networking."},
-    {"id":"wpninjasnl-saturday-2026","title":"#WPNinjasNL Saturday 2026: Microsoft Intune","start":"2026-11-07T10:00:00+01:00","end":"2026-11-07T16:00:00+01:00","format":"In person","location":"Professional Development Systems, Culemborg","topics":["Modern Workplace","Intune","Entra ID","Security"],"cost":"Free","language":"Dutch","organizer":"Workplace Ninja User Group Netherlands","url":"https://www.meetup.com/nl-NL/wpninjasnl/events/316653811/","source":"Workplace Ninja User Group Netherlands","verified":"2026-10-02","description":"Hands-on technical masterclass covering Microsoft Intune, Entra ID, Conditional Access, device management and troubleshooting, with guest Rudy Ooms."},
-    {"id":"wpninjasnl-meeting-6-2026","title":"#WPNinjasNL Meeting #6 2026","start":"2026-11-18T15:30:00+01:00","end":"2026-11-18T21:00:00+01:00","format":"In person","location":"Conclusion B.V., Herculesplein 80, Utrecht","topics":["Modern Workplace","Security","Entra ID","Microsoft 365"],"cost":"Free","language":"Dutch / English","organizer":"Workplace Ninja User Group Netherlands","url":"https://www.meetup.com/nl-NL/wpninjasnl/events/311956841/","source":"Workplace Ninja User Group Netherlands","verified":"2026-10-02","description":"Community sessions on Microsoft's attack surface, the latest Microsoft Ignite announcements, and Tier 0 security in a shared Entra tenant."},
-    {"id":"wpninjasnl-meeting-7-2026","title":"#WPNinjasNL Meeting #7 2026","start":"2026-12-09T15:30:00+01:00","end":"2026-12-09T21:00:00+01:00","format":"In person","location":"Netherlands — venue to be announced","topics":["Modern Workplace","Microsoft 365","Security"],"cost":"Free","language":"Dutch / English","organizer":"Workplace Ninja User Group Netherlands","url":"https://www.meetup.com/nl-NL/wpninjasnl/events/311956853/","source":"Workplace Ninja User Group Netherlands","verified":"2026-10-02","description":"The seventh Workplace Ninja Netherlands community meeting of 2026. The organizer has announced the date and programme times; venue and session details are still pending."},
     {
       "id": "reactor-27651",
       "title": "[Azure Friday] Connect SaaS & Enterprise Systems with Azure Functions",
@@ -38,6 +49,27 @@
       "verified": "2026-10-02",
       "description": "Rebroadcast This session showcases how Azure Functions enables highly scalable event-driven automation using managed connectors. It highlights how functions can seamlessly integrate with services like SharePoint, Teams, and more without manual polling or complex authentication handling. The demo emphasizes how triggers and actions simplify building real-world workflows with minimal code.",
       "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "world-ai-week-amsterdam-2026",
+      "title": "World AI Week 2026",
+      "start": "2026-10-05T09:00:00+02:00",
+      "end": "2026-10-09T17:00:00+02:00",
+      "format": "Hybrid",
+      "location": "Multiple locations, Amsterdam and online",
+      "topics": [
+        "AI",
+        "Data",
+        "Cloud",
+        "Security"
+      ],
+      "cost": "Varies by event",
+      "language": "English",
+      "organizer": "World AI Week",
+      "url": "https://worldaiweek.ai/all-events-2026/",
+      "source": "World AI Week",
+      "verified": "2026-10-02",
+      "description": "A city-wide programme of more than 100 independently organized AI conferences, workshops, research sessions and networking events. Registration is handled per event."
     },
     {
       "id": "reactor-27545",
@@ -83,6 +115,27 @@
       "verified": "2026-10-02",
       "description": "AI agents are rapidly moving beyond simple conversational experiences. In this session, we will build the foundation of a production-ready agent using Microsoft Foundry Agent Service, Microsoft Agent Framework, and Azure application services. Starting from a practical enterprise operations scenario, we will define the agent’s responsibilities, instructions, tools, conversation state, and structured outputs. We will then connect the agent to a Foundry model, add a typed function tool, stream responses to a web application, and examine the architectural differences between a model call, an assistant, an agent, and an agent workflow. The session will also explore hosting options, including Foundry hosted agents and custom agent applications deployed to Azure Container Apps. Along the way, we will discuss identity, configuration, state management, failure boundaries, and the design decisions that separate a useful prototype from an application that can evolve toward production. By the end of the session, attendees will understand the core components of a Microsoft Foundry agent application and will have a reusable starting point for building their own agentic solutions. Key topics: Microsoft Foundry Agent Service Microsoft Agent Framework Agent instructions and tool contracts Conversation state and streaming responses Structured outputs Hosted agents and Azure Container Apps Production-oriented agent architecture",
       "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "world-summit-ai-amsterdam-2026",
+      "title": "World Summit AI 2026",
+      "start": "2026-10-07T08:00:00+02:00",
+      "end": "2026-10-08T18:00:00+02:00",
+      "format": "In person",
+      "location": "TAETS Art and Event Park, Middenweg 62, Zaandam",
+      "topics": [
+        "AI",
+        "Data",
+        "Security",
+        "Cloud"
+      ],
+      "cost": "Paid, from €1,699 + VAT",
+      "language": "English",
+      "organizer": "InspiredMinds",
+      "url": "https://worldsummit.ai/",
+      "source": "World Summit AI",
+      "verified": "2026-10-02",
+      "description": "Two-day international AI conference with 300+ speakers and tracks on enterprise AI adoption, sovereign AI, safety, infrastructure, data and applied AI."
     },
     {
       "id": "reactor-27595",
@@ -132,27 +185,6 @@
       "managedBy": "microsoft-developer-events"
     },
     {
-      "id": "wpninjasnl-meeting-5-2026",
-      "title": "#WPNinjasNL Meeting #5 2026",
-      "start": "2026-10-08T15:30:00+02:00",
-      "end": "2026-10-08T21:00:00+02:00",
-      "format": "In person",
-      "location": "RawWorks, De Vork 2, Odijk",
-      "topics": [
-        "Modern Workplace",
-        "Security",
-        "Microsoft 365",
-        "Azure"
-      ],
-      "cost": "Free",
-      "language": "Dutch / English",
-      "organizer": "Workplace Ninja User Group Netherlands",
-      "url": "https://www.meetup.com/nl-NL/wpninjasnl/events/311956819/",
-      "source": "Workplace Ninja User Group Netherlands",
-      "verified": "2026-10-02",
-      "description": "Three technical sessions on preventing data leaks around AI, common security misconfigurations, and zero-trust mesh architecture, followed by community networking."
-    },
-    {
       "id": "reactor-27508",
       "title": "Reliable Multi-Agent Systems: Orchestration, State, and Human Approval",
       "start": "2026-10-08T15:00:00.000Z",
@@ -196,24 +228,25 @@
       "managedBy": "microsoft-developer-events"
     },
     {
-      "id": "fabric-nl-2026-10-08",
-      "title": "Dutch Fabric User Group Meetup",
-      "start": "2026-10-08T17:30:00+02:00",
+      "id": "wpninjasnl-meeting-5-2026",
+      "title": "#WPNinjasNL Meeting #5 2026",
+      "start": "2026-10-08T15:30:00+02:00",
       "end": "2026-10-08T21:00:00+02:00",
       "format": "In person",
-      "location": "Netherlands",
+      "location": "RawWorks, De Vork 2, Odijk",
       "topics": [
-        "Fabric",
-        "Power BI",
-        "Data"
+        "Modern Workplace",
+        "Security",
+        "Microsoft 365",
+        "Azure"
       ],
       "cost": "Free",
-      "language": "English / Dutch",
-      "organizer": "Dutch Fabric User Group",
-      "url": "https://dutchfabricusergroup.com/",
-      "source": "Community organizer",
-      "verified": "2026-09-25",
-      "description": "Community meetup for Microsoft Fabric enthusiasts, with technical sessions and networking."
+      "language": "Dutch / English",
+      "organizer": "Workplace Ninja User Group Netherlands",
+      "url": "https://www.meetup.com/nl-NL/wpninjasnl/events/311956819/",
+      "source": "Workplace Ninja User Group Netherlands",
+      "verified": "2026-10-02",
+      "description": "Three technical sessions on preventing data leaks around AI, common security misconfigurations, and zero-trust mesh architecture, followed by community networking."
     },
     {
       "id": "reactor-27659",
@@ -236,6 +269,26 @@
       "verified": "2026-10-02",
       "description": "Join James Montemagno and members of the VS Code and GitHub Copilot product and engineering teams for a look at the latest features and updates. 🎙️ Featuring: James Montemagno (@JamesMontemagno) and more!",
       "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "fabric-nl-2026-10-08",
+      "title": "Dutch Fabric User Group Meetup",
+      "start": "2026-10-08T17:30:00+02:00",
+      "end": "2026-10-08T21:00:00+02:00",
+      "format": "In person",
+      "location": "Netherlands",
+      "topics": [
+        "Fabric",
+        "Power BI",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English / Dutch",
+      "organizer": "Dutch Fabric User Group",
+      "url": "https://dutchfabricusergroup.com/",
+      "source": "Community organizer",
+      "verified": "2026-09-25",
+      "description": "Community meetup for Microsoft Fabric enthusiasts, with technical sessions and networking."
     },
     {
       "id": "data-saturday-holland-2026",
@@ -789,6 +842,28 @@
       "managedBy": "microsoft-developer-events"
     },
     {
+      "id": "dutch-cloud-native-day-2026",
+      "title": "Dutch Cloud Native Day 2026",
+      "start": "2026-10-29T08:30:00+01:00",
+      "end": "2026-10-30T18:00:00+01:00",
+      "format": "In person",
+      "location": "Utrecht, Netherlands",
+      "topics": [
+        "Platform Engineering",
+        "Azure",
+        "Cloud Native",
+        "Security",
+        "AI"
+      ],
+      "cost": "Paid",
+      "language": "English",
+      "organizer": "Stichting Cloud Native Netherlands",
+      "url": "https://www.dutchcloudnativeday.nl/",
+      "source": "Dutch Cloud Native Day",
+      "verified": "2026-10-02",
+      "description": "Community conference for cloud native engineering, Kubernetes, platform engineering, observability, security and modern AI workloads. The organizer has not yet published a precise venue address."
+    },
+    {
       "id": "reactor-27631",
       "title": ".NET + Foundry, better together",
       "start": "2026-10-29T16:00:00.000Z",
@@ -902,6 +977,27 @@
       "managedBy": "microsoft-developer-events"
     },
     {
+      "id": "agentic-transformation-summit-amsterdam-2026",
+      "title": "Agentic Transformation Summit 2026",
+      "start": "2026-11-04T08:30:00+01:00",
+      "end": "2026-11-05T16:00:00+01:00",
+      "format": "In person",
+      "location": "Amsterdam Marriott Hotel, Stadhouderskade 12, Amsterdam",
+      "topics": [
+        "AI",
+        "Data",
+        "Security",
+        "Governance"
+      ],
+      "cost": "Paid",
+      "language": "English",
+      "organizer": "IQPC",
+      "url": "https://www.asdevents.com/event.asp?id=26206",
+      "source": "ASDEvents / IQPC",
+      "verified": "2026-10-02",
+      "description": "Enterprise conference on designing, governing and scaling agentic AI, with practitioner sessions covering data, operating models, security and measurable business results."
+    },
+    {
       "id": "reactor-27615",
       "title": "Advanced Extensibility Patterns with WorkIQ Developer Tools",
       "start": "2026-11-04T17:00:00.000Z",
@@ -923,6 +1019,26 @@
       "verified": "2026-10-02",
       "description": "Go beyond the basics and explore advanced extensibility patterns with WorkIQ Developer Tools, from enterprise integrations and grounding to actions and orchestration approaches for richer Copilot experiences. See how the patterns introduced throughout the series can be applied to real development scenarios, with WIQD resources and cookbook recipes available as practical references when you’re ready to build. Get started: https://microsoft.github.io/wiqd Practical guide: https://aka.ms/wiqd/cookbooks",
       "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "amsterdam-ai-summit-2026-11",
+      "title": "The Amsterdam AI Summit 2026",
+      "start": "2026-11-04T18:00:00+01:00",
+      "end": "2026-11-04T21:00:00+01:00",
+      "format": "In person",
+      "location": "Zuiderkerk, Zuiderkerkhof 72, Amsterdam",
+      "topics": [
+        "AI",
+        "Data",
+        "Business Transformation"
+      ],
+      "cost": "Paid, registration open",
+      "language": "English",
+      "organizer": "Startup Network Europe",
+      "url": "https://www.iamsterdam.com/en/business/calendar/events/all/the-amsterdam-ai-summit-2026",
+      "source": "I amsterdam",
+      "verified": "2026-10-02",
+      "description": "An evening summit for 500 business, innovation, product and technology leaders, with an AI panel featuring leaders from Picnic, Arcadis and Sopra Steria."
     },
     {
       "id": "wpninjasnl-saturday-2026",
@@ -1126,6 +1242,26 @@
       "managedBy": "microsoft-developer-events"
     },
     {
+      "id": "hardwear-io-netherlands-2026",
+      "title": "Hardwear.io Netherlands 2026",
+      "start": "2026-11-16",
+      "end": "2026-11-20",
+      "format": "In person",
+      "location": "The Netherlands, venue details on organizer site",
+      "topics": [
+        "Security",
+        "Hardware Security",
+        "Cloud"
+      ],
+      "cost": "Paid",
+      "language": "English",
+      "organizer": "Hardwear.io",
+      "url": "https://hardwear.io/nl-2026/",
+      "source": "Hardwear.io",
+      "verified": "2026-10-02",
+      "description": "Security training runs 16–18 November, followed by the hardware security conference on 19–20 November. Check the organizer page for the latest venue and ticket details."
+    },
+    {
       "id": "microsoft-ignite-2026-online",
       "title": "Microsoft Ignite 2026",
       "start": "2026-11-17",
@@ -1207,6 +1343,50 @@
       "source": "Microsoft",
       "verified": "2026-09-25",
       "description": "A multi-week guided adoption cohort. Open worldwide; live times follow the APJ schedule."
+    },
+    {
+      "id": "chatbot-summit-amsterdam-2026",
+      "title": "Chatbot Summit Amsterdam 2026",
+      "start": "2026-11-25T14:00:00+01:00",
+      "end": "2026-11-26T18:00:00+01:00",
+      "format": "In person",
+      "location": "Mövenpick Hotel Amsterdam City Centre, Amsterdam",
+      "topics": [
+        "AI",
+        "Data",
+        "Security",
+        "Copilot",
+        "Agents"
+      ],
+      "cost": "Paid, from €445 + VAT",
+      "language": "English",
+      "organizer": "Sunrize Digital",
+      "url": "https://www.chatbotsummit.com/edition/amsterdam/2026",
+      "source": "Chatbot Summit",
+      "verified": "2026-10-02",
+      "description": "Enterprise agentic AI conference with workshops and sessions on multi-agent systems, MCP, conversational AI, data, security, governance and deployment."
+    },
+    {
+      "id": "aica-ai-chips-summit-amsterdam-2026",
+      "title": "AICA AI & Chips Summit 2026",
+      "start": "2026-11-26T09:10:00+01:00",
+      "end": "2026-11-26T18:05:00+01:00",
+      "format": "In person",
+      "location": "Amsterdam, venue details on organizer site",
+      "topics": [
+        "AI",
+        "Data",
+        "Cloud",
+        "Platform Engineering",
+        "Security"
+      ],
+      "cost": "Paid",
+      "language": "English",
+      "organizer": "AICA Summit",
+      "url": "https://aica-summit.com/",
+      "source": "AICA Summit",
+      "verified": "2026-10-02",
+      "description": "Technical conference connecting research and AI engineering across chips, compute, infrastructure, models, data, privacy and security. The exact venue is still pending."
     },
     {
       "id": "microsoft-developer-events-espc26-2026-11-29",
