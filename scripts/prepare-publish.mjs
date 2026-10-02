@@ -20,17 +20,25 @@ run(process.execPath, ['scripts/build-event-data.mjs']);
 if (!existsSync(resolve(root, '.git'))) run(git, ['init', '-b', input.branch]);
 run(git, ['config', 'user.name', 'Cloud Calendar NL']);
 run(git, ['config', 'user.email', 'calendar@local.invalid']);
-run(git, ['add', '.openai/hosting.json', 'dist/index.html', 'dist/events.json', 'dist/events-data.js', 'dist/deliverits-logo.png']);
+run(git, ['add', '.openai/hosting.json', 'dist/index.html', 'dist/events.json', 'dist/events-data.js', 'dist/deliverits-logo.png', 'scripts/prepare-publish.mjs']);
 const pending = spawnSync(git, ['diff', '--cached', '--quiet'], { cwd: root });
 if (pending.status !== 0) run(git, ['commit', '-m', 'Build Microsoft Cloud events calendar']);
 const remotes = run(git, ['remote']).split(/\s+/).filter(Boolean);
 if (remotes.includes('sites')) run(git, ['remote', 'set-url', 'sites', input.remote]);
 else run(git, ['remote', 'add', 'sites', input.remote]);
 const auth = `Authorization: Bearer ${input.token}`;
-run(git, ['push', 'sites', `HEAD:${input.branch}`], {
+const gitAuthEnv = {
   GIT_CONFIG_COUNT: '1',
   GIT_CONFIG_KEY_0: 'http.extraHeader',
   GIT_CONFIG_VALUE_0: auth
+};
+run(git, ['fetch', 'sites', input.branch], gitAuthEnv);
+const containsRemote = spawnSync(git, ['merge-base', '--is-ancestor', `sites/${input.branch}`, 'HEAD'], { cwd: root });
+if (containsRemote.status !== 0) {
+  run(git, ['merge', '--no-edit', '-s', 'ort', '-X', 'ours', `sites/${input.branch}`]);
+}
+run(git, ['push', 'sites', `HEAD:${input.branch}`], {
+  ...gitAuthEnv,
 });
 const sha = run(git, ['rev-parse', 'HEAD']);
 const archive = resolve(root, 'site.tar.gz');
