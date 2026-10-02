@@ -27,7 +27,7 @@ const remotes = run(git, ['remote']).split(/\s+/).filter(Boolean);
 if (remotes.includes('sites')) run(git, ['remote', 'set-url', 'sites', input.remote]);
 else run(git, ['remote', 'add', 'sites', input.remote]);
 const auth = `Authorization: Bearer ${input.token}`;
-run(git, ['push', '--force', 'sites', `HEAD:${input.branch}`], {
+run(git, ['push', 'sites', `HEAD:${input.branch}`], {
   GIT_CONFIG_COUNT: '1',
   GIT_CONFIG_KEY_0: 'http.extraHeader',
   GIT_CONFIG_VALUE_0: auth
