@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-25",
-  "windowStart": "2026-09-25",
-  "windowEnd": "2026-12-26",
+  "lastUpdated": "2026-10-02",
+  "windowStart": "2026-10-02",
+  "windowEnd": "2027-01-02",
   "sources": [
     {
       "name": "Microsoft Reactor",
@@ -15,6 +15,10 @@
     }
   ],
   "events": [
+    {"id":"wpninjasnl-meeting-5-2026","title":"#WPNinjasNL Meeting #5 2026","start":"2026-10-08T15:30:00+02:00","end":"2026-10-08T21:00:00+02:00","format":"In person","location":"RawWorks, De Vork 2, Odijk","topics":["Modern Workplace","Security","Microsoft 365","Azure"],"cost":"Free","language":"Dutch / English","organizer":"Workplace Ninja User Group Netherlands","url":"https://www.meetup.com/nl-NL/wpninjasnl/events/311956819/","source":"Workplace Ninja User Group Netherlands","verified":"2026-10-02","description":"Three technical sessions on preventing data leaks around AI, common security misconfigurations, and zero-trust mesh architecture, followed by community networking."},
+    {"id":"wpninjasnl-saturday-2026","title":"#WPNinjasNL Saturday 2026: Microsoft Intune","start":"2026-11-07T10:00:00+01:00","end":"2026-11-07T16:00:00+01:00","format":"In person","location":"Professional Development Systems, Culemborg","topics":["Modern Workplace","Intune","Entra ID","Security"],"cost":"Free","language":"Dutch","organizer":"Workplace Ninja User Group Netherlands","url":"https://www.meetup.com/nl-NL/wpninjasnl/events/316653811/","source":"Workplace Ninja User Group Netherlands","verified":"2026-10-02","description":"Hands-on technical masterclass covering Microsoft Intune, Entra ID, Conditional Access, device management and troubleshooting, with guest Rudy Ooms."},
+    {"id":"wpninjasnl-meeting-6-2026","title":"#WPNinjasNL Meeting #6 2026","start":"2026-11-18T15:30:00+01:00","end":"2026-11-18T21:00:00+01:00","format":"In person","location":"Conclusion B.V., Herculesplein 80, Utrecht","topics":["Modern Workplace","Security","Entra ID","Microsoft 365"],"cost":"Free","language":"Dutch / English","organizer":"Workplace Ninja User Group Netherlands","url":"https://www.meetup.com/nl-NL/wpninjasnl/events/311956841/","source":"Workplace Ninja User Group Netherlands","verified":"2026-10-02","description":"Community sessions on Microsoft's attack surface, the latest Microsoft Ignite announcements, and Tier 0 security in a shared Entra tenant."},
+    {"id":"wpninjasnl-meeting-7-2026","title":"#WPNinjasNL Meeting #7 2026","start":"2026-12-09T15:30:00+01:00","end":"2026-12-09T21:00:00+01:00","format":"In person","location":"Netherlands — venue to be announced","topics":["Modern Workplace","Microsoft 365","Security"],"cost":"Free","language":"Dutch / English","organizer":"Workplace Ninja User Group Netherlands","url":"https://www.meetup.com/nl-NL/wpninjasnl/events/311956853/","source":"Workplace Ninja User Group Netherlands","verified":"2026-10-02","description":"The seventh Workplace Ninja Netherlands community meeting of 2026. The organizer has announced the date and programme times; venue and session details are still pending."},
     {
       "id": "reactor-27546",
       "title": "Model Mondays Mistral OCR-4 and Building AI Agents in Microsoft Foundry",
