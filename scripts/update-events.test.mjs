@@ -28,9 +28,9 @@ test('extracts the embedded Microsoft cards array', () => {
     [cardWithDelimiter],
   );
 });
-
 test('converts source-local timestamps through daylight saving time', () => {
   assert.equal(localDateTimeToIso('2026-10-13T10:00:00', 'America/Los_Angeles'), '2026-10-13T17:00:00.000Z');
+  assert.equal(localDateTimeToIso('2026-11-18T01:30:00', 'Asia/Jerusalem'), '2026-11-17T23:30:00.000Z');
 });
 
 test('selects English Reactor livestreams and Netherlands in-person events', () => {

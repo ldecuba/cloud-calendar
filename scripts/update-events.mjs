@@ -17,6 +17,7 @@ const locationTimeZones = [
   [/shanghai|beijing/i, 'Asia/Shanghai'],
   [/sao paulo|são paulo/i, 'America/Sao_Paulo'],
   [/london/i, 'Europe/London'],
+  [/tel aviv/i, 'Asia/Jerusalem'],
   [/new york/i, 'America/New_York'],
 ];
 
@@ -288,14 +289,17 @@ export async function updateEvents({ now = new Date(), fetchImpl = fetch } = {})
   const existing = JSON.parse(await readFile(eventsPath, 'utf8'));
   const windowEndDate = addDays(now, windowDays);
   const events = mergeEvents(existing.events || [], automaticEvents, now, windowEndDate);
+  const automaticSources = [
+    { name: 'Microsoft Reactor', url: sourceUrl, selection: 'English online livestreams' },
+    { name: 'Microsoft Developer Events', url: sourceUrl, selection: 'In-person events in the Netherlands' },
+  ];
+  const automaticSourceNames = new Set(automaticSources.map(({ name }) => name));
+  const curatedSources = (existing.sources || []).filter(({ name }) => !automaticSourceNames.has(name));
   const output = {
     lastUpdated: verified,
     windowStart: verified,
     windowEnd: windowEndDate.toISOString().slice(0, 10),
-    sources: [
-      { name: 'Microsoft Reactor', url: sourceUrl, selection: 'English online livestreams' },
-      { name: 'Microsoft Developer Events', url: sourceUrl, selection: 'In-person events in the Netherlands' },
-    ],
+    sources: [...automaticSources, ...curatedSources],
     events,
   };
 
@@ -303,7 +307,6 @@ export async function updateEvents({ now = new Date(), fetchImpl = fetch } = {})
   console.log(`Updated ${output.events.length} events (${automaticEvents.length} automatic, ${output.events.length - automaticEvents.length} curated).`);
   return output;
 }
-
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   await updateEvents();
 }
