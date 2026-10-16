@@ -123,6 +123,29 @@
       "description": "Multi-week cohort for applying Microsoft AI agents to HR scenarios."
     },
     {
+      "id": "reactor-27541",
+      "title": "SQL Modernization Day",
+      "start": "2026-10-20T16:00:00Z",
+      "end": "2026-10-21T03:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Data and Analytics",
+        "Microsoft AI",
+        "Azure",
+        "AI",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27541",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-12",
+      "description": "SQL Modernization Day helps data teams and developers move SQL Server estates to Azure without the rewrite - so you can spend less time managing infrastructure and more time shipping AI-ready applications on a platform that scales with you.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
       "id": "onedrive-copilot-event-2026",
       "title": "OneDrive + Copilot Digital Event",
       "start": "2026-10-20T18:00:00+02:00",
