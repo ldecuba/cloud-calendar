@@ -1,7 +1,7 @@
 window.CLOUD_CALENDAR_EVENTS = {
-  "lastUpdated": "2026-10-23",
-  "windowStart": "2026-10-23",
-  "windowEnd": "2027-01-23",
+  "lastUpdated": "2026-10-30",
+  "windowStart": "2026-10-30",
+  "windowEnd": "2027-01-30",
   "sources": [
     {
       "name": "Microsoft Reactor",
@@ -77,6 +77,26 @@ window.CLOUD_CALENDAR_EVENTS = {
       "name": "Microsoft Pulse",
       "url": "https://pulse.microsoft.com/en/microsoft-digital-sovereignty-day/",
       "selection": "Official Microsoft events in the Netherlands"
+    },
+    {
+      "name": "Microsoft EMEA Partner Events",
+      "url": "https://www.microsoft.com/en/emea/partners-events/",
+      "selection": "Microsoft and partner events in the Netherlands plus relevant worldwide online events"
+    },
+    {
+      "name": "Microsoft AI Builders",
+      "url": "https://www.microsoft.com/en/EMEA/business/ai/developers/ai-builders",
+      "selection": "Worldwide online developer events covering AI, GitHub Copilot and platform engineering"
+    },
+    {
+      "name": "Dutch Virtual Desktop User Group",
+      "url": "https://www.meetup.com/nl-nl/dutch-virtual-desktop-user-group/",
+      "selection": "Modern Workplace, virtual desktop and MSP events in the Netherlands"
+    },
+    {
+      "name": "McCoy & Partners",
+      "url": "https://mccoy-partners.com/events/fabric-friday-stof-tot-nadenken",
+      "selection": "Microsoft Fabric, Power BI, Azure and data events in the Netherlands"
     }
   ],
   "events": [
@@ -121,187 +141,6 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Multi-week cohort for applying Microsoft AI agents to HR scenarios."
     },
     {
-      "id": "reactor-27652",
-      "title": "Episode 1: AI Fundamentals – Understanding the Future of Work",
-      "start": "2026-10-26T15:00:00.000Z",
-      "end": "2026-10-26T23:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "AI Applications",
-        "Microsoft AI",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27652",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Discover the fundamentals of Artificial Intelligence and explore how AI is transforming industries, careers, and everyday life. This introductory session demystifies core AI concepts, highlights real-world applications, and helps participants build a strong foundation for their AI journey.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27576",
-      "title": "Model Mondays - Train and customize open models with Fireworks on Foundry",
-      "start": "2026-10-26T17:30:00.000Z",
-      "end": "2026-10-27T01:30:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Azure",
-        "AI",
-        "Data",
-        "Security"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27576",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "More than 90% of enterprise data resides in internal systems and records. In this session, learn how Fireworks brings model customization to Azure AI Foundry as a first-party service. Deploy open models from the Foundry catalog, train them on your data, and serve them through your Azure subscription using existing identity, governance, and billing controls. Explore the Resources Read the Newsletter Continue the conversation on the Discord [event ID:27576]",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27639",
-      "title": "AI Genius | Architect the Flow: GitHub Canvas, Token Economics & Extensible Workspace",
-      "start": "2026-10-27T10:00:00.000Z",
-      "end": "2026-10-27T18:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "AI Applications",
-        "Microsoft AI",
-        "Copilot",
-        "GitHub",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27639",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Design smarter AI workflows with visual orchestration, token optimization and extensible agent capabilities. Session Introduction AI agents are working across larger codebases and increasingly complex systems, making visual orchestration and efficient context management essential for modern development. In this session, you’ll explore how to design smarter, token-optimized AI workflows using Canvases in the GitHub Copilot app, context engineering, and extensible agent capabilities. Through practical demonstrations, you’ll see how developers can coordinate multi-agent work, manage context more effectively, and move beyond linear chat prompts to visual agent orchestration. You Will Learn • How to use Canvases in the GitHub Copilot app as a visual workspace for complex, multi-agent development • How token budgeting, prompt caching, and context trimming can improve workflow efficiency • How to extend agent workflows with Agent Plugins and Model Context Protocol (MCP) • Best practices for moving from one-shot prompting to collaborative agent orchestration Technologies Used • GitHub Copilot harnesses including CLI, app, and Visual Studio Code • Agent Plugins and Model Context Protocol (MCP) • Token optimization and context engineering Who Should Attend • Developers building agentic workflows across complex codebases • Engineers looking to improve AI workflow efficiency and context management • Teams extending GitHub Copilot with reusable agent capabilities • Anyone interested in visual, multi-agent development experiences",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27653",
-      "title": "Episode 2: Generative AI – Creating, Innovating, and Accelerating with AI",
-      "start": "2026-10-27T15:00:00.000Z",
-      "end": "2026-10-27T23:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "AI Applications",
-        "Microsoft AI",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27653",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Explore how Generative AI can create content, generate ideas, solve problems, and boost productivity. Participants will learn how AI is transforming creativity, collaboration, and innovation across industries.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27666",
-      "title": "Modernize Databases Faster with AI-Assisted Migration and Optimization",
-      "start": "2026-10-27T17:00:00.000Z",
-      "end": "2026-10-28T01:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Microsoft Foundry",
-        "Azure",
-        "Copilot",
-        "GitHub"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27666",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Database modernization has never had a magic button. Migrations can take weeks or months of converting code, resolving incompatibilities, and validating that applications still work as expected. AI is changing that. In this session, we’ll use Visual Studio Code, Microsoft Foundry, and GitHub Copilot to accelerate an end-to-end migration to PostgreSQL on Azure HorizonDB. We’ll assess the existing application, convert schemas and SQL code, fix migration gaps, and progressively validate data, application logic, business behavior, and workloads. Through a practical, end-to-end migration, we’ll show how AI can accelerate database modernization and help teams migrate faster and with greater confidence. Check out the series - https://aka.ms/ModernizefasteSeries",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27654",
-      "title": "Episode 3: Prompt Engineering with Microsoft Copilot – Achieving Better Results with",
-      "start": "2026-10-28T15:00:00.000Z",
-      "end": "2026-10-28T23:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "AI Applications",
-        "Microsoft AI",
-        "Copilot",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27654",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Learn practical prompt engineering techniques and discover how to work effectively with Microsoft Copilot. This session features real-world examples that will help participants achieve more accurate, relevant, and valuable AI-generated results.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27616",
-      "title": "Build Your First Copilot Plugin with WorkIQ Developer Tools",
-      "start": "2026-10-28T16:00:00.000Z",
-      "end": "2026-10-29T00:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Developer Tools",
-        "Microsoft AI",
-        "Microsoft 365",
-        "Copilot",
-        "GitHub"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27616",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Go hands-on with WorkIQ Developer Tools as we walk through building your first Copilot plugin, from setup to a working extension. We’ll use a WIQD Cookbook recipe as part of the walkthrough, showing how these practical, easy-to-follow guides can help developers turn WorkIQ concepts into working solutions and reuse proven patterns for their own scenarios. Get started: https://microsoft.github.io/wiqd Practical guide: https://aka.ms/wiqd/cookbooks",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27665",
-      "title": "Build a Cloud-Native Foundation for AI with Azure Red Hat OpenShift",
-      "start": "2026-10-28T18:00:00.000Z",
-      "end": "2026-10-29T02:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Open Source",
-        "Microsoft AI",
-        "Azure",
-        "AI",
-        "Security"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27665",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "What does it take to build a cloud-native platform foundation for modern applications and AI workloads? Join us to explore Azure Red Hat OpenShift (ARO) and the role of open-source Kubernetes in your platform strategy. We’ll introduce ARO, explore hosted control planes, and discuss how OpenShift Virtualization brings virtual machines onto a cloud-native platform alongside containerized applications. Along the way, we’ll examine ARO’s security posture and platform considerations for financial services and other highly regulated industries. Leave with a clearer understanding of ARO’s capabilities and how to evaluate it as part of your application modernization and AI infrastructure strategy.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
       "id": "dutch-cloud-native-day-2026",
       "title": "Dutch Cloud Native Day 2026",
       "start": "2026-10-29T08:30:00+01:00",
@@ -324,73 +163,6 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Community conference for cloud native engineering, Kubernetes, platform engineering, observability, security and modern AI workloads. The organizer has not yet published a precise venue address."
     },
     {
-      "id": "reactor-27655",
-      "title": "Episode 4: AI Agents – From Assistance to Autonomous Collaboration",
-      "start": "2026-10-29T15:00:00.000Z",
-      "end": "2026-10-29T23:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "AI Applications",
-        "Microsoft AI",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27655",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Explore the next evolution of AI through intelligent agents capable of reasoning, planning, automating, and collaborating with users. Participants will discover emerging use cases and opportunities to apply AI agents in modern workplaces.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27631",
-      "title": ".NET + Foundry, better together",
-      "start": "2026-10-29T16:00:00.000Z",
-      "end": "2026-10-30T00:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "AI Applications",
-        "Microsoft AI",
-        "Microsoft Foundry",
-        "AI",
-        ".NET"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27631",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry features and services. With live demos, code, and plenty of curiosity, each episode offers something new for .NET developers looking to learn, experiment, and build with AI.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27456",
-      "title": "Modeling Your Business with Ontologies in Fabric IQ",
-      "start": "2026-10-29T16:00:00.000Z",
-      "end": "2026-10-30T00:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Azure",
-        "Fabric",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27456",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Learn how to create the semantic foundation that powers business-aware agents. In this session, we'll explore how ontologies in Fabric IQ model the entities, relationships, and concepts that define your organization. You'll see how a well-designed ontology helps agents navigate complex business domains, connect information across systems, and reason more effectively using business context. 🔗 Resources: https://aka.ms/iq-series 📌 This event is a part of a series, learn more here: https://aka.ms/microsoftiqlive #MSFTReactor #learnconnectbuild #foundryiq #serverless #knowledgebases #agentdevelopment #retrieval #datagrounding #azureaifoundry #enterpriseknowledge",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
       "id": "m365nn-community-day-2026",
       "title": "M365-NN Community Day 2026",
       "start": "2026-10-31T09:00:00+01:00",
@@ -408,60 +180,36 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "M365-NN",
       "url": "https://m365nn.nl/",
       "source": "Sessionize / organizer",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "A one-day northern Netherlands community event with sessions on Microsoft 365, Power Platform, AI, governance, security and adoption."
     },
     {
-      "id": "reactor-27577",
-      "title": "Model Mondays - Spotlight on NVIDIA models",
-      "start": "2026-11-02T18:30:00.000Z",
-      "end": "2026-11-03T03:30:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
+      "id": "microsoft-valcon-agentify-roundtable-2026",
+      "title": "Microsoft & Valcon Executive Roundtable: Agentify Your Business Processes",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "format": "In person",
+      "location": "Netherlands - venue and time to be announced",
       "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Microsoft Foundry",
-        "AI"
+        "AI",
+        "Copilot",
+        "Dynamics 365",
+        "Power Platform",
+        "Business Transformation"
       ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27577",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "NVIDIA models give developers options for building and deploying AI workloads that require strong reasoning, generation, and accelerated inference across a range of application scenarios. Join us as we explore NVIDIA models in Microsoft Foundry and see how they can be evaluated and used to build effective AI agents. Explore the Resources Read the Newsletter Continue the conversation on the Discord [event ID:27577]",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27640",
-      "title": "AI Genius | Measure & Benchmark: Azure AI Foundry, Continuous Evaluation and IQ​",
-      "start": "2026-11-03T09:00:00.000Z",
-      "end": "2026-11-03T18:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "AI Applications",
-        "Microsoft AI",
-        "Microsoft Foundry",
-        "Azure",
-        "GitHub",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27640",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Measure, benchmark, and continuously improve Microsoft Foundry AI Agents using Microsoft IQ, Evaluations, and the Agent optimiser. Session Introduction Building an AI agent is just the beginning. Getting it right up front means giving it excellent context - but once it's live, keeping it good is a job of its own: evaluations to monitor quality, optimisation to keep cost in check, and reliable ways to tell whether any change actually helps In this session, you'll learn how to measure, benchmark, and continuously improve AI workflow quality using Microsoft Foundry, Evaluations, and the Agent Optimizer, and how Microsoft IQ gives your agent excellent context. You'll see how continuous evaluation replaces guesswork with measurable signals across your agent's lifecycle. You Will Learn • How to compare and select models with Microsoft Foundry • How to add organisational context to your Agents • How to build continuous evaluation pipelines for your Agents • How to profile the balance between quality, speed, and token cost • How to use Agent Optimizer to improve your Agents • How to manage your Agent in a CI/CD pipeline Technologies Used • Microsoft Foundry • Microsoft Foundry Extension for Visual Studio Code • Microsoft Foundry Evaluations and the Agent Optimizer • GitHub actions to integrate with Foundry Who Should Attend • Anyone interested in building, evaluating and optimizing Agents, in Microsoft Foundry • Teams introducing Agents into GitHub and CI/CD processes",
-      "managedBy": "microsoft-developer-events"
+      "cost": "Price not stated; registration required",
+      "language": "Dutch",
+      "organizer": "Microsoft and Valcon",
+      "url": "https://www.microsoft.com/en/emea/partners-events/",
+      "source": "Microsoft EMEA Partner Events",
+      "verified": "2026-10-30",
+      "description": "Executive roundtable for business, data and AI leaders on transforming core business processes with agents. The organizer lists the date and country; venue and time remain pending."
     },
     {
       "id": "reactor-27689",
       "title": "Microsoft Fabric at Scale: Build, Deploy, and Govern (Option 1)",
-      "start": "2026-11-03T16:00:00.000Z",
-      "end": "2026-11-04T01:00:00.000Z",
+      "start": "2026-11-03T06:00:00Z",
+      "end": "2026-11-03T15:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -477,8 +225,32 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27689",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "AI is changing what it means to build at scale. Microsoft Fabric brings development, deployment, security, and governance together so teams can move faster without losing control. See what a modern data foundation looks like when it’s built for today and ready for what AI makes possible next.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27640",
+      "title": "AI Genius | Measure & Benchmark: Azure AI Foundry, Continuous Evaluation and IQ​",
+      "start": "2026-11-03T09:00:00Z",
+      "end": "2026-11-03T18:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "AI Applications",
+        "Microsoft AI",
+        "Microsoft Foundry",
+        "Azure",
+        "GitHub",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27640",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Measure, benchmark, and continuously improve Microsoft Foundry AI Agents using Microsoft IQ, Evaluations, and the Agent optimiser. Session Introduction Building an AI agent is just the beginning. Getting it right up front means giving it excellent context - but once it's live, keeping it good is a job of its own: evaluations to monitor quality, optimisation to keep cost in check, and reliable ways to tell whether any change actually helps In this session, you'll learn how to measure, benchmark, and continuously improve AI workflow quality using Microsoft Foundry, Evaluations, and the Agent Optimizer, and how Microsoft IQ gives your agent excellent context. You'll see how continuous evaluation replaces guesswork with measurable signals across your agent's lifecycle. You Will Learn • How to compare and select models with Microsoft Foundry • How to add organisational context to your Agents • How to build continuous evaluation pipelines for your Agents • How to profile the balance between quality, speed, and token cost • How to use Agent Optimizer to improve your Agents • How to manage your Agent in a CI/CD pipeline Technologies Used • Microsoft Foundry • Microsoft Foundry Extension for Visual Studio Code • Microsoft Foundry Evaluations and the Agent Optimizer • GitHub actions to integrate with Foundry Who Should Attend • Anyone interested in building, evaluating and optimizing Agents, in Microsoft Foundry • Teams introducing Agents into GitHub and CI/CD processes",
       "managedBy": "microsoft-developer-events"
     },
     {
@@ -526,10 +298,53 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Community evening covering Security Copilot agents in Microsoft Purview, Data Security Posture and Triage Agents, and Enterprise Application Management for Intune."
     },
     {
+      "id": "microsoft-npo-uk-ai-sync-2026-11-04",
+      "title": "Microsoft NPO UK Monthly Sync: AI adoption with ANS",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "format": "Online",
+      "location": "Worldwide online - time to be announced",
+      "topics": [
+        "AI",
+        "Microsoft Cloud",
+        "Nonprofit",
+        "Business Transformation"
+      ],
+      "cost": "Free; registration required",
+      "language": "English",
+      "organizer": "Microsoft and ANS",
+      "url": "https://www.microsoft.com/en/emea/partners-events/",
+      "source": "Microsoft EMEA Partner Events",
+      "verified": "2026-10-30",
+      "description": "Online session on nonprofit AI adoption, customer lessons and Microsoft AI updates. The event page lists the date but not the session time."
+    },
+    {
+      "id": "turn-copilot-into-action-agent-workshop-2026",
+      "title": "Turn Copilot Into Action: Build Your First AI Agent Live",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "format": "Online",
+      "location": "Worldwide online - time to be announced",
+      "topics": [
+        "Copilot",
+        "Agents",
+        "AI",
+        "Developer",
+        "Retail"
+      ],
+      "cost": "Free; registration required",
+      "language": "English",
+      "organizer": "Microsoft and ANS",
+      "url": "https://www.microsoft.com/en/emea/partners-events/",
+      "source": "Microsoft EMEA Partner Events",
+      "verified": "2026-10-30",
+      "description": "Live build-along workshop to create a Sales and Stock Insight Agent for retail teams. The event page lists the date but not the session time."
+    },
+    {
       "id": "reactor-27688",
       "title": "AI Agents That Know Your Business (Option 1)",
-      "start": "2026-11-04T01:00:00.000Z",
-      "end": "2026-11-04T10:00:00.000Z",
+      "start": "2026-11-04T01:00:00Z",
+      "end": "2026-11-04T10:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -543,15 +358,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27688",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "What if your AI agents actually understood your business? Trusted data, governed semantics, and business context can turn generic AI into experiences grounded in the way your organization really works. The result: answers and insights that are more relevant, more useful, and ready to put to work.",
+      "verified": "2026-10-30",
+      "description": "What if your AI agents actually understood your business? Trusted data, governed semantics, and business context can turn generic AI into experiences grounded in the way your organization really works. The result: answers and insights that are more relevant, more useful, and ready to put to work. 📌 This event is part of a series. Learn more here: https://aka.ms/DataDays/FabConRecap/y https://aka.ms/DataDays/IntoCerts/y https://aka.ms/AIatWork/UnderstandIt/y https://aka.ms/AIatWork/BuildIt/y https://aka.ms/AIatWork/ShowIt/y",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27685",
       "title": "How to Trust the Code You Ship",
-      "start": "2026-11-04T02:00:00.000Z",
-      "end": "2026-11-04T11:00:00.000Z",
+      "start": "2026-11-04T02:00:00Z",
+      "end": "2026-11-04T11:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -563,8 +378,32 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27685",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "In this session, we’ll walk through a single pull request end to end and show how GitHub helps your team close the gap between code that’s written and software that’s trustworthy. You’ll learn how GitHub supports stronger security and quality outcomes without adding more pressure to developers or reviewers. You'll learn: How to get a comprehensive view of the vulnerabilities in your codebase—including areas traditional scanning tools might miss. How GitHub Code Security helps you turn findings into validated, review-ready pull requests, so you can shrink your backlog. Tangible next steps on how you can automatically apply standards and make trust a consistent part of the development process.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27690",
+      "title": "Microsoft Fabric at Scale: Build, Deploy, and Govern (Option 2)",
+      "start": "2026-11-04T03:00:00Z",
+      "end": "2026-11-04T12:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Data and Analytics",
+        "Microsoft AI",
+        "Fabric",
+        "AI",
+        "Data",
+        "Security"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27690",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "AI is changing what it means to build at scale. Microsoft Fabric brings development, deployment, security, and governance together so teams can move faster without losing control. See what a modern data foundation looks like when it’s built for today and ready for what AI makes possible next.",
       "managedBy": "microsoft-developer-events"
     },
     {
@@ -589,34 +428,10 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Enterprise conference on designing, governing and scaling agentic AI, with practitioner sessions covering data, operating models, security and measurable business results."
     },
     {
-      "id": "reactor-27690",
-      "title": "Microsoft Fabric at Scale: Build, Deploy, and Govern (Option 2)",
-      "start": "2026-11-04T13:00:00.000Z",
-      "end": "2026-11-04T22:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Data and Analytics",
-        "Microsoft AI",
-        "Fabric",
-        "AI",
-        "Data",
-        "Security"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27690",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "AI is changing what it means to build at scale. Microsoft Fabric brings development, deployment, security, and governance together so teams can move faster without losing control. See what a modern data foundation looks like when it’s built for today and ready for what AI makes possible next.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
       "id": "reactor-27711",
       "title": "Power BI Dataviz World Champs: The Road to FabCon Starts Here",
-      "start": "2026-11-04T16:00:00.000Z",
-      "end": "2026-11-05T01:00:00.000Z",
+      "start": "2026-11-04T16:00:00Z",
+      "end": "2026-11-05T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -629,15 +444,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27711",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "The search for our next Power BI Dataviz World Champion begins during Data Days. Join us to learn how the competition works, what it takes to qualify, and how four finalists will earn their place in the live championship finale at FabCon. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27615",
       "title": "Advanced Extensibility Patterns with WorkIQ Developer Tools",
-      "start": "2026-11-04T17:00:00.000Z",
-      "end": "2026-11-05T02:00:00.000Z",
+      "start": "2026-11-04T17:00:00Z",
+      "end": "2026-11-05T02:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -652,7 +467,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27615",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Go beyond the basics and explore advanced extensibility patterns with WorkIQ Developer Tools, from enterprise integrations and grounding to actions and orchestration approaches for richer Copilot experiences. See how the patterns introduced throughout the series can be applied to real development scenarios, with WIQD resources and cookbook recipes available as practical references when you’re ready to build. Get started: https://microsoft.github.io/wiqd Practical guide: https://aka.ms/wiqd/cookbooks",
       "managedBy": "microsoft-developer-events"
     },
@@ -679,8 +494,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27667",
       "title": "Open-source databases for modern applications",
-      "start": "2026-11-04T19:00:00.000Z",
-      "end": "2026-11-05T04:00:00.000Z",
+      "start": "2026-11-04T19:00:00Z",
+      "end": "2026-11-05T04:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -695,15 +510,36 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27667",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Modern AI applications still rely on databases. They store application data, embeddings, conversation history, and the context that powers retrieval. In this session, we'll explore Azure's open-source database offerings, including PostgreSQL, MySQL, and Azure DocumentDB, and discuss where each fits. We'll then take a deeper look at Azure HorizonDB, Microsoft's cloud-native PostgreSQL-compatible service. Through demos, you'll see how to build AI-powered retrieval workflows with vector search and AI pipelines, while gaining a practical understanding of where different open-source database technologies fit in modern application architectures.",
       "managedBy": "microsoft-developer-events"
     },
     {
+      "id": "fabric-business-case-nonprofits-2026",
+      "title": "Building the Business Case for Microsoft Fabric in Non-Profits",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "format": "Online",
+      "location": "Worldwide online - time to be announced",
+      "topics": [
+        "Fabric",
+        "Data",
+        "AI",
+        "Business Transformation"
+      ],
+      "cost": "Free; registration required",
+      "language": "English",
+      "organizer": "Microsoft and ANS",
+      "url": "https://www.microsoft.com/en/emea/partners-events/",
+      "source": "Microsoft EMEA Partner Events",
+      "verified": "2026-10-30",
+      "description": "Practical webinar on the financial, operational and strategic case for Microsoft Fabric in nonprofit organizations. The event page lists the date but not the session time."
+    },
+    {
       "id": "reactor-27691",
       "title": "Fabric IQ: Building the Context for Trusted AI (Option 1)",
-      "start": "2026-11-05T16:00:00.000Z",
-      "end": "2026-11-06T01:00:00.000Z",
+      "start": "2026-11-05T06:00:00Z",
+      "end": "2026-11-05T15:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -718,7 +554,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27691",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "AI is only as powerful as the context behind it. Explore how Fabric IQ brings data, business meaning, and context together to help AI better understand your organization and deliver more relevant, trusted experiences. See what that looks like in action and what it can unlock for the way we work with data and AI.",
       "managedBy": "microsoft-developer-events"
     },
@@ -744,10 +580,33 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Technical sessions on wrapping Azure Verified Modules for stable platform delivery and Azure Virtual Desktop Session Host Configuration."
     },
     {
+      "id": "reactor-27456",
+      "title": "Modeling Your Business with Ontologies in Fabric IQ",
+      "start": "2026-11-05T17:00:00Z",
+      "end": "2026-11-06T02:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Azure",
+        "Fabric",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27456",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Learn how to create the semantic foundation that powers business-aware agents. In this session, we'll explore how ontologies in Fabric IQ model the entities, relationships, and concepts that define your organization. You'll see how a well-designed ontology helps agents navigate complex business domains, connect information across systems, and reason more effectively using business context. 🔗 Resources: https://aka.ms/iq-series 📌 This event is a part of a series, learn more here: https://aka.ms/microsoftiqlive #MSFTReactor #learnconnectbuild #foundryiq #serverless #knowledgebases #agentdevelopment #retrieval #datagrounding #azureaifoundry #enterpriseknowledge",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
       "id": "reactor-27708",
       "title": "From Insight to “What If?”: Planning in Microsoft Fabric (Option 1)",
-      "start": "2026-11-06T01:00:00.000Z",
-      "end": "2026-11-06T10:00:00.000Z",
+      "start": "2026-11-06T01:00:00Z",
+      "end": "2026-11-06T10:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -762,7 +621,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27708",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Knowing what happened is just the beginning. With Planning in Microsoft Fabric, turn insights into forecasts, scenarios, and plans that help answer the bigger question: what if? Bring data, analytics, planning, and AI together so teams can look ahead, test possibilities, and make smarter decisions about what comes next. 📌 This event is part of a series. Learn more here: https://aka.ms/DataDays/FabConRecap/y https://aka.ms/DataDays/IntoCerts/y https://aka.ms/AIatWork/UnderstandIt/y https://aka.ms/AIatWork/BuildIt/y https://aka.ms/AIatWork/ShowIt/y",
       "managedBy": "microsoft-developer-events"
     },
@@ -784,8 +643,30 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Workplace Ninja User Group Netherlands",
       "url": "https://www.meetup.com/nl-NL/wpninjasnl/events/316653811/",
       "source": "Workplace Ninja User Group Netherlands",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Hands-on technical masterclass covering Microsoft Intune, Entra ID, Conditional Access, device management and troubleshooting, with guest Rudy Ooms."
+    },
+    {
+      "id": "reactor-27577",
+      "title": "Model Mondays - Spotlight on NVIDIA models",
+      "start": "2026-11-09T18:30:00Z",
+      "end": "2026-11-10T03:30:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27577",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "NVIDIA models give developers options for building and deploying AI workloads that require strong reasoning, generation, and accelerated inference across a range of application scenarios. Join us as we explore NVIDIA models in Microsoft Foundry and see how they can be evaluated and used to build effective AI agents. Explore the Resources Read the Newsletter Continue the conversation on the Discord [event ID:27577]",
+      "managedBy": "microsoft-developer-events"
     },
     {
       "id": "into-azure-2026",
@@ -813,8 +694,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27525",
       "title": ".NET Conf 2026 Day 1",
-      "start": "2026-11-10T16:00:00.000Z",
-      "end": "2026-11-11T09:00:00.000Z",
+      "start": "2026-11-10T16:00:00Z",
+      "end": "2026-11-11T09:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -829,15 +710,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27525",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "The conference kicks off with the official release of .NET 11! Join the .NET and Visual Studio product team members as they unveil new features and enhancements, including C# 15, performance improvements, ASP.NET Core updates, Blazor enhancements, .NET MAUI, Aspire, and AI-powered development. You’ll also get deep dives into Visual Studio including new productivity features, debugging enhancements, and Copilot",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27698",
       "title": "I Got Certified. Here’s What Happened Next. (Option 1)",
-      "start": "2026-11-10T16:00:00.000Z",
-      "end": "2026-11-11T01:00:00.000Z",
+      "start": "2026-11-10T16:00:00Z",
+      "end": "2026-11-11T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -848,15 +729,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27698",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Is getting certified actually worth it? Let’s skip the certification pitch and ask the people who’ve actually done it. Why did they go for it? What did they get out of it? Did it change their career, their confidence, or the opportunities in front of them? And knowing what they know now, would they do it again?",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27686",
-      "title": "From Modernization to Innovation: Building AI-Ready Foundation for Your Busineization",
-      "start": "2026-11-10T17:00:00.000Z",
-      "end": "2026-11-11T02:00:00.000Z",
+      "title": "From Modernization to Innovation: Building AI-Ready Foundation for Your Business",
+      "start": "2026-11-10T17:00:00Z",
+      "end": "2026-11-11T02:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -871,15 +752,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27686",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Modernizing an application is more than moving it to the cloud—it creates the foundation for what comes next. In this session, we’ll take a modern application from cloud-native architecture and GitHub-powered development workflows through to an AI-enabled experience with Microsoft Foundry. Along the way, we’ll explore how managed identity, automation, observability, and cost-aware AI patterns help you move from experimentation to scalable, production-ready innovation. Check out the series - https://aka.ms/ModernizefasteSeries",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27590",
       "title": "Building AI solutions for small businesses with Microsoft 365 Copilot",
-      "start": "2026-11-10T19:00:00.000Z",
-      "end": "2026-11-11T04:00:00.000Z",
+      "start": "2026-11-10T19:00:00Z",
+      "end": "2026-11-11T04:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -895,15 +776,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27590",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Artificial intelligence is no longer just for large enterprises. Microsoft 365 Copilot gives small businesses access to AI-powered tools that can help improve productivity, automate routine tasks, and free up time to focus on growth. In this introductory session, attendees will learn how Microsoft 365 Copilot integrates with familiar Microsoft 365 applications, including Word, Excel, PowerPoint, Outlook, and Teams. Through practical demonstrations and real-world business scenarios, participants will discover how Copilot can help create content, analyze data, summarize meetings, manage email, and streamline everyday workflows. The session also introduces best practices for responsible AI adoption, effective prompting, and identifying business processes where AI can deliver immediate value. Attendees will leave with a clear understanding of how to get started with Microsoft 365 Copilot and where to continue learning through Microsoft Learn and official Microsoft documentation. Who should attend small business owners Entrepreneurs Startup founders Business managers Marketing and sales professionals Anyone looking to improve productivity using Microsoft 365 Copilot Learning objectives Understand what Microsoft 365 Copilot is and how it works. Explore practical business use cases across Microsoft 365 applications. Learn prompt-writing techniques to achieve better results. Identify opportunities to automate repetitive business tasks. Discover Microsoft Learn resources to continue building AI skills after the session.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27709",
-      "title": "Don’t Just Study. Prepare to Pass. (Option 1)",
-      "start": "2026-11-11T01:00:00.000Z",
-      "end": "2026-11-11T10:00:00.000Z",
+      "title": "I Got Certified. Here’s What Happened Next. (Option 2)",
+      "start": "2026-11-11T01:00:00Z",
+      "end": "2026-11-11T10:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -914,15 +795,37 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27709",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "What does it really take to prepare for a certification exam? We go straight to people who’ve taken and passed exam after exam. We’re talking study strategies, favorite resources, what’s actually worth your time, what isn’t, and the mistakes they wouldn’t make twice. Steal their best strategies, learn from the mistakes they wouldn’t make twice, and make whatever exam comes next a little less painful and a lot more prepared. 📌 This event is part of a series. Learn more here: https://aka.ms/DataDays/FabConRecap/y https://aka.ms/DataDays/IntoCerts/y https://aka.ms/AIatWork/UnderstandIt/y https://aka.ms/AIatWork/BuildIt/y https://aka.ms/AIatWork/ShowIt/y",
+      "verified": "2026-10-30",
+      "description": "Is getting certified actually worth it? Let’s skip the certification pitch and ask the people who’ve actually done it. Why did they go for it? What did they get out of it? Did it change their career, their confidence, or the opportunities in front of them? And knowing what they know now, would they do it again? 📌 This event is part of a series. Learn more here: https://aka.ms/DataDays/FabConRecap/y https://aka.ms/DataDays/IntoCerts/y https://aka.ms/AIatWork/UnderstandIt/y https://aka.ms/AIatWork/BuildIt/y https://aka.ms/AIatWork/ShowIt/y",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27704",
+      "title": "AI Agents That Know Your Business (Option 2)",
+      "start": "2026-11-11T03:00:00Z",
+      "end": "2026-11-11T12:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Data and Analytics",
+        "Microsoft AI",
+        "AI",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27704",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "What if your AI agents actually understood your business? Trusted data, governed semantics, and business context can turn generic AI into experiences grounded in the way your organization really works. The result: answers and insights that are more relevant, more useful, and ready to put to work.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27641",
       "title": "AI Genius | Operate & Scale: Self-Healing ZeroOps and Enterprise-Wide Modernization​",
-      "start": "2026-11-11T09:00:00.000Z",
-      "end": "2026-11-11T18:00:00.000Z",
+      "start": "2026-11-11T09:00:00Z",
+      "end": "2026-11-11T18:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -938,37 +841,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27641",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "From legacy modernization to AI operations: Modernize applications and operate AI systems at scale with self-healing agents and enterprise-grade operational intelligence Session Introduction Modernizing legacy applications at scale is only half the journey — the AI systems that follow demand continuous monitoring, rapid incident response, and dependable day-to-day operations, all without adding engineering burden. In this session, you’ll follow that path end to end: modernize legacy applications with automated, reviewable upgrades, then operate and scale AI systems using self-healing agents and enterprise-grade operational intelligence. You’ll see how AI can streamline large-scale application updates, connect runtime signals to remediation, and make complex operational work easier to review and govern. You Will Learn • How to scale legacy application assessments and upgrades with Copilot Modernize CLI • How stacked pull requests can make large automated migrations easier to review • How the Azure SRE Agent can help diagnose issues and propose tested remediations • How to track operational impact using token efficiency, recovery time, and acceptance signals Technologies Used • Azure SRE Agent • Copilot App Modernization Agent & Modernize CLI • Stacked Pull Requests • Human-in-the-Loop Governance Patterns Who Should Attend • Teams modernizing legacy applications across multiple repositories • Developers and platform engineers operating AI systems in production • Site reliability and DevOps teams exploring agent-assisted remediation • Technology leaders focused on scalable, resilient AI operations",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27704",
-      "title": "AI Agents That Know Your Business (Option 2)",
-      "start": "2026-11-11T13:00:00.000Z",
-      "end": "2026-11-11T22:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Data and Analytics",
-        "Microsoft AI",
-        "AI",
-        "Data"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27704",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "What if your AI agents actually understood your business? Trusted data, governed semantics, and business context can turn generic AI into experiences grounded in the way your organization really works. The result: answers and insights that are more relevant, more useful, and ready to put to work.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27531",
       "title": ".NET Conf 2026 Day 2",
-      "start": "2026-11-11T16:00:00.000Z",
-      "end": "2026-11-12T09:00:00.000Z",
+      "start": "2026-11-11T16:00:00Z",
+      "end": "2026-11-12T09:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -983,15 +864,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27531",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Join us for an applied deep dive with product teams from across Microsoft and learn how to get the most out of .NET at scale. Explore practical guidance for building secure, cloud-native applications with Azure, AI, testing, and containers—and take away proven techniques you can apply to modern development projects.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27712",
-      "title": "DP-What? Which Certification Exam Is Right for Me? (Option 1)",
-      "start": "2026-11-11T16:00:00.000Z",
-      "end": "2026-11-12T01:00:00.000Z",
+      "title": "Don’t Just Study. Prepare to Pass. (Option 1)",
+      "start": "2026-11-11T16:00:00Z",
+      "end": "2026-11-12T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1003,31 +884,9 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27712",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "DP-600. DP-700. DP-800. DP-300. DP-420. DP-900. And honorable mention PL-300. What do all those letters and numbers actually mean, and which one should you take? Let’s decode the certification alphabet soup and make sense of your options. We’ll look at what the different exams are about, who they’re for, and how to figure out which one fits your skills, interests, and where you want to go next. Because picking your next certification shouldn’t require a decoder ring. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays Explore certification resources at https://aka.ms/dd/Cert",
+      "verified": "2026-10-30",
+      "description": "What does it really take to prepare for a certification exam? We go straight to people who’ve taken and passed exam after exam. We’re talking study strategies, favorite resources, what’s actually worth your time, what isn’t, and the mistakes they wouldn’t make twice. Steal their best strategies, learn from the mistakes they wouldn’t make twice, and make whatever exam comes next a little less painful and a lot more prepared. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays Explore certification resources at https://aka.ms/dd/Cert",
       "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "poweraddictsnl-it-rbls-2026-11-12",
-      "title": "PowerAddictsNL Community Meetup at IT RBLS",
-      "start": "2026-11-12",
-      "end": "2026-11-12",
-      "format": "In person",
-      "location": "IT RBLS headquarters, Netherlands — exact address pending",
-      "topics": [
-        "Power Platform",
-        "Power Apps",
-        "Power Automate",
-        "Copilot Studio",
-        "Dynamics 365"
-      ],
-      "cost": "Free",
-      "language": "Dutch / English",
-      "organizer": "PowerAddictsNL",
-      "url": "https://www.poweraddicts.nl/join/",
-      "source": "PowerAddictsNL",
-      "verified": "2026-10-23",
-      "description": "Power Platform community evening hosted by IT RBLS. The organizer has confirmed the date and host; the programme, times, exact address and registration link are still pending."
     },
     {
       "id": "microsoft-supply-chain-intelligence-masterclass-2026",
@@ -1053,8 +912,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27713",
       "title": "Fabric IQ: Building the Context for Trusted AI (Option 2)",
-      "start": "2026-11-12T13:00:00.000Z",
-      "end": "2026-11-12T22:00:00.000Z",
+      "start": "2026-11-12T13:00:00Z",
+      "end": "2026-11-12T22:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1069,15 +928,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27713",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "AI is only as powerful as the context behind it. Explore how Fabric IQ brings data, business meaning, and context together to help AI better understand your organization and deliver more relevant, trusted experiences. See what that looks like in action and what it can unlock for the way we work with data and AI. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays Explore the official FabCon + SQLCon Barcelona recap at https://aka.ms/dd/BCNRecap",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27530",
       "title": ".NET Conf 2026 Community Day",
-      "start": "2026-11-12T16:00:00.000Z",
-      "end": "2026-11-13T09:00:00.000Z",
+      "start": "2026-11-12T16:00:00Z",
+      "end": "2026-11-13T09:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1089,15 +948,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27530",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Hear from open-source project leaders, .NET partners, .NET Foundation leaders, MVP community members, and other speakers from around the world as they share real-world lessons, advanced techniques, and innovative projects built with .NET. Discover practical approaches and fresh ideas you can apply to your own work.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27692",
       "title": "Don’t Just Study. Prepare to Pass. (Option 2)",
-      "start": "2026-11-12T16:00:00.000Z",
-      "end": "2026-11-13T01:00:00.000Z",
+      "start": "2026-11-12T16:00:00Z",
+      "end": "2026-11-13T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1108,15 +967,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27692",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "What does it really take to prepare for a certification exam? We go straight to people who’ve taken and passed exam after exam. We’re talking study strategies, favorite resources, what’s actually worth your time, what isn’t, and the mistakes they wouldn’t make twice. Steal their best strategies, learn from the mistakes they wouldn’t make twice, and make whatever exam comes next a little less painful and a lot more prepared.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27632",
       "title": ".NET + Foundry, better together",
-      "start": "2026-11-12T17:00:00.000Z",
-      "end": "2026-11-13T02:00:00.000Z",
+      "start": "2026-11-12T17:00:00Z",
+      "end": "2026-11-13T02:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1131,15 +990,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27632",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry features and services. With live demos, code, and plenty of curiosity, each episode offers something new for .NET developers looking to learn, experiment, and build with AI.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27457",
       "title": "Governing IQ-Powered Agents in Production with Agent 365",
-      "start": "2026-11-12T17:00:00.000Z",
-      "end": "2026-11-13T02:00:00.000Z",
+      "start": "2026-11-12T17:00:00Z",
+      "end": "2026-11-13T02:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1154,15 +1013,37 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27457",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Learn how to operate and govern IQ-powered agents in production with Agent 365. In this session, we'll explore the challenges that arise as agents move beyond development and into real-world use, including visibility, policy enforcement, and lifecycle management. You'll learn how Agent 365 works alongside the Microsoft IQ stack to help organizations monitor, manage, and govern agents at scale while maintaining trust, security, and operational control. 🔗 Resources: https://aka.ms/iq-series 📌 This event is a part of a series, learn more here: https://aka.ms/microsoftiqlive #MSFTReactor #learnconnectbuild #foundryiq #serverless #knowledgebases #agentdevelopment #retrieval #datagrounding #azureaifoundry #enterpriseknowledge",
       "managedBy": "microsoft-developer-events"
     },
     {
+      "id": "poweraddictsnl-it-rbls-2026-11-12",
+      "title": "PowerAddictsNL Community Meetup at IT RBLS",
+      "start": "2026-11-12T18:00:00+01:00",
+      "end": "2026-11-12T21:30:00+01:00",
+      "format": "In person",
+      "location": "IT RBLS, Utrecht",
+      "topics": [
+        "Power Platform",
+        "Power Apps",
+        "Power Automate",
+        "Copilot Studio",
+        "Dynamics 365"
+      ],
+      "cost": "Free; registration required",
+      "language": "Dutch / English",
+      "organizer": "PowerAddictsNL",
+      "url": "https://www.eventbrite.nl/e/tickets-poweraddictsnl-live-it-rbls-2003199900828",
+      "source": "PowerAddictsNL",
+      "verified": "2026-10-30",
+      "description": "Power Platform and Dynamics 365 community evening at IT RBLS. Registration is open; the organizer asks attendees to use the waiting list if the event reaches capacity."
+    },
+    {
       "id": "reactor-27596",
       "title": ".NET Conf 2026 Community Day 2",
-      "start": "2026-11-13T16:00:00.000Z",
-      "end": "2026-11-14T09:00:00.000Z",
+      "start": "2026-11-13T16:00:00Z",
+      "end": "2026-11-14T09:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1174,7 +1055,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27596",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Hear from open-source project leaders, .NET partners, .NET Foundation leaders, MVP community members, and other speakers from around the world as they share real-world lessons, advanced techniques, and innovative projects built with .NET. Discover practical approaches and fresh ideas you can apply to your own work.",
       "managedBy": "microsoft-developer-events"
     },
@@ -1223,8 +1104,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27694",
       "title": "DP-800 in One Hour: SQL, AI + What You Need to Know",
-      "start": "2026-11-17T16:00:00.000Z",
-      "end": "2026-11-18T01:00:00.000Z",
+      "start": "2026-11-17T16:00:00Z",
+      "end": "2026-11-18T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1238,15 +1119,37 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27694",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "DP-800 brings SQL development and AI together, but what does that actually mean for the exam? Get a fast, practical tour of the major skills covered, from modern database development and performance to embeddings, search, and RAG. We'll help you understand where to focus and build a plan for getting exam-ready.",
       "managedBy": "microsoft-developer-events"
     },
     {
+      "id": "agent-365-workshop-netherlands-2026",
+      "title": "Managing AI Agents Responsibly with Agent 365",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "format": "In person",
+      "location": "Netherlands - venue and time to be announced",
+      "topics": [
+        "Agent 365",
+        "AI",
+        "Security",
+        "Governance",
+        "Microsoft 365"
+      ],
+      "cost": "Price not stated; registration required",
+      "language": "Dutch",
+      "organizer": "Microsoft and Axians",
+      "url": "https://www.microsoft.com/en/emea/partners-events/",
+      "source": "Microsoft EMEA Partner Events",
+      "verified": "2026-10-30",
+      "description": "Workshop on responsible agent management, security, governance, compliance and ownership with Microsoft Agent 365. The organizer lists the date and country; venue and time remain pending."
+    },
+    {
       "id": "reactor-27684",
       "title": "Build an AI Event Planner Agent with Copilot Studio & Dataverse",
-      "start": "2026-11-17T23:30:00.000Z",
-      "end": "2026-11-18T08:30:00.000Z",
+      "start": "2026-11-17T23:30:00Z",
+      "end": "2026-11-18T08:30:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1261,15 +1164,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27684",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "What if an AI agent could plan the perfect event—and recommend products based on what is actually available? In this hands-on session, we’ll build an AI-powered Event Planner Agent using Microsoft Copilot Studio and Dataverse. Using a kids’ birthday party as our real-world scenario, the agent will understand requirements such as the child’s age, interests, budget, number of guests, and preferred style. It will then: Suggest personalized birthday party themes Recommend DIY decoration ideas and activities Find relevant DIY products available in Dataverse. Create a customized event plan based on the user’s budget and preferences. - Demonstrate how Copilot Studio + Dataverse + Generative AI can turn business data into an intelligent customer experience. By the end of the session, you’ll understand how to build an AI agent that doesn’t just answer questions—it uses your business data to provide personalized, actionable recommendations.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27710",
       "title": "I Got Certified. Here’s What Happened Next. (Option 2)",
-      "start": "2026-11-18T01:00:00.000Z",
-      "end": "2026-11-18T10:00:00.000Z",
+      "start": "2026-11-18T01:00:00Z",
+      "end": "2026-11-18T10:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1280,15 +1183,36 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27710",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Is getting certified actually worth it? Let’s skip the certification pitch and ask the people who’ve actually done it. Why did they go for it? What did they get out of it? Did it change their career, their confidence, or the opportunities in front of them? And knowing what they know now, would they do it again? 📌 This event is part of a series. Learn more here: https://aka.ms/DataDays/FabConRecap/y https://aka.ms/DataDays/IntoCerts/y https://aka.ms/AIatWork/UnderstandIt/y https://aka.ms/AIatWork/BuildIt/y https://aka.ms/AIatWork/ShowIt/y",
       "managedBy": "microsoft-developer-events"
     },
     {
+      "id": "ai-builders-agentic-testing-2026",
+      "title": "Testing with Agentic AI: From Coverage Theater to Real Confidence",
+      "start": "2026-11-18T10:00:00+01:00",
+      "end": "2026-11-18T12:00:00+01:00",
+      "format": "Online",
+      "location": "Worldwide online",
+      "topics": [
+        "AI",
+        "GitHub Copilot",
+        "Developer",
+        "Testing"
+      ],
+      "cost": "Free; registration required",
+      "language": "English",
+      "organizer": "Microsoft AI Builders",
+      "url": "https://www.microsoft.com/en/EMEA/business/ai/developers/ai-builders",
+      "source": "Microsoft AI Builders",
+      "verified": "2026-10-30",
+      "description": "Developer session on meaningful test generation with Copilot, agentic test design, useful testing patterns and current limitations."
+    },
+    {
       "id": "reactor-27714",
       "title": "From Insight to “What If?”: Planning in Microsoft Fabric (Option 2)",
-      "start": "2026-11-18T13:00:00.000Z",
-      "end": "2026-11-18T22:00:00.000Z",
+      "start": "2026-11-18T13:00:00Z",
+      "end": "2026-11-18T22:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1303,7 +1227,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27714",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Knowing what happened is just the beginning. With Planning in Microsoft Fabric, turn insights into forecasts, scenarios, and plans that help answer the bigger question: what if? Bring data, analytics, planning, and AI together so teams can look ahead, test possibilities, and make smarter decisions about what comes next. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays Explore the official FabCon + SQLCon Barcelona recap at https://aka.ms/dd/BCNRecap",
       "managedBy": "microsoft-developer-events"
     },
@@ -1325,14 +1249,14 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Workplace Ninja User Group Netherlands",
       "url": "https://www.meetup.com/nl-NL/wpninjasnl/events/311956841/",
       "source": "Workplace Ninja User Group Netherlands",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Community sessions on Microsoft's attack surface, the latest Microsoft Ignite announcements, and Tier 0 security in a shared Entra tenant."
     },
     {
       "id": "reactor-27695",
       "title": "DP-700 in One Hour: What to Know, What to Study, Where to Focus",
-      "start": "2026-11-18T16:00:00.000Z",
-      "end": "2026-11-19T01:00:00.000Z",
+      "start": "2026-11-18T16:00:00Z",
+      "end": "2026-11-19T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1345,28 +1269,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27695",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Get the big picture on DP-700 without trying to learn everything at once. We'll break down the Fabric Data Engineer exam, highlight the skills and concepts to focus on, and point you toward the best ways to practice and prepare. Leave with a practical roadmap for getting exam-ready.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27488",
-      "title": "New billing and capacity tools in Microsoft Fabric",
-      "start": "2026-11-18T18:00:00.000Z",
-      "end": "2026-11-19T03:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Data and Analytics",
-        "Fabric"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27488",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Join our product experts for an interactive Q&A session on managing and monitoring Microsoft Fabric capacities. Managing Fabric at scale requires the right visibility, controls, and tools to keep workloads running smoothly. In this session, we'll explore the latest capabilities for capacity management, optimization, and observability. We'll cover new billing tools in Fabric, how to monitor capacity health, optimize performance and cost, reduce throttling, investigate and resolve issues faster, and keep workloads predictable and reliable across your organization. Bring your questions and get practical guidance on monitoring, managing, and optimizing your Fabric environment.",
       "managedBy": "microsoft-developer-events"
     },
     {
@@ -1392,8 +1296,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27715",
       "title": "How Copilot, Fabric IQ, Fabric Apps, and Your Data Fit Together",
-      "start": "2026-11-19T16:00:00.000Z",
-      "end": "2026-11-20T01:00:00.000Z",
+      "start": "2026-11-19T16:00:00Z",
+      "end": "2026-11-20T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1409,15 +1313,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27715",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "There are a lot of new names in the Fabric AI story. Let’s slow down and connect the pieces. We’ll look at how Copilot, Fabric IQ, Fabric Apps, and your data work together, what each one is for, and where they could fit into the work you’re already doing. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27718",
       "title": "DP-What? Which Certification Exam Is Right for Me? (Option 2)",
-      "start": "2026-11-20T01:00:00.000Z",
-      "end": "2026-11-20T10:00:00.000Z",
+      "start": "2026-11-20T01:00:00Z",
+      "end": "2026-11-20T10:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1428,7 +1332,7 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27718",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "DP-600. DP-700. DP-800. DP-300. DP-420. DP-900. And honorable mention PL-300. What do all those letters and numbers actually mean, and which one should you take? Let’s decode the certification alphabet soup and make sense of your options. We’ll look at what the different exams are about, who they’re for, and how to figure out which one fits your skills, interests, and where you want to go next. Because picking your next certification shouldn’t require a decoder ring. 📌 This event is part of a series. Learn more here: https://aka.ms/DataDays/FabConRecap/y https://aka.ms/DataDays/IntoCerts/y https://aka.ms/AIatWork/UnderstandIt/y https://aka.ms/AIatWork/BuildIt/y https://aka.ms/AIatWork/ShowIt/y",
       "managedBy": "microsoft-developer-events"
     },
@@ -1450,8 +1354,30 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Dutch Fabric User Group",
       "url": "https://www.meetup.com/nl-nl/dutch-fabric-user-group/",
       "source": "Dutch Fabric User Group",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Microsoft Fabric community meetup. The first session covers digital sovereignty, dependencies, open standards and portability in Fabric. The second session is still to be announced."
+    },
+    {
+      "id": "reactor-27761",
+      "title": "New Year, New Bot - Bring Your AI Desk Robot to Life",
+      "start": "2026-11-24T18:00:00Z",
+      "end": "2026-11-25T03:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "IoT/Edge Computing",
+        "Microsoft AI",
+        "AI",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27761",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Meet the M5Stack StackChan as a physical AI desk robot. Program its expressions and movements, connect it to a .NET backend and dashboard, and create a first end-to-end interaction. This hands-on session shows how hardware and .NET services can work together to bring a real desk companion to life.",
+      "managedBy": "microsoft-developer-events"
     },
     {
       "id": "digital-accelerator-guided-outcomes-apj-dec",
@@ -1518,6 +1444,27 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Enterprise agentic AI conference with workshops and sessions on multi-agent systems, MCP, conversational AI, data, security, governance and deployment."
     },
     {
+      "id": "duvdug-q4-nerdio-2026",
+      "title": "Dutch Virtual Desktop User Group Q4 Meeting at Nerdio",
+      "start": "2026-11-25T16:30:00+01:00",
+      "end": "2026-11-25T21:30:00+01:00",
+      "format": "In person",
+      "location": "Van der Valk Hotel Utrecht, Winthontlaan 4, Utrecht",
+      "topics": [
+        "Modern Workplace",
+        "Azure Virtual Desktop",
+        "Windows 365",
+        "MSP"
+      ],
+      "cost": "Free; registration required",
+      "language": "Dutch",
+      "organizer": "Dutch Virtual Desktop User Group",
+      "url": "https://www.meetup.com/nl-nl/dutch-virtual-desktop-user-group/events/316677673/",
+      "source": "Dutch Virtual Desktop User Group",
+      "verified": "2026-10-30",
+      "description": "Technical virtual desktop community evening sponsored by Nerdio. Three session slots are announced; speakers and final topics are still pending."
+    },
+    {
       "id": "aica-ai-chips-summit-amsterdam-2026",
       "title": "AICA AI & Chips Summit 2026",
       "start": "2026-11-26T09:10:00+01:00",
@@ -1540,10 +1487,32 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Technical conference connecting research and AI engineering across chips, compute, infrastructure, models, data, privacy and security. The exact venue is still pending."
     },
     {
+      "id": "fabric-friday-mccoy-2026-11-27",
+      "title": "Fabric Friday: Stof tot nadenken",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "format": "In person",
+      "location": "McCoy, John F. Kennedylaan 2, Eindhoven - time to be confirmed",
+      "topics": [
+        "Fabric",
+        "Power BI",
+        "Azure",
+        "Data",
+        "Governance"
+      ],
+      "cost": "Price not stated; registration required",
+      "language": "Dutch",
+      "organizer": "McCoy & Partners",
+      "url": "https://mccoy-partners.com/events/fabric-friday-stof-tot-nadenken",
+      "source": "McCoy & Partners",
+      "verified": "2026-10-30",
+      "description": "Small-group Microsoft Fabric session covering data ingestion, data engineering, real-time data, Power BI, governance and integration with Azure and SAP. The November time is not clearly published."
+    },
+    {
       "id": "microsoft-developer-events-espc26-2026-11-29",
       "title": "ESPC26",
-      "start": "2026-11-29T15:00:00.000Z",
-      "end": "2026-12-03T00:00:00.000Z",
+      "start": "2026-11-29T15:00:00Z",
+      "end": "2026-12-03T00:00:00Z",
       "format": "In person",
       "location": "Amsterdam Netherlands",
       "topics": [
@@ -1554,15 +1523,36 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Developer Events",
       "url": "https://espc.tech/conference/espc-2026/",
       "source": "Microsoft Developer Events",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Microsoft Developer Events event. Check the event page for the latest agenda and registration details.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27687",
+      "title": "From AI User to AI Builder",
+      "start": "2026-12-01T03:30:00Z",
+      "end": "2026-12-01T12:30:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "AI Applications",
+        "Microsoft AI",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27687",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Move beyond using AI for everyday tasks and start building with it. Explore the fundamentals of AI models, prompts, workflows, and agents, and discover how to turn ideas into practical AI-powered solutions.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27706",
       "title": "DP-600 in One Hour: Key Concepts, Study Tips + Exam Essentials",
-      "start": "2026-12-01T16:00:00.000Z",
-      "end": "2026-12-02T01:00:00.000Z",
+      "start": "2026-12-01T16:00:00Z",
+      "end": "2026-12-02T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1574,15 +1564,104 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27706",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Preparing for DP-600 and not sure where to start? Get a practical walkthrough of the skills covered on the Fabric Analytics Engineer exam, the concepts worth focusing on, and the resources that can help you prepare. You'll leave with a clearer study plan and a better sense of what you're ready for now and what needs a little more work.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27762",
+      "title": "New Year, New Bot - Build Its AI Brain with .NET and Aspire",
+      "start": "2026-12-01T18:00:00Z",
+      "end": "2026-12-02T03:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "IoT/Edge Computing",
+        "Microsoft AI",
+        "AI",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27762",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Build the bot's AI brain with a .NET backend orchestrated through .NET Aspire. Connect the backend to the StackChan from Episode 1, add the services and observability needed for local development, and create an end-to-end interaction that makes the physical desk robot responsive. This session shows how Aspire helps developers build and run the pieces of a connected AI companion.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27721",
+      "title": "What the Heck Is Fabric IQ?",
+      "start": "2026-12-02T01:00:00Z",
+      "end": "2026-12-02T10:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Data and Analytics",
+        "Microsoft AI",
+        "Fabric",
+        "Copilot",
+        "AI",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27721",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "ACFabric IQ sounds important, but what is it actually doing? We’ll break down how it uses business context to help AI understand your data, how Copilot fits in, and what grounded answers could look like in real work. Bring your questions. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27742",
+      "title": "Replacing Azure Communication Services Without Rebuilding Your Application",
+      "start": "2026-12-02T05:00:00Z",
+      "end": "2026-12-02T14:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "AI Applications",
+        "Azure"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27742",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "In this webinar, you'll learn what Infobip and Microsoft have prepared to make your ACS migration smooth - from signup and onboarding with Infobip, to configuring your connection points back to your Azure solution, all the way to sending your first message through Infobip instead of ACS. Along the way, you'll see why Infobip is a natural next step for ACS customers: global reach, feature parity with what you rely on today, and a migration path built to minimize changes to your existing solution. You'll get a firsthand look at the tools available to help you prepare your solutions for a graceful migration away from ACS.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27756",
+      "title": "From Raw Data to AI-Ready: Spark in Fabric",
+      "start": "2026-12-02T06:00:00Z",
+      "end": "2026-12-02T15:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Data and Analytics",
+        "Microsoft AI",
+        "Fabric",
+        "AI",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27756",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "AI is only as useful as the data behind it. We’ll use Spark in Fabric to take a real dataset from raw and messy to clean and usable, while talking through the choices and tradeoffs that come with the work.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27716",
       "title": "Stop Reporting the Plan. Start Planning in Fabric",
-      "start": "2026-12-02T16:00:00.000Z",
-      "end": "2026-12-03T01:00:00.000Z",
+      "start": "2026-12-02T16:00:00Z",
+      "end": "2026-12-03T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1595,8 +1674,28 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27716",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "Reporting tells you what already happened. Planning is about deciding what happens next. We’ll work through a practical scenario that connects actuals, forecasts, decisions, and action inside Fabric. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27488",
+      "title": "New billing and capacity tools in Microsoft Fabric",
+      "start": "2026-12-02T18:00:00Z",
+      "end": "2026-12-03T03:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Data and Analytics",
+        "Fabric"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27488",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Join our product experts for an interactive Q&A session on managing and monitoring Microsoft Fabric capacities. Managing Fabric at scale requires the right visibility, controls, and tools to keep workloads running smoothly. In this session, we'll explore the latest capabilities for capacity management, optimization, and observability. We'll cover new billing tools in Fabric, how to monitor capacity health, optimize performance and cost, reduce throttling, investigate and resolve issues faster, and keep workloads predictable and reliable across your organization. Bring your questions and get practical guidance on monitoring, managing, and optimizing your Fabric environment.",
       "managedBy": "microsoft-developer-events"
     },
     {
@@ -1624,8 +1723,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27707",
       "title": "Watch Me Build My First Fabric App",
-      "start": "2026-12-03T16:00:00.000Z",
-      "end": "2026-12-04T01:00:00.000Z",
+      "start": "2026-12-03T16:00:00Z",
+      "end": "2026-12-04T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1637,15 +1736,15 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27707",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "What happens when someone who isn’t a professional developer tries to build a Fabric App? You’ll watch a first-time builder work through it with an expert nearby to help, answer questions, and step in when things go sideways.",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27634",
       "title": ".NET + Foundry, better together",
-      "start": "2026-12-03T17:00:00.000Z",
-      "end": "2026-12-04T02:00:00.000Z",
+      "start": "2026-12-03T17:00:00Z",
+      "end": "2026-12-04T02:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1660,9 +1759,77 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27634",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "What can you build with .NET and Microsoft Foundry? Let’s find out together! Join us for a series of practical explorations featuring new SDK capabilities, cool projects, and the latest Foundry features and services. With live demos, code, and plenty of curiosity, each episode offers something new for .NET developers looking to learn, experiment, and build with AI.",
       "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27746",
+      "title": "Building Multi-Agent Workflows with Microsoft Foundry & Microsoft Agent Framework",
+      "start": "2026-12-07T09:00:00Z",
+      "end": "2026-12-07T18:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Microsoft Foundry",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27746",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Many agentic applications need more than autonomous reasoning—they also need predictable execution, durable state, and clear points of human control. In this session, we’ll take a deeper look at Workflows in the Microsoft Agent Framework and how they provide explicit, graph-based orchestration for coordinating AI agents, functions, and business logic in multi-step applications, using Microsoft Foundry for both the AI model and agent hosting. We’ll explore executors, typed message routing, conditional branches, fan-out and fan-in patterns, streaming events, checkpointing for pause-and-resume scenarios, and human-in-the-loop approval and review, while discussing when explicit workflows are a better fit than letting an agent dynamically decide the next step. The goal is to give developers a practical mental model for designing agentic systems that balance agent autonomy with workflow control, resiliency, and observability.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27763",
+      "title": "New Year, New Bot - Give Your Bot an Agentic Brain",
+      "start": "2026-12-08T18:00:00Z",
+      "end": "2026-12-09T03:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "IoT/Edge Computing",
+        "Microsoft AI",
+        "Copilot",
+        "GitHub",
+        "AI",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27763",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Build an agentic AI experience with the GitHub Copilot SDK, integrating the agent with the .NET and Aspire backend and the M5Stack StackChan. Explore agent behaviors and tool use, then connect the software to the robot so it can respond through its display and movements. This session demonstrates how an SDK-driven agent can power a physical AI companion.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "ai-builders-platform-engineering-2026",
+      "title": "Platform Engineering with AI: Building the Inner Loop for Your Team",
+      "start": "2026-12-09T10:00:00+01:00",
+      "end": "2026-12-09T12:00:00+01:00",
+      "format": "Online",
+      "location": "Worldwide online",
+      "topics": [
+        "Platform Engineering",
+        "AI",
+        "GitHub Copilot",
+        "Azure DevOps",
+        "Developer"
+      ],
+      "cost": "Free; registration required",
+      "language": "English",
+      "organizer": "Microsoft AI Builders",
+      "url": "https://www.microsoft.com/en/EMEA/business/ai/developers/ai-builders",
+      "source": "Microsoft AI Builders",
+      "verified": "2026-10-30",
+      "description": "Developer session on internal developer platforms, golden paths, organization-wide Copilot instructions and AI patterns across Azure DevOps and GitHub."
     },
     {
       "id": "wpninjasnl-meeting-7-2026",
@@ -1681,14 +1848,55 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Workplace Ninja User Group Netherlands",
       "url": "https://www.meetup.com/nl-NL/wpninjasnl/events/311956853/",
       "source": "Workplace Ninja User Group Netherlands",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "The seventh Workplace Ninja Netherlands community meeting of 2026. The organizer has announced the date and programme times; venue and session details are still pending."
+    },
+    {
+      "id": "reactor-27765",
+      "title": "Durable Execution for .NET Workflows with Dapr, Aspire and Catalyst",
+      "start": "2026-12-09T19:00:00Z",
+      "end": "2026-12-10T04:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        ".NET"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27765",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Long-running processes fail partway through all the time, whether from a pod restart, an API timeout or a deploy that lands mid-execution. Durable execution means your code survives those failures and resumes exactly where it stopped. This session builds a durable workflow in .NET with Dapr Workflow, runs and debugs it locally with Aspire and the Dapr Dev Dashboard, then moves it to Catalyst's managed durable execution engine with one change to the AppHost. The Catalyst workflow visualizer is used to inspect workflow executions and manage workflows.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "cyber-security-2027-preparedness-2026",
+      "title": "Cyber Security 2027: From Prediction to Preparedness",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "format": "Online",
+      "location": "Worldwide online - time to be announced",
+      "topics": [
+        "Security",
+        "AI",
+        "Cloud",
+        "Governance"
+      ],
+      "cost": "Free; registration required",
+      "language": "English",
+      "organizer": "Microsoft partner event",
+      "url": "https://www.microsoft.com/en/emea/partners-events/",
+      "source": "Microsoft EMEA Partner Events",
+      "verified": "2026-10-30",
+      "description": "Online session on how AI, cloud and connected technologies are changing cyber threats, identity, data governance and security operations. The event page lists the date but not the session time."
     },
     {
       "id": "reactor-27703",
       "title": "AI @Work Live: Real People, Real Projects, Real AI",
-      "start": "2026-12-10T16:00:00.000Z",
-      "end": "2026-12-11T01:00:00.000Z",
+      "start": "2026-12-10T16:00:00Z",
+      "end": "2026-12-11T01:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1702,15 +1910,39 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27703",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "We’ve spent Data Days making sense of AI, building with it, and testing what works. Now let’s bring it all together. You’ll see real projects, hear honest lessons from the people who built them, and leave with ideas you can use in your own work.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27725",
+      "title": "AI @Work: Community Builders in Action",
+      "start": "2026-12-11T01:00:00Z",
+      "end": "2026-12-11T10:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Data and Analytics",
+        "Microsoft AI",
+        "Fabric",
+        "Copilot",
+        "AI",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27725",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "ACFabric IQ sounds important, but what is it actually doing? We’ll break down how it uses business context to help AI understand your data, how Copilot fits in, and what grounded answers could look like in real work. Bring your questions. 📌 This event is part of a series. Learn more here: https://aka.ms/DataDays/FabConRecap/y https://aka.ms/DataDays/IntoCerts/y https://aka.ms/AIatWork/UnderstandIt/y https://aka.ms/AIatWork/BuildIt/y https://aka.ms/AIatWork/ShowIt/y",
       "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27670",
       "title": "AI-Assisted Linux Operations on Azure: Deploy, Observe, Troubleshoot",
-      "start": "2026-12-15T19:00:00.000Z",
-      "end": "2026-12-16T04:00:00.000Z",
+      "start": "2026-12-15T19:00:00Z",
+      "end": "2026-12-16T04:00:00Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1726,31 +1958,8 @@ window.CLOUD_CALENDAR_EVENTS = {
       "organizer": "Microsoft Reactor",
       "url": "https://developer.microsoft.com/reactor/events/27670",
       "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
+      "verified": "2026-10-30",
       "description": "AI on Linux is only part of the story. In this demo-led session, Karl Abbott explores how AI can assist with operating Linux environments on Azure. Join this demo-led session exploring AI-assisted Linux operations on Azure. Follow a real-world workflow as an application is deployed, monitored, intentionally disrupted, and troubleshot with AI assistance. See GitHub Copilot in action and explore how Azure agents can complement the operational toolkit. Leave with practical ideas for bringing AI into day-to-day Linux operations, from deployment and observability to troubleshooting. Resources: https://learn.microsoft.com/en-us/linux/",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27483",
-      "title": "Copilot Dev Camp Summit – Winter Edition 2026",
-      "start": "2026-12-16T16:00:00.000Z",
-      "end": "2026-12-17T04:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Microsoft 365",
-        "Copilot",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27483",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-23",
-      "description": "Copilot Dev Camp Summit – Winter Edition 2026 is a global, community-driven event designed for developers and makers to explore the latest innovations in Microsoft 365 Copilot and extensibility. Join us for a curated set of sessions, live demos, and real-world insights covering topics such as declarative agents, custom engines, and integration patterns—alongside inspiring stories from the community. Whether you're building your first Copilot experience or scaling advanced scenarios, the Summit offers practical guidance, hands-on learning, and opportunities to connect with experts and peers worldwide. Learn more about Copilot Dev Camp",
       "managedBy": "microsoft-developer-events"
     },
     {
@@ -1774,6 +1983,29 @@ window.CLOUD_CALENDAR_EVENTS = {
       "source": "Microsoft Reactor",
       "verified": "2026-10-23",
       "description": "Global community event for developers and makers covering Microsoft 365 Copilot extensibility, declarative agents, custom engines, integration patterns, live demos and practical guidance."
+    },
+    {
+      "id": "reactor-27483",
+      "title": "Copilot Dev Camp Summit – Winter Edition 2026",
+      "start": "2026-12-16T16:00:00Z",
+      "end": "2026-12-17T04:00:00Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Microsoft 365",
+        "Copilot",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27483",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Copilot Dev Camp Summit – Winter Edition 2026 is a global, community-driven event designed for developers and makers to explore the latest innovations in Microsoft 365 Copilot and extensibility. Join us for a curated set of sessions, live demos, and real-world insights covering topics such as declarative agents, custom engines, and integration patterns—alongside inspiring stories from the community. Whether you're building your first Copilot experience or scaling advanced scenarios, the Summit offers practical guidance, hands-on learning, and opportunities to connect with experts and peers worldwide. Learn more about Copilot Dev Camp",
+      "managedBy": "microsoft-developer-events"
     }
   ]
 };
