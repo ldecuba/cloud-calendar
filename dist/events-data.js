@@ -208,8 +208,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27689",
       "title": "Microsoft Fabric at Scale: Build, Deploy, and Govern (Option 1)",
-      "start": "2026-11-03T06:00:00Z",
-      "end": "2026-11-03T15:00:00Z",
+      "start": "2026-11-03T06:00:00.000Z",
+      "end": "2026-11-03T15:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -232,8 +232,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27640",
       "title": "AI Genius | Measure & Benchmark: Azure AI Foundry, Continuous Evaluation and IQ​",
-      "start": "2026-11-03T09:00:00Z",
-      "end": "2026-11-03T18:00:00Z",
+      "start": "2026-11-03T09:00:00.000Z",
+      "end": "2026-11-03T18:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -298,27 +298,6 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Community evening covering Security Copilot agents in Microsoft Purview, Data Security Posture and Triage Agents, and Enterprise Application Management for Intune."
     },
     {
-      "id": "microsoft-npo-uk-ai-sync-2026-11-04",
-      "title": "Microsoft NPO UK Monthly Sync: AI adoption with ANS",
-      "start": "2026-11-04",
-      "end": "2026-11-04",
-      "format": "Online",
-      "location": "Worldwide online - time to be announced",
-      "topics": [
-        "AI",
-        "Microsoft Cloud",
-        "Nonprofit",
-        "Business Transformation"
-      ],
-      "cost": "Free; registration required",
-      "language": "English",
-      "organizer": "Microsoft and ANS",
-      "url": "https://www.microsoft.com/en/emea/partners-events/",
-      "source": "Microsoft EMEA Partner Events",
-      "verified": "2026-10-30",
-      "description": "Online session on nonprofit AI adoption, customer lessons and Microsoft AI updates. The event page lists the date but not the session time."
-    },
-    {
       "id": "turn-copilot-into-action-agent-workshop-2026",
       "title": "Turn Copilot Into Action: Build Your First AI Agent Live",
       "start": "2026-11-04",
@@ -343,8 +322,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27688",
       "title": "AI Agents That Know Your Business (Option 1)",
-      "start": "2026-11-04T01:00:00Z",
-      "end": "2026-11-04T10:00:00Z",
+      "start": "2026-11-04T01:00:00.000Z",
+      "end": "2026-11-04T10:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -365,8 +344,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27685",
       "title": "How to Trust the Code You Ship",
-      "start": "2026-11-04T02:00:00Z",
-      "end": "2026-11-04T11:00:00Z",
+      "start": "2026-11-04T02:00:00.000Z",
+      "end": "2026-11-04T11:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -385,8 +364,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27690",
       "title": "Microsoft Fabric at Scale: Build, Deploy, and Govern (Option 2)",
-      "start": "2026-11-04T03:00:00Z",
-      "end": "2026-11-04T12:00:00Z",
+      "start": "2026-11-04T03:00:00.000Z",
+      "end": "2026-11-04T12:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -430,8 +409,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27711",
       "title": "Power BI Dataviz World Champs: The Road to FabCon Starts Here",
-      "start": "2026-11-04T16:00:00Z",
-      "end": "2026-11-05T01:00:00Z",
+      "start": "2026-11-04T16:00:00.000Z",
+      "end": "2026-11-05T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -451,8 +430,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27615",
       "title": "Advanced Extensibility Patterns with WorkIQ Developer Tools",
-      "start": "2026-11-04T17:00:00Z",
-      "end": "2026-11-05T02:00:00Z",
+      "start": "2026-11-04T17:00:00.000Z",
+      "end": "2026-11-05T02:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -494,8 +473,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27667",
       "title": "Open-source databases for modern applications",
-      "start": "2026-11-04T19:00:00Z",
-      "end": "2026-11-05T04:00:00Z",
+      "start": "2026-11-04T19:00:00.000Z",
+      "end": "2026-11-05T04:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -538,8 +517,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27691",
       "title": "Fabric IQ: Building the Context for Trusted AI (Option 1)",
-      "start": "2026-11-05T06:00:00Z",
-      "end": "2026-11-05T15:00:00Z",
+      "start": "2026-11-05T06:00:00.000Z",
+      "end": "2026-11-05T15:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -582,8 +561,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27456",
       "title": "Modeling Your Business with Ontologies in Fabric IQ",
-      "start": "2026-11-05T17:00:00Z",
-      "end": "2026-11-06T02:00:00Z",
+      "start": "2026-11-05T17:00:00.000Z",
+      "end": "2026-11-06T02:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -605,8 +584,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27708",
       "title": "From Insight to “What If?”: Planning in Microsoft Fabric (Option 1)",
-      "start": "2026-11-06T01:00:00Z",
-      "end": "2026-11-06T10:00:00Z",
+      "start": "2026-11-06T01:00:00.000Z",
+      "end": "2026-11-06T10:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -649,8 +628,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27577",
       "title": "Model Mondays - Spotlight on NVIDIA models",
-      "start": "2026-11-09T18:30:00Z",
-      "end": "2026-11-10T03:30:00Z",
+      "start": "2026-11-09T18:30:00.000Z",
+      "end": "2026-11-10T03:30:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -694,8 +673,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27525",
       "title": ".NET Conf 2026 Day 1",
-      "start": "2026-11-10T16:00:00Z",
-      "end": "2026-11-11T09:00:00Z",
+      "start": "2026-11-10T16:00:00.000Z",
+      "end": "2026-11-11T09:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -717,8 +696,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27698",
       "title": "I Got Certified. Here’s What Happened Next. (Option 1)",
-      "start": "2026-11-10T16:00:00Z",
-      "end": "2026-11-11T01:00:00Z",
+      "start": "2026-11-10T16:00:00.000Z",
+      "end": "2026-11-11T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -736,8 +715,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27686",
       "title": "From Modernization to Innovation: Building AI-Ready Foundation for Your Business",
-      "start": "2026-11-10T17:00:00Z",
-      "end": "2026-11-11T02:00:00Z",
+      "start": "2026-11-10T17:00:00.000Z",
+      "end": "2026-11-11T02:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -759,8 +738,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27590",
       "title": "Building AI solutions for small businesses with Microsoft 365 Copilot",
-      "start": "2026-11-10T19:00:00Z",
-      "end": "2026-11-11T04:00:00Z",
+      "start": "2026-11-10T19:00:00.000Z",
+      "end": "2026-11-11T04:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -783,8 +762,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27709",
       "title": "I Got Certified. Here’s What Happened Next. (Option 2)",
-      "start": "2026-11-11T01:00:00Z",
-      "end": "2026-11-11T10:00:00Z",
+      "start": "2026-11-11T01:00:00.000Z",
+      "end": "2026-11-11T10:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -802,8 +781,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27704",
       "title": "AI Agents That Know Your Business (Option 2)",
-      "start": "2026-11-11T03:00:00Z",
-      "end": "2026-11-11T12:00:00Z",
+      "start": "2026-11-11T03:00:00.000Z",
+      "end": "2026-11-11T12:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -824,8 +803,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27641",
       "title": "AI Genius | Operate & Scale: Self-Healing ZeroOps and Enterprise-Wide Modernization​",
-      "start": "2026-11-11T09:00:00Z",
-      "end": "2026-11-11T18:00:00Z",
+      "start": "2026-11-11T09:00:00.000Z",
+      "end": "2026-11-11T18:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -848,8 +827,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27531",
       "title": ".NET Conf 2026 Day 2",
-      "start": "2026-11-11T16:00:00Z",
-      "end": "2026-11-12T09:00:00Z",
+      "start": "2026-11-11T16:00:00.000Z",
+      "end": "2026-11-12T09:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -871,8 +850,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27712",
       "title": "Don’t Just Study. Prepare to Pass. (Option 1)",
-      "start": "2026-11-11T16:00:00Z",
-      "end": "2026-11-12T01:00:00Z",
+      "start": "2026-11-11T16:00:00.000Z",
+      "end": "2026-11-12T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -912,8 +891,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27713",
       "title": "Fabric IQ: Building the Context for Trusted AI (Option 2)",
-      "start": "2026-11-12T13:00:00Z",
-      "end": "2026-11-12T22:00:00Z",
+      "start": "2026-11-12T13:00:00.000Z",
+      "end": "2026-11-12T22:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -935,8 +914,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27530",
       "title": ".NET Conf 2026 Community Day",
-      "start": "2026-11-12T16:00:00Z",
-      "end": "2026-11-13T09:00:00Z",
+      "start": "2026-11-12T16:00:00.000Z",
+      "end": "2026-11-13T09:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -955,8 +934,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27692",
       "title": "Don’t Just Study. Prepare to Pass. (Option 2)",
-      "start": "2026-11-12T16:00:00Z",
-      "end": "2026-11-13T01:00:00Z",
+      "start": "2026-11-12T16:00:00.000Z",
+      "end": "2026-11-13T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -974,8 +953,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27632",
       "title": ".NET + Foundry, better together",
-      "start": "2026-11-12T17:00:00Z",
-      "end": "2026-11-13T02:00:00Z",
+      "start": "2026-11-12T17:00:00.000Z",
+      "end": "2026-11-13T02:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -997,8 +976,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27457",
       "title": "Governing IQ-Powered Agents in Production with Agent 365",
-      "start": "2026-11-12T17:00:00Z",
-      "end": "2026-11-13T02:00:00Z",
+      "start": "2026-11-12T17:00:00.000Z",
+      "end": "2026-11-13T02:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1042,8 +1021,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27596",
       "title": ".NET Conf 2026 Community Day 2",
-      "start": "2026-11-13T16:00:00Z",
-      "end": "2026-11-14T09:00:00Z",
+      "start": "2026-11-13T16:00:00.000Z",
+      "end": "2026-11-14T09:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1104,8 +1083,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27694",
       "title": "DP-800 in One Hour: SQL, AI + What You Need to Know",
-      "start": "2026-11-17T16:00:00Z",
-      "end": "2026-11-18T01:00:00Z",
+      "start": "2026-11-17T16:00:00.000Z",
+      "end": "2026-11-18T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1121,6 +1100,29 @@ window.CLOUD_CALENDAR_EVENTS = {
       "source": "Microsoft Reactor",
       "verified": "2026-10-30",
       "description": "DP-800 brings SQL development and AI together, but what does that actually mean for the exam? Get a fast, practical tour of the major skills covered, from modern database development and performance to embeddings, search, and RAG. We'll help you understand where to focus and build a plan for getting exam-ready.",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27684",
+      "title": "Build an AI Event Planner Agent with Copilot Studio & Dataverse",
+      "start": "2026-11-17T23:30:00.000Z",
+      "end": "2026-11-18T08:30:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Copilot",
+        "AI",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27684",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "What if an AI agent could plan the perfect event—and recommend products based on what is actually available? In this hands-on session, we’ll build an AI-powered Event Planner Agent using Microsoft Copilot Studio and Dataverse. Using a kids’ birthday party as our real-world scenario, the agent will understand requirements such as the child’s age, interests, budget, number of guests, and preferred style. It will then: Suggest personalized birthday party themes Recommend DIY decoration ideas and activities Find relevant DIY products available in Dataverse. Create a customized event plan based on the user’s budget and preferences. - Demonstrate how Copilot Studio + Dataverse + Generative AI can turn business data into an intelligent customer experience. By the end of the session, you’ll understand how to build an AI agent that doesn’t just answer questions—it uses your business data to provide personalized, actionable recommendations.",
       "managedBy": "microsoft-developer-events"
     },
     {
@@ -1146,33 +1148,10 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Workshop on responsible agent management, security, governance, compliance and ownership with Microsoft Agent 365. The organizer lists the date and country; venue and time remain pending."
     },
     {
-      "id": "reactor-27684",
-      "title": "Build an AI Event Planner Agent with Copilot Studio & Dataverse",
-      "start": "2026-11-17T23:30:00Z",
-      "end": "2026-11-18T08:30:00Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Copilot",
-        "AI",
-        "Data"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27684",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-30",
-      "description": "What if an AI agent could plan the perfect event—and recommend products based on what is actually available? In this hands-on session, we’ll build an AI-powered Event Planner Agent using Microsoft Copilot Studio and Dataverse. Using a kids’ birthday party as our real-world scenario, the agent will understand requirements such as the child’s age, interests, budget, number of guests, and preferred style. It will then: Suggest personalized birthday party themes Recommend DIY decoration ideas and activities Find relevant DIY products available in Dataverse. Create a customized event plan based on the user’s budget and preferences. - Demonstrate how Copilot Studio + Dataverse + Generative AI can turn business data into an intelligent customer experience. By the end of the session, you’ll understand how to build an AI agent that doesn’t just answer questions—it uses your business data to provide personalized, actionable recommendations.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
       "id": "reactor-27710",
       "title": "I Got Certified. Here’s What Happened Next. (Option 2)",
-      "start": "2026-11-18T01:00:00Z",
-      "end": "2026-11-18T10:00:00Z",
+      "start": "2026-11-18T01:00:00.000Z",
+      "end": "2026-11-18T10:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1211,8 +1190,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27714",
       "title": "From Insight to “What If?”: Planning in Microsoft Fabric (Option 2)",
-      "start": "2026-11-18T13:00:00Z",
-      "end": "2026-11-18T22:00:00Z",
+      "start": "2026-11-18T13:00:00.000Z",
+      "end": "2026-11-18T22:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1255,8 +1234,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27695",
       "title": "DP-700 in One Hour: What to Know, What to Study, Where to Focus",
-      "start": "2026-11-18T16:00:00Z",
-      "end": "2026-11-19T01:00:00Z",
+      "start": "2026-11-18T16:00:00.000Z",
+      "end": "2026-11-19T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1296,8 +1275,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27715",
       "title": "How Copilot, Fabric IQ, Fabric Apps, and Your Data Fit Together",
-      "start": "2026-11-19T16:00:00Z",
-      "end": "2026-11-20T01:00:00Z",
+      "start": "2026-11-19T16:00:00.000Z",
+      "end": "2026-11-20T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1320,8 +1299,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27718",
       "title": "DP-What? Which Certification Exam Is Right for Me? (Option 2)",
-      "start": "2026-11-20T01:00:00Z",
-      "end": "2026-11-20T10:00:00Z",
+      "start": "2026-11-20T01:00:00.000Z",
+      "end": "2026-11-20T10:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1360,8 +1339,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27761",
       "title": "New Year, New Bot - Bring Your AI Desk Robot to Life",
-      "start": "2026-11-24T18:00:00Z",
-      "end": "2026-11-25T03:00:00Z",
+      "start": "2026-11-24T18:00:00.000Z",
+      "end": "2026-11-25T03:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1444,27 +1423,6 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Enterprise agentic AI conference with workshops and sessions on multi-agent systems, MCP, conversational AI, data, security, governance and deployment."
     },
     {
-      "id": "duvdug-q4-nerdio-2026",
-      "title": "Dutch Virtual Desktop User Group Q4 Meeting at Nerdio",
-      "start": "2026-11-25T16:30:00+01:00",
-      "end": "2026-11-25T21:30:00+01:00",
-      "format": "In person",
-      "location": "Van der Valk Hotel Utrecht, Winthontlaan 4, Utrecht",
-      "topics": [
-        "Modern Workplace",
-        "Azure Virtual Desktop",
-        "Windows 365",
-        "MSP"
-      ],
-      "cost": "Free; registration required",
-      "language": "Dutch",
-      "organizer": "Dutch Virtual Desktop User Group",
-      "url": "https://www.meetup.com/nl-nl/dutch-virtual-desktop-user-group/events/316677673/",
-      "source": "Dutch Virtual Desktop User Group",
-      "verified": "2026-10-30",
-      "description": "Technical virtual desktop community evening sponsored by Nerdio. Three session slots are announced; speakers and final topics are still pending."
-    },
-    {
       "id": "aica-ai-chips-summit-amsterdam-2026",
       "title": "AICA AI & Chips Summit 2026",
       "start": "2026-11-26T09:10:00+01:00",
@@ -1511,8 +1469,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "microsoft-developer-events-espc26-2026-11-29",
       "title": "ESPC26",
-      "start": "2026-11-29T15:00:00Z",
-      "end": "2026-12-03T00:00:00Z",
+      "start": "2026-11-29T15:00:00.000Z",
+      "end": "2026-12-03T00:00:00.000Z",
       "format": "In person",
       "location": "Amsterdam Netherlands",
       "topics": [
@@ -1530,8 +1488,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27687",
       "title": "From AI User to AI Builder",
-      "start": "2026-12-01T03:30:00Z",
-      "end": "2026-12-01T12:30:00Z",
+      "start": "2026-12-01T03:30:00.000Z",
+      "end": "2026-12-01T12:30:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1551,8 +1509,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27706",
       "title": "DP-600 in One Hour: Key Concepts, Study Tips + Exam Essentials",
-      "start": "2026-12-01T16:00:00Z",
-      "end": "2026-12-02T01:00:00Z",
+      "start": "2026-12-01T16:00:00.000Z",
+      "end": "2026-12-02T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1571,8 +1529,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27762",
       "title": "New Year, New Bot - Build Its AI Brain with .NET and Aspire",
-      "start": "2026-12-01T18:00:00Z",
-      "end": "2026-12-02T03:00:00Z",
+      "start": "2026-12-01T18:00:00.000Z",
+      "end": "2026-12-02T03:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1593,8 +1551,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27721",
       "title": "What the Heck Is Fabric IQ?",
-      "start": "2026-12-02T01:00:00Z",
-      "end": "2026-12-02T10:00:00Z",
+      "start": "2026-12-02T01:00:00.000Z",
+      "end": "2026-12-02T10:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1617,8 +1575,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27742",
       "title": "Replacing Azure Communication Services Without Rebuilding Your Application",
-      "start": "2026-12-02T05:00:00Z",
-      "end": "2026-12-02T14:00:00Z",
+      "start": "2026-12-02T05:00:00.000Z",
+      "end": "2026-12-02T14:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1637,8 +1595,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27756",
       "title": "From Raw Data to AI-Ready: Spark in Fabric",
-      "start": "2026-12-02T06:00:00Z",
-      "end": "2026-12-02T15:00:00Z",
+      "start": "2026-12-02T06:00:00.000Z",
+      "end": "2026-12-02T15:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1660,8 +1618,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27716",
       "title": "Stop Reporting the Plan. Start Planning in Fabric",
-      "start": "2026-12-02T16:00:00Z",
-      "end": "2026-12-03T01:00:00Z",
+      "start": "2026-12-02T16:00:00.000Z",
+      "end": "2026-12-03T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1681,8 +1639,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27488",
       "title": "New billing and capacity tools in Microsoft Fabric",
-      "start": "2026-12-02T18:00:00Z",
-      "end": "2026-12-03T03:00:00Z",
+      "start": "2026-12-02T18:00:00.000Z",
+      "end": "2026-12-03T03:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1723,8 +1681,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27707",
       "title": "Watch Me Build My First Fabric App",
-      "start": "2026-12-03T16:00:00Z",
-      "end": "2026-12-04T01:00:00Z",
+      "start": "2026-12-03T16:00:00.000Z",
+      "end": "2026-12-04T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1743,8 +1701,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27634",
       "title": ".NET + Foundry, better together",
-      "start": "2026-12-03T17:00:00Z",
-      "end": "2026-12-04T02:00:00Z",
+      "start": "2026-12-03T17:00:00.000Z",
+      "end": "2026-12-04T02:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1766,8 +1724,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27746",
       "title": "Building Multi-Agent Workflows with Microsoft Foundry & Microsoft Agent Framework",
-      "start": "2026-12-07T09:00:00Z",
-      "end": "2026-12-07T18:00:00Z",
+      "start": "2026-12-07T09:00:00.000Z",
+      "end": "2026-12-07T18:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1788,8 +1746,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27763",
       "title": "New Year, New Bot - Give Your Bot an Agentic Brain",
-      "start": "2026-12-08T18:00:00Z",
-      "end": "2026-12-09T03:00:00Z",
+      "start": "2026-12-08T18:00:00.000Z",
+      "end": "2026-12-09T03:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1854,8 +1812,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27765",
       "title": "Durable Execution for .NET Workflows with Dapr, Aspire and Catalyst",
-      "start": "2026-12-09T19:00:00Z",
-      "end": "2026-12-10T04:00:00Z",
+      "start": "2026-12-09T19:00:00.000Z",
+      "end": "2026-12-10T04:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1895,8 +1853,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27703",
       "title": "AI @Work Live: Real People, Real Projects, Real AI",
-      "start": "2026-12-10T16:00:00Z",
-      "end": "2026-12-11T01:00:00Z",
+      "start": "2026-12-10T16:00:00.000Z",
+      "end": "2026-12-11T01:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1917,8 +1875,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27725",
       "title": "AI @Work: Community Builders in Action",
-      "start": "2026-12-11T01:00:00Z",
-      "end": "2026-12-11T10:00:00Z",
+      "start": "2026-12-11T01:00:00.000Z",
+      "end": "2026-12-11T10:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1941,8 +1899,8 @@ window.CLOUD_CALENDAR_EVENTS = {
     {
       "id": "reactor-27670",
       "title": "AI-Assisted Linux Operations on Azure: Deploy, Observe, Troubleshoot",
-      "start": "2026-12-15T19:00:00Z",
-      "end": "2026-12-16T04:00:00Z",
+      "start": "2026-12-15T19:00:00.000Z",
+      "end": "2026-12-16T04:00:00.000Z",
       "format": "Online",
       "location": "Worldwide livestream",
       "topics": [
@@ -1960,6 +1918,29 @@ window.CLOUD_CALENDAR_EVENTS = {
       "source": "Microsoft Reactor",
       "verified": "2026-10-30",
       "description": "AI on Linux is only part of the story. In this demo-led session, Karl Abbott explores how AI can assist with operating Linux environments on Azure. Join this demo-led session exploring AI-assisted Linux operations on Azure. Follow a real-world workflow as an application is deployed, monitored, intentionally disrupted, and troubleshot with AI assistance. See GitHub Copilot in action and explore how Azure agents can complement the operational toolkit. Leave with practical ideas for bringing AI into day-to-day Linux operations, from deployment and observability to troubleshooting. Resources: https://learn.microsoft.com/en-us/linux/",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "reactor-27483",
+      "title": "Copilot Dev Camp Summit – Winter Edition 2026",
+      "start": "2026-12-16T16:00:00.000Z",
+      "end": "2026-12-17T04:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Agents",
+        "Microsoft AI",
+        "Microsoft 365",
+        "Copilot",
+        "AI"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27483",
+      "source": "Microsoft Reactor",
+      "verified": "2026-10-30",
+      "description": "Copilot Dev Camp Summit – Winter Edition 2026 is a global, community-driven event designed for developers and makers to explore the latest innovations in Microsoft 365 Copilot and extensibility. Join us for a curated set of sessions, live demos, and real-world insights covering topics such as declarative agents, custom engines, and integration patterns—alongside inspiring stories from the community. Whether you're building your first Copilot experience or scaling advanced scenarios, the Summit offers practical guidance, hands-on learning, and opportunities to connect with experts and peers worldwide. Learn more about Copilot Dev Camp",
       "managedBy": "microsoft-developer-events"
     },
     {
@@ -1983,29 +1964,6 @@ window.CLOUD_CALENDAR_EVENTS = {
       "source": "Microsoft Reactor",
       "verified": "2026-10-23",
       "description": "Global community event for developers and makers covering Microsoft 365 Copilot extensibility, declarative agents, custom engines, integration patterns, live demos and practical guidance."
-    },
-    {
-      "id": "reactor-27483",
-      "title": "Copilot Dev Camp Summit – Winter Edition 2026",
-      "start": "2026-12-16T16:00:00Z",
-      "end": "2026-12-17T04:00:00Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Microsoft 365",
-        "Copilot",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27483",
-      "source": "Microsoft Reactor",
-      "verified": "2026-10-30",
-      "description": "Copilot Dev Camp Summit – Winter Edition 2026 is a global, community-driven event designed for developers and makers to explore the latest innovations in Microsoft 365 Copilot and extensibility. Join us for a curated set of sessions, live demos, and real-world insights covering topics such as declarative agents, custom engines, and integration patterns—alongside inspiring stories from the community. Whether you're building your first Copilot experience or scaling advanced scenarios, the Summit offers practical guidance, hands-on learning, and opportunities to connect with experts and peers worldwide. Learn more about Copilot Dev Camp",
-      "managedBy": "microsoft-developer-events"
     }
   ]
 };
