@@ -14,11 +14,11 @@ function app(path='/index.html',search=''){
 }
 test('past events disappear after their final day, including the November 3 roundtable',()=>{
  const {run}=app();
- assert.equal(run("isUpcoming({start:'2026-11-03'},new Date(2026,10,6,12))"),false);
- assert.equal(run("isUpcoming({start:'2026-11-06'},new Date(2026,10,6,23,59))"),true);
- assert.equal(run("isUpcoming({start:'2026-11-03',end:'2026-11-06'},new Date(2026,10,6,23,59))"),true);
- assert.equal(run("isUpcoming({start:'2026-11-03',end:'2026-11-06'},new Date(2026,10,7))"),false);
- assert.equal(run("isUpcoming({start:'2099-11-03'},new Date(2026,10,6))"),true);
+ assert.equal(run("isUpcoming({start:'2026-11-03'},new Date('2026-11-06T12:00:00+01:00'))"),false);
+ assert.equal(run("isUpcoming({start:'2026-11-06'},new Date('2026-11-06T23:59:00+01:00'))"),true);
+ assert.equal(run("isUpcoming({start:'2026-11-03',end:'2026-11-06'},new Date('2026-11-06T23:59:00+01:00'))"),true);
+ assert.equal(run("isUpcoming({start:'2026-11-03',end:'2026-11-06'},new Date('2026-11-07T00:00:00+01:00'))"),false);
+ assert.equal(run("isUpcoming({start:'2099-11-03'},new Date('2026-11-06T12:00:00+01:00'))"),true);
 });
 test('combined sidebar removes expired events while calendar data stays available',()=>{
  const {run,get}=app();
@@ -57,7 +57,7 @@ test('full Coming up page lists more than five, hides expired entries and restor
 });
 test('Today includes all matching day events regardless of filters, including multi-day events',()=>{
  const {run,get}=app('/today.html');
- run("const today=new Date();const key=d=>[d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');state.events=[{id:'today',title:'Today only',start:key(today),format:'Online'},{id:'multi',title:'Ongoing event',start:'2000-01-01',end:'2099-01-01',format:'In person'},{id:'past',title:'Past event',start:'2000-01-01',format:'Online'}];state.filtered=[];renderToday()");
+ run("const today=new Date();const key=dayKey;state.events=[{id:'today',title:'Today only',start:key(today),format:'Online'},{id:'multi',title:'Ongoing event',start:'2000-01-01',end:'2099-01-01',format:'In person'},{id:'past',title:'Past event',start:'2000-01-01',format:'Online'}];state.filtered=[];renderToday()");
  assert.match(get('#todayList').innerHTML,/Today only/);
  assert.match(get('#todayList').innerHTML,/Ongoing event/);
  assert.doesNotMatch(get('#todayList').innerHTML,/Past event/);

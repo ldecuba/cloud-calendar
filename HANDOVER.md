@@ -9,9 +9,9 @@
 - Gedrag: Today navigeert naar today.html, toont volledige eventkaarten en teruglink. Selectie en dagelijkse hercontrole expliciet Europe/Amsterdam. Meerdaagse ranges inclusief laatste datum. Banner heeft korte titel, geen decoratieve kalender; maandcellen compacter.
 - Controles: 16 Node-tests geslaagd; node --check dist/calendar.js geslaagd. Browsertool faalde bij starten (kernel reset), dus echte weergave en klikken nog niet gecontroleerd.
 - Beslissing: Agentic HR krijgt scheduleType=series en sessionDates=[]: cohortbereik bewijst geen dagelijkse sessie. Geen sessiedatums verzonnen. Maandkalender en Today delen eventsOnDay. Bron Microsoft Digital Accelerator bevat momenteel geen Agentic HR-vermelding. Fabric IQ-bron https://developer.microsoft.com/en-us/reactor/events/27456/ vermeldt 5 november 2026 17:00-18:00 UTC. Dit event staat niet meer in huidige lokale feed; exacte datums als regressiefixture getest.
-- Niet gepubliceerd: geen commit/push voor deze taak.
+- Commit en push: 999b53f succesvol op origin/main. GitHub Pages-deployment nog niet gecontroleerd.
 - Proces: lokale Python HTTP-server gestart op 127.0.0.1:4173, sessie 67547; controleer activiteit bij hervatten.
-- Hervatstap: browsercontrole opnieuw proberen; daarna desgevraagd commit en push. Datawijzigingen dist/events.json en dist/events-data.js ook meenemen.
+- Hervatstap: GitHub Pages-deployment en echte browserwerking controleren. Alleen deze lokale handover-statusupdate nog ongecommit.
 
 ## Checkpoints
 - 2026-11-06 12:04 : repository en publicatieworkflow gecontroleerd. Git vereiste een opdrachtgebonden safe.directory-instelling; geen globale configuratie gewijzigd.
@@ -61,3 +61,9 @@
 - 2026-11-06 12:33: coming-up.html toegevoegd; Show all is normale link met query/topic/format in URL. Alle komende matches zonder limiet; Clear filters, teruglink en eventdetails beschikbaar. 16 tests, syntax- en diffcontrole geslaagd. Geen browsercontrole of push.
 
 - 2026-11-06 12:34: gebruiker autoriseert commit en push van alle openstaande kalenderwijzigingen. In uitvoering: remote ophalen, commit en push, daarna branchstatus controleren.
+
+- 2026-11-06 12:34: commit 999b53f gemaakt en push geslaagd. Branch main gelijk met origin/main. Alle 10 gewijzigde bestanden meegenomen; deployment niet gecontroleerd.
+
+- 2026-11-06 12:51: nieuwe taak: wijzigingen niet zichtbaar op live site. In uitvoering: Actions en geserveerde bestanden controleren; oorzaak oplossen.
+
+- 2026-11-06 12:52: oorzaak bevestigd: Actions 42211287302 faalde door lokale tijdzone in testfixture. Testdatums nu expliciet +01:00; alle 16 tests onder TZ=UTC geslaagd. Volgende actie: correctie committen/pushen en deployment plus live bestanden controleren.
