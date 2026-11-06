@@ -80,3 +80,5 @@
 
 
 - 2026-11-06 13:24: nieuwe taak: em-dash in datumbereik als encodingglitch gemeld. In uitvoering: bereiklabel op ASCII 'to' gezet, commit/push publiceren.
+
+- 2026-11-06 13:26: gebruiker verduidelijkt dat glitch in banner staat. Verwijder dynamisch datumbereik uit banner; statische Next 3 months blijft. Daarna push en deployment controleren.
