@@ -1,0 +1,15 @@
+
+/* Put the working calendar before decorative content. */
+body{background:var(--paper)}
+header{min-height:0;display:block;padding:16px 22px;border-radius:18px}
+.hero-copy{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:24px;align-items:center}
+.brand-row{grid-column:2;grid-row:1/5;margin:0}.eyebrow{font-size:.68rem}
+h1{font-size:1.9rem;margin:7px 0}.intro{font-size:.88rem;max-width:780px}
+.hero-meta{margin-top:10px;gap:12px}.stamp{padding:5px 9px}.stamp strong{font-size:.76rem}.live-status{font-size:.65rem}
+.toolbar{padding:14px 0 10px}.filters{margin-bottom:12px}
+.day{min-height:100px}.layout{grid-template-columns:minmax(0,1fr) 300px}
+.today-page{max-width:1060px}.today-nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}.today-nav a{color:var(--blue);font-weight:700;padding:10px 0}.today-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}.today-card{background:white;border:1px solid var(--line);border-radius:16px;padding:22px}.today-card h2{font-size:1.2rem}.today-card p{line-height:1.5;color:var(--muted)}.today-grid .empty{grid-column:1/-1}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.hero-copy{display:block}.brand-row{display:none}.day{min-height:86px}}
+@media(max-width:620px){header{padding:15px}h1{font-size:1.6rem}.intro{display:none}.hero-meta{flex-direction:row;align-items:center}.live-status{display:none}.day{min-height:65px}.today-grid{grid-template-columns:1fr}}
+
+.show-all{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border:1px solid var(--line);border-radius:12px;color:var(--ink);font-weight:700;text-decoration:none}.show-all[hidden]{display:none}.show-all:hover{border-color:var(--blue)}.today-page header .intro{display:block}

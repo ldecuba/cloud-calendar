@@ -1,16 +1,17 @@
 # HANDOVER
 
 ## Actuele status
-- Bijgewerkt: 2026-11-06 12:21 (Europe/Amsterdam).
+- Bijgewerkt: 2026-11-06 12:33 (Europe/Amsterdam).
 - Projectpad: C:\Users\Lisan\Documents\ChatGPT\Microsoft Cloud Events\cloud-calendar
-- Taak: vijf komende NL-events met Show all, en alle events vandaag via Today.
-- Status: lokaal afgerond; deze wijzigingen nog niet gecommit of gepusht.
-- Gewijzigd: dist/index.html, scripts/calendar-ui.test.mjs, README.md, HANDOVER.md.
-- Gedrag: NL-lijst toont standaard vijf; Show all toont alle passende komende events, Show less beperkt weer tot vijf. Today opent huidige maand en focust een dagoverzicht onder de kalender met alle events vandaag, inclusief meerdaagse events, onafhankelijk van filters. Lege dag krijgt een duidelijke melding. Dagoverzicht ververst mee bij datumwisseling.
-- Controles: alle 12 Node-tests geslaagd (6 UI-logica, 6 updater). Gesimuleerde DOM, geen echte browsercontrole uitgevoerd.
-- Laatst gepubliceerd: 5891297 op origin/main uit vorige taak.
-- Lopende processen: geen gestart.
-- Hervatstap: browsercontrole en desgevraagd commit/push van deze wijzigingen.
+- Taak: Show all voor Coming up op aparte pagina; eerdere wijzigingen behouden.
+- Status: lokaal afgerond. Coming up combineert beide formats, chronologisch, maximaal vijf; Show all opent coming-up.html met filters in URL; verlopen events verdwijnen op basis van Nederlandse datum. Actieve zoek-, onderwerp- en formatfilters blijven gelden. Eerdere Today-fixes behouden.
+- Bestanden: dist/events.json, dist/events-data.js, dist/index.html, dist/calendar.js (nieuw), dist/calendar-layout.css (nieuw), dist/today.html (nieuw), dist/coming-up.html (nieuw), scripts/calendar-ui.test.mjs, README.md, HANDOVER.md.
+- Gedrag: Today navigeert naar today.html, toont volledige eventkaarten en teruglink. Selectie en dagelijkse hercontrole expliciet Europe/Amsterdam. Meerdaagse ranges inclusief laatste datum. Banner heeft korte titel, geen decoratieve kalender; maandcellen compacter.
+- Controles: 16 Node-tests geslaagd; node --check dist/calendar.js geslaagd. Browsertool faalde bij starten (kernel reset), dus echte weergave en klikken nog niet gecontroleerd.
+- Beslissing: Agentic HR krijgt scheduleType=series en sessionDates=[]: cohortbereik bewijst geen dagelijkse sessie. Geen sessiedatums verzonnen. Maandkalender en Today delen eventsOnDay. Bron Microsoft Digital Accelerator bevat momenteel geen Agentic HR-vermelding. Fabric IQ-bron https://developer.microsoft.com/en-us/reactor/events/27456/ vermeldt 5 november 2026 17:00-18:00 UTC. Dit event staat niet meer in huidige lokale feed; exacte datums als regressiefixture getest.
+- Niet gepubliceerd: geen commit/push voor deze taak.
+- Proces: lokale Python HTTP-server gestart op 127.0.0.1:4173, sessie 67547; controleer activiteit bij hervatten.
+- Hervatstap: browsercontrole opnieuw proberen; daarna desgevraagd commit en push. Datawijzigingen dist/events.json en dist/events-data.js ook meenemen.
 
 ## Checkpoints
 - 2026-11-06 12:04 : repository en publicatieworkflow gecontroleerd. Git vereiste een opdrachtgebonden safe.directory-instelling; geen globale configuratie gewijzigd.
@@ -39,3 +40,24 @@
 - 2026-11-06 12:21: vijf-itemsweergave en Today-dagoverzicht voltooid; 12 tests geslaagd.
 
 - 2026-11-06 12:21: nieuwe taak: commit en push geautoriseerd. Diffcontrole geslaagd; volgende stap remote ophalen, commit maken en pushen.
+
+- 2026-11-06 12:21: commit 92f8ac1 en push geslaagd; main gelijk met origin/main. Deployment niet gecontroleerd.
+
+
+- 2026-11-06 12:25: nieuwe taak in uitvoering: Today-datumselectie onderzoeken, aparte today.html maken en banner compacter voor zichtbare maandkalender. Volgende stap: gedeelde datumlogica en pagina implementeren; grensgevallen en browserweergave controleren.
+
+- 2026-11-06 12:26: aparte pagina, Amsterdam-datumselectie en compacte banner gemaakt. 13 tests geslaagd; browsertool niet beschikbaar.
+
+- 2026-11-06 12:27: gebruiker geeft Agentic HR en Modeling Your Business with Ontologies in Fabric IQ als onjuiste Today-events. In uitvoering: eventdata en bronnen controleren; daarna gerichte correctie en tests.
+
+- 2026-11-06 12:30: twee voorbeelden onderzocht; cohort metadata toegevoegd en gedeelde dagselectie aangepast. 14 tests, syntax en diffcontrole geslaagd. Tekstbestanden expliciet UTF-8 opgeslagen na gevonden encodingfout. Niet gepusht.
+
+- 2026-11-06 12:31: nieuwe taak in uitvoering: beide komende lijsten combineren tot Coming up, vijf events met uitklapknop en gezamenlijke datumfilter. Volgende actie: HTML, logica en regressietests aanpassen.
+
+- 2026-11-06 12:32: Coming up voltooid; 15 tests geslaagd, syntax en diffcontrole geslaagd. Nog geen commit/push.
+
+- 2026-11-06 12:33: nieuwe taak in uitvoering: Show all navigeert naar coming-up.html met volledige lijst en behoud van filters. Volgende stap: pagina en navigatie toevoegen, regressietests aanpassen.
+
+- 2026-11-06 12:33: coming-up.html toegevoegd; Show all is normale link met query/topic/format in URL. Alle komende matches zonder limiet; Clear filters, teruglink en eventdetails beschikbaar. 16 tests, syntax- en diffcontrole geslaagd. Geen browsercontrole of push.
+
+- 2026-11-06 12:34: gebruiker autoriseert commit en push van alle openstaande kalenderwijzigingen. In uitvoering: remote ophalen, commit en push, daarna branchstatus controleren.

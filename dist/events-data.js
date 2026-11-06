@@ -118,7 +118,10 @@ window.CLOUD_CALENDAR_EVENTS = {
       "url": "https://enablement.microsoft.com/en-us/digital-accelerator/",
       "source": "Microsoft",
       "verified": "2026-09-25",
-      "description": "Multi-week cohort for applying Microsoft AI agents to HR scenarios."
+      "description": "Multi-week cohort for applying Microsoft AI agents to HR scenarios.",
+      "scheduleType": "series",
+      "sessionDates": [],
+      "scheduleNote": "Cohort date range only. Individual session dates have not been verified."
     },
     {
       "id": "reactor-27708",
