@@ -82,3 +82,7 @@
 - 2026-11-06 13:24: nieuwe taak: em-dash in datumbereik als encodingglitch gemeld. In uitvoering: bereiklabel op ASCII 'to' gezet, commit/push publiceren.
 
 - 2026-11-06 13:26: gebruiker verduidelijkt dat glitch in banner staat. Verwijder dynamisch datumbereik uit banner; statische Next 3 months blijft. Daarna push en deployment controleren.
+
+- 2026-11-06 13:38: nieuwe taak: Coming up topicfilter moet events voorbij 7 dagen tonen. In uitvoering: vensterlimiet opgeheven zodra topic actief is; toekomstfilter blijft. Volgende stap: code inspecteren en documenteren.
+
+- 2026-11-06 13:50: gebruiker autoriseert push van uitzondering voor topicfilter. Diffcontrole uitvoeren, commit en push.
