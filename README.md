@@ -28,7 +28,7 @@ node scripts/update-events.mjs
 node scripts/build-event-data.mjs
 ```
 
-The combined Coming up list includes Netherlands and online events in chronological order, respects search/topic/format filters, and hides events after their final calendar day in Europe/Amsterdam. It shows five events on the calendar page. Show all opens `coming-up.html`, carrying the active search, topic and format filters in the URL. The full page lists all matching upcoming events and offers Clear filters and a link back to the calendar.
+The combined Coming up list includes Netherlands and online events in chronological order, respects search/topic/format filters, and hides events after their final calendar day in Europe/Amsterdam. It shows events starting or running in the next seven days, with five on the calendar page. Show all opens `coming-up.html`, carrying the active search, topic and format filters in the URL. The full page lists all matching upcoming events and offers Clear filters and a link back to the calendar.
 
 Today opens the separate `today.html` page, with event cards and a link back to the month calendar. The day selection uses Europe/Amsterdam, including daylight saving time. Date-only ranges include both the start and end day for continuous multi-day events. Listings marked `scheduleType: "series"` appear only on their verified `sessionDates`; a cohort range does not count as a daily session. The page checks for a new Netherlands calendar day every 30 seconds and when returning to the tab. `calendar.js` supplies shared behavior; `calendar-layout.css` provides the compact calendar layout.
 
