@@ -426,27 +426,6 @@ window.CLOUD_CALENDAR_EVENTS = {
       "managedBy": "microsoft-developer-events"
     },
     {
-      "id": "microsoft-supply-chain-intelligence-masterclass-2026",
-      "title": "From Spreadsheets to Supply Chain Intelligence",
-      "start": "2026-11-12T13:00:00+01:00",
-      "end": "2026-11-12T18:30:00+01:00",
-      "format": "In person",
-      "location": "Microsoft Netherlands, Evert van de Beekstraat 354, Schiphol",
-      "topics": [
-        "AI",
-        "Data",
-        "Microsoft Cloud",
-        "Dynamics 365"
-      ],
-      "cost": "Free, limited capacity",
-      "language": "Dutch",
-      "organizer": "delaware Netherlands and Microsoft",
-      "url": "https://www.delaware.pro/nl-nl/events/delaware-x-microsoft-masterclass",
-      "source": "delaware Netherlands",
-      "verified": "2026-10-09",
-      "description": "Interactive masterclass on Microsoft Supply Chain, AI use cases, planning, inventory, real-time data and practical implementation. Registration is open and subject to availability."
-    },
-    {
       "id": "reactor-27713",
       "title": "Fabric IQ: Building the Context for Trusted AI (Option 2)",
       "start": "2026-11-12T13:00:00.000Z",
@@ -468,6 +447,27 @@ window.CLOUD_CALENDAR_EVENTS = {
       "verified": "2026-11-02",
       "description": "AI is only as powerful as the context behind it. Explore how Fabric IQ brings data, business meaning, and context together to help AI better understand your organization and deliver more relevant, trusted experiences. See what that looks like in action and what it can unlock for the way we work with data and AI. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays Explore the official FabCon + SQLCon Barcelona recap at https://aka.ms/dd/BCNRecap",
       "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "microsoft-supply-chain-intelligence-masterclass-2026",
+      "title": "From Spreadsheets to Supply Chain Intelligence",
+      "start": "2026-11-12T13:00:00+01:00",
+      "end": "2026-11-12T18:30:00+01:00",
+      "format": "In person",
+      "location": "Microsoft Netherlands, Evert van de Beekstraat 354, Schiphol",
+      "topics": [
+        "AI",
+        "Data",
+        "Microsoft Cloud",
+        "Dynamics 365"
+      ],
+      "cost": "Free, limited capacity",
+      "language": "Dutch",
+      "organizer": "delaware Netherlands and Microsoft",
+      "url": "https://www.delaware.pro/nl-nl/events/delaware-x-microsoft-masterclass",
+      "source": "delaware Netherlands",
+      "verified": "2026-10-09",
+      "description": "Interactive masterclass on Microsoft Supply Chain, AI use cases, planning, inventory, real-time data and practical implementation. Registration is open and subject to availability."
     },
     {
       "id": "reactor-27530",
@@ -876,28 +876,6 @@ window.CLOUD_CALENDAR_EVENTS = {
       "description": "Microsoft Fabric community meetup with sessions on digital sovereignty and overlooked production checks for refresh spikes, errors, stale workspaces, bottlenecks and capacity optimization."
     },
     {
-      "id": "diwug-2026-11-24",
-      "title": "November 2026 DIWUG Meetup",
-      "start": "2026-11-24T18:00:00+01:00",
-      "end": "2026-11-24T21:30:00+01:00",
-      "format": "In person",
-      "location": "Cavero, Treubstraat 31, Rijswijk",
-      "topics": [
-        "Microsoft 365",
-        "SharePoint",
-        "Copilot",
-        "AI",
-        "Governance"
-      ],
-      "cost": "Free; registration required",
-      "language": "Dutch / English",
-      "organizer": "DIWUG",
-      "url": "https://www.meetup.com/nl-nl/dutch-information-workers-user-group-diwug/events/317158274/",
-      "source": "DIWUG",
-      "verified": "2026-11-06",
-      "description": "In-person Microsoft 365 community meetup. The first session covers file-level archiving, storage costs, search, governance and Copilot quality. The second session is still to be announced."
-    },
-    {
       "id": "reactor-27761",
       "title": "New Year, New Bot - Bring Your AI Desk Robot to Life",
       "start": "2026-11-24T18:00:00.000Z",
@@ -918,6 +896,28 @@ window.CLOUD_CALENDAR_EVENTS = {
       "verified": "2026-11-02",
       "description": "Meet the M5Stack StackChan as a physical AI desk robot. Program its expressions and movements, connect it to a .NET backend and dashboard, and create a first end-to-end interaction. This hands-on session shows how hardware and .NET services can work together to bring a real desk companion to life.",
       "managedBy": "microsoft-developer-events"
+    },
+    {
+      "id": "diwug-2026-11-24",
+      "title": "November 2026 DIWUG Meetup",
+      "start": "2026-11-24T18:00:00+01:00",
+      "end": "2026-11-24T21:30:00+01:00",
+      "format": "In person",
+      "location": "Cavero, Treubstraat 31, Rijswijk",
+      "topics": [
+        "Microsoft 365",
+        "SharePoint",
+        "Copilot",
+        "AI",
+        "Governance"
+      ],
+      "cost": "Free; registration required",
+      "language": "Dutch / English",
+      "organizer": "DIWUG",
+      "url": "https://www.meetup.com/nl-nl/dutch-information-workers-user-group-diwug/events/317158274/",
+      "source": "DIWUG",
+      "verified": "2026-11-06",
+      "description": "In-person Microsoft 365 community meetup. The first session covers file-level archiving, storage costs, search, governance and Copilot quality. The second session is still to be announced."
     },
     {
       "id": "digital-accelerator-guided-outcomes-apj-dec",
@@ -1525,73 +1525,6 @@ window.CLOUD_CALENDAR_EVENTS = {
       "source": "Microsoft Reactor",
       "verified": "2026-10-23",
       "description": "Global community event for developers and makers covering Microsoft 365 Copilot extensibility, declarative agents, custom engines, integration patterns, live demos and practical guidance."
-    },
-    {
-      "id": "reactor-27766",
-      "title": "Durable Execution for Microsoft Agent Framework on AKS",
-      "start": "2026-12-16T19:00:00.000Z",
-      "end": "2026-12-17T04:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27766",
-      "source": "Microsoft Reactor",
-      "verified": "2026-11-02",
-      "description": "Agents are long running, stateful and expensive. When one crashes halfway through a multi-step task, you lose its progress, its memory and the tokens you've already spent. This session shows how durable execution makes Microsoft Agent Framework agents production-ready with Dapr and Catalyst: every step is checkpointed, memory survives restarts, and agents communicate over pub/sub. We then deploy to AKS to show why AKS plus Catalyst is a strong platform for durable agents on Kubernetes.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27780",
-      "title": "Durable Execution for Any Agent on Microsoft Foundry",
-      "start": "2027-01-06T19:00:00.000Z",
-      "end": "2027-01-07T04:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Microsoft Foundry",
-        "Azure",
-        "AI",
-        "Data"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27780",
-      "source": "Microsoft Reactor",
-      "verified": "2026-11-02",
-      "description": "Microsoft Foundry gives you hosting, identity and models for your agents. This session adds Catalyst as the durable execution layer underneath. You write agent workflows as plain sequential code, the engine handles recovery through deterministic replay, and workflow state lives in an Azure database you choose, such as Azure Database for PostgreSQL. It works with any agent framework, from MAF in .NET to LangGraph or CrewAI in Python, all running on Foundry with one durable execution engine.",
-      "managedBy": "microsoft-developer-events"
-    },
-    {
-      "id": "reactor-27744",
-      "title": "Guardrail Your Operations with Azure SRE Agent",
-      "start": "2027-01-19T17:00:00.000Z",
-      "end": "2027-01-20T02:00:00.000Z",
-      "format": "Online",
-      "location": "Worldwide livestream",
-      "topics": [
-        "Agents",
-        "Microsoft AI",
-        "Azure",
-        "AI"
-      ],
-      "cost": "Free",
-      "language": "English",
-      "organizer": "Microsoft Reactor",
-      "url": "https://developer.microsoft.com/reactor/events/27744",
-      "source": "Microsoft Reactor",
-      "verified": "2026-11-02",
-      "description": "Learn how to bring more automation into your operations without losing control. We’ll walk through how Azure SRE Agent helps guardrail your operations and showcase new capabilities designed to help you govern and scale agentic operations with confidence. Get started at https://sre.azure.com/",
-      "managedBy": "microsoft-developer-events"
     },
     {
       "id": "reactor-27766",
