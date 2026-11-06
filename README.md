@@ -28,7 +28,7 @@ node scripts/update-events.mjs
 node scripts/build-event-data.mjs
 ```
 
-The upcoming Netherlands and online lists hide events after their final calendar day, using the visitor’s local date. This runs on page load, checks for a new day every 30 seconds while open, and checks again when the tab becomes visible. Past events remain available in the calendar. The Today button returns to the current month and focuses today.
+The upcoming Netherlands and online lists hide events after their final calendar day, using the visitor’s local date. This runs on page load, checks for a new day every 30 seconds while open, and checks again when the tab becomes visible. Past events remain available in the calendar. The Netherlands list shows five upcoming events by default, with Show all / Show less controls. The Today button returns to the current month and opens a list of every event taking place today, including multi-day events, regardless of active search filters.
 
 ## Publish
 
