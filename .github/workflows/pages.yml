@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 22
       - name: Test event updater
-        run: node --test scripts/update-events.test.mjs
+        run: node --test scripts/*.test.mjs
       - name: Refresh event data
         if: github.event_name != 'push'
         run: |

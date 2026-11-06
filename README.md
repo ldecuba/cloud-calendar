@@ -28,6 +28,8 @@ node scripts/update-events.mjs
 node scripts/build-event-data.mjs
 ```
 
+The upcoming Netherlands and online lists hide events after their final calendar day, using the visitor’s local date. This runs on page load, checks for a new day every 30 seconds while open, and checks again when the tab becomes visible. Past events remain available in the calendar. The Today button returns to the current month and focuses today.
+
 ## Publish
 
 Push the repository to GitHub on the `main` branch. The GitHub Actions workflow tests the updater and deploys `dist` to GitHub Pages automatically.
