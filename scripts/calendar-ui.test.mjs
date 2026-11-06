@@ -18,11 +18,11 @@ test('past events disappear after their final day, including the November 3 roun
  assert.equal(run("isUpcoming({start:'2026-11-06'},new Date('2026-11-06T23:59:00+01:00'))"),true);
  assert.equal(run("isUpcoming({start:'2026-11-03',end:'2026-11-06'},new Date('2026-11-06T23:59:00+01:00'))"),true);
  assert.equal(run("isUpcoming({start:'2026-11-03',end:'2026-11-06'},new Date('2026-11-07T00:00:00+01:00'))"),false);
- assert.equal(run("isUpcoming({start:'2099-11-03'},new Date('2026-11-06T12:00:00+01:00'))"),true);
+ assert.equal(run("isUpcoming({start:'2026-11-13'},new Date('2026-11-06T12:00:00+01:00'))"),true);
 });
 test('combined sidebar removes expired events while calendar data stays available',()=>{
  const {run,get}=app();
- run(`state.filtered=[{id:'old-nl',title:'Expired NL',start:'2000-01-01',format:'In person',cost:'Free'},{id:'old-online',title:'Expired online',start:'2000-01-01',format:'Online',cost:'Free'},{id:'future',title:'Future NL',start:'2099-01-01',format:'In person',cost:'Free'}];renderSide()`);
+ run(`const d=new Date();d.setDate(d.getDate()+3);const future=dayKey(d);state.filtered=[{id:'old-nl',title:'Expired NL',start:'2000-01-01',format:'In person',cost:'Free'},{id:'old-online',title:'Expired online',start:'2000-01-01',format:'Online',cost:'Free'},{id:'future',title:'Future NL',start:future,format:'In person',cost:'Free'}];renderSide()`);
  assert.doesNotMatch(get('#upcoming').innerHTML,/Expired/);
  assert.match(get('#upcoming').innerHTML,/Future NL/);
  assert.doesNotMatch(get('#upcoming').innerHTML,/Expired/);
@@ -41,7 +41,7 @@ test('a new day refreshes an already open page',()=>{
 
 test('Coming up shows five and links to a separate page with current filters',()=>{
  const {run,get}=app();
- run("state.filtered=Array.from({length:8},(_,i)=>({id:'event-'+i,title:'Event '+i,start:'2099-01-01',format:i%2?'Online':'In person',cost:'Free'}));state.query='AI & cloud';state.topic='Copilot';state.format='Online';renderSide()");
+ run("state.filtered=Array.from({length:8},(_,i)=>({id:'event-'+i,title:'Event '+i,start:dayKey(new Date(Date.now()+86400000)),format:i%2?'Online':'In person',cost:'Free'}));state.query='AI & cloud';state.topic='Copilot';state.format='Online';renderSide()");
  assert.equal((get('#upcoming').innerHTML.match(/<article/g)||[]).length,5);
  assert.equal(get('#showAllUpcoming').textContent,'Show all (8)');
  assert.equal(get('#showAllUpcoming').href,'./coming-up.html?q=AI+%26+cloud&topic=Copilot&format=Online');
@@ -50,7 +50,7 @@ test('Coming up shows five and links to a separate page with current filters',()
 test('full Coming up page lists more than five, hides expired entries and restores URL filters',()=>{
  const {run,get}=app('/coming-up.html','?format=Online');
  assert.equal(run('state.format'),'Online');
- run("state.events=Array.from({length:8},(_,i)=>({id:'event-'+i,title:'Online event '+i,start:'2099-01-01',format:'Online',cost:'Free',topics:[]})).concat([{title:'Expired',start:'2000-01-01',format:'Online',cost:'Free',topics:[]},{title:'In person event',start:'2099-01-01',format:'In person',cost:'Free',topics:[]}]);applyFilters()");
+ run("state.events=Array.from({length:8},(_,i)=>({id:'event-'+i,title:'Online event '+i,start:dayKey(new Date(Date.now()+86400000)),format:'Online',cost:'Free',topics:[]})).concat([{title:'Expired',start:'2000-01-01',format:'Online',cost:'Free',topics:[]},{title:'In person event',start:dayKey(new Date(Date.now()+86400000)),format:'In person',cost:'Free',topics:[]}]);applyFilters()");
  assert.equal((get('#comingUpList').innerHTML.match(/<article/g)||[]).length,8);
  assert.doesNotMatch(get('#comingUpList').innerHTML,/Expired|In person event/);
  assert.match(get('#activeFilters').textContent,/Online/);
@@ -83,7 +83,7 @@ test('reported Today examples are excluded on November 6; series require verifie
 
 test('Coming up combines formats chronologically and respects active filters',()=>{
  const {run,get}=app();
- run("state.events=[{id:'later',title:'Later in NL',start:'2099-01-03',format:'In person',cost:'Free',topics:[]},{id:'earlier',title:'Earlier online',start:'2099-01-02',format:'Online',cost:'Free',topics:[]}];applyFilters()");
+ run("state.events=[{id:'later',title:'Later in NL',start:dayKey(new Date(Date.now()+3*86400000)),format:'In person',cost:'Free',topics:[]},{id:'earlier',title:'Earlier online',start:dayKey(new Date(Date.now()+2*86400000)),format:'Online',cost:'Free',topics:[]}];applyFilters()");
  const list=get('#upcoming').innerHTML;
  assert.ok(list.indexOf('Earlier online')<list.indexOf('Later in NL'));
  run("state.format='Online';applyFilters()");

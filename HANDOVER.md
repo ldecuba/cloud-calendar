@@ -1,17 +1,17 @@
 # HANDOVER
 
 ## Actuele status
-- Bijgewerkt: 2026-11-06 12:33 (Europe/Amsterdam).
+- Bijgewerkt: 2026-11-06 13:04 (Europe/Amsterdam).
 - Projectpad: C:\Users\Lisan\Documents\ChatGPT\Microsoft Cloud Events\cloud-calendar
 - Taak: Show all voor Coming up op aparte pagina; eerdere wijzigingen behouden.
-- Status: lokaal afgerond. Coming up combineert beide formats, chronologisch, maximaal vijf; Show all opent coming-up.html met filters in URL; verlopen events verdwijnen op basis van Nederlandse datum. Actieve zoek-, onderwerp- en formatfilters blijven gelden. Eerdere Today-fixes behouden.
+- Status: gebruiker meldt deployment geblokkeerd door 4 CI-testen. Oorzaak: fixtures gebruikten events uit 2099, buiten de nieuwe 7-dagenperiode. Fixtures nu relatief op vandaag gezet; alle 16 tests lokaal geslaagd. Klaar om testfix naar main te pushen en deployment af te wachten.
 - Bestanden: dist/events.json, dist/events-data.js, dist/index.html, dist/calendar.js (nieuw), dist/calendar-layout.css (nieuw), dist/today.html (nieuw), dist/coming-up.html (nieuw), scripts/calendar-ui.test.mjs, README.md, HANDOVER.md.
 - Gedrag: Today navigeert naar today.html, toont volledige eventkaarten en teruglink. Selectie en dagelijkse hercontrole expliciet Europe/Amsterdam. Meerdaagse ranges inclusief laatste datum. Banner heeft korte titel, geen decoratieve kalender; maandcellen compacter.
 - Controles: 16 Node-tests geslaagd; node --check dist/calendar.js geslaagd. Browsertool faalde bij starten (kernel reset), dus echte weergave en klikken nog niet gecontroleerd.
 - Beslissing: Agentic HR krijgt scheduleType=series en sessionDates=[]: cohortbereik bewijst geen dagelijkse sessie. Geen sessiedatums verzonnen. Maandkalender en Today delen eventsOnDay. Bron Microsoft Digital Accelerator bevat momenteel geen Agentic HR-vermelding. Fabric IQ-bron https://developer.microsoft.com/en-us/reactor/events/27456/ vermeldt 5 november 2026 17:00-18:00 UTC. Dit event staat niet meer in huidige lokale feed; exacte datums als regressiefixture getest.
-- Commit en push: cf1afb8 succesvol op origin/main. Deployment 42213434426 geslaagd; live index, today.html, coming-up.html, calendar.js en calendar-layout.css HTTP 200, nieuwe Coming up in live HTML bevestigd.
+- Huidige remote commit e8fb53c heeft falende Pages-run 42214648992; deze update is nog lokaal.
 - Proces: lokale Python HTTP-server gestart op 127.0.0.1:4173, sessie 67547; controleer activiteit bij hervatten.
-- Hervatstap: desgewenst echte browserinteractie controleren. Live publicatie bevestigd. Alleen lokale handover-statusupdate ongecommit.
+- Hervatstap: commit/push testfix; wacht op GitHub Pages en controleer live site.
 
 ## Checkpoints
 - 2026-11-06 12:04 : repository en publicatieworkflow gecontroleerd. Git vereiste een opdrachtgebonden safe.directory-instelling; geen globale configuratie gewijzigd.
@@ -73,3 +73,5 @@
 - 2026-11-06 13:01: taak in uitvoering: titel/ondertitel updaten, em-dash weghalen, kalender max 1 event per dag met klikbare +N more, Coming up beperken tot 7 dagen. Volgende stap: lokale bestanden aanpassen en status noteren.
 
 - 2026-11-06 13:02: gebruiker autoriseert publicatie van titel-, kalender- en 7-dagenwijzigingen. Diffcontrole voltooid; volgende stap commit/push en Pages-run controleren.
+
+- 2026-11-06 13:04: CI-fout gerepareerd. Vier verouderde 2099-fixtures vervangen door datums binnen zeven dagen; volledige lokale suite 16/16 geslaagd. Commit en push nu.
