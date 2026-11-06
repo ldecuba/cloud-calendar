@@ -24,7 +24,24 @@ const locationTimeZones = [
 export function extractCards(html) {
   const marker = 'var cards = ';
   const start = html.indexOf(marker);
-  if (start < 0) throw new Error('Microsoft event data marker was not found');
+  if (start < 0) {
+    const scriptMatch = html.match(/<script[^>]+id=["']events-data["'][^>]*>([\s\S]*?)<\/script>/i);
+    if (!scriptMatch) throw new Error('Microsoft event data marker was not found');
+    const cards = JSON.parse(scriptMatch[1]).map((card) => ({
+      Title: card.title,
+      URL: card.url,
+      Description: card.description,
+      StartDateTime: card.startDateTime,
+      EndDateTime: card.endDateTime,
+      Formats: card.formats || [],
+      Location: card.location || '',
+      EventTopics: card.topics || [],
+      Languages: card.languages || [],
+      Regions: card.regions || [],
+    }));
+    if (!cards.length) throw new Error('Microsoft event data did not contain any events');
+    return cards;
+  }
 
   const arrayStart = start + marker.length;
   let depth = 0;
@@ -70,6 +87,37 @@ function hasExplicitOffset(value) {
 
 function timeZoneFor(location) {
   return locationTimeZones.find(([pattern]) => pattern.test(location || ''))?.[1];
+}
+
+function eventLocationFromHtml(html) {
+  return html.match(/<input[^>]+id=["']Location["'][^>]+value=["']([^"']*)["']/i)?.[1]
+    ?.replace(/&amp;/g, '&')
+    .replace(/&#x27;|&#39;/g, "'")
+    .trim() || '';
+}
+
+async function hydrateEventLocation(card, fetchImpl) {
+  if (card.Location || !/reactor\/events/i.test(card.URL || '')) return card;
+  try {
+    const response = await fetchImpl(card.URL, {
+      headers: { 'user-agent': 'Cloud-Calendar-NL/1.0 (+https://github.com/ldecuba/cloud-calendar)' },
+    });
+    if (!response.ok) return card;
+    const location = eventLocationFromHtml(await response.text());
+    return location ? { ...card, Location: location } : card;
+  } catch {
+    return card;
+  }
+}
+
+async function hydrateEventLocations(cards, fetchImpl) {
+  const hydrated = [];
+  const batchSize = 4;
+  for (let index = 0; index < cards.length; index += batchSize) {
+    const batch = cards.slice(index, index + batchSize);
+    hydrated.push(...await Promise.all(batch.map((card) => hydrateEventLocation(card, fetchImpl))));
+  }
+  return hydrated;
 }
 
 function partsInTimeZone(date, timeZone) {
@@ -274,7 +322,7 @@ export async function updateEvents({ now = new Date(), fetchImpl = fetch } = {})
   if (!response.ok) throw new Error(`Microsoft events request failed with HTTP ${response.status}`);
 
   const cards = extractCards(await response.text());
-  const selected = selectCards(cards, now);
+  const selected = await hydrateEventLocations(selectCards(cards, now), fetchImpl);
   const verified = now.toISOString().slice(0, 10);
   const automaticEvents = selected.flatMap((card) => {
     try {

@@ -28,6 +28,15 @@ test('extracts the embedded Microsoft cards array', () => {
     [cardWithDelimiter],
   );
 });
+
+test('extracts the current Microsoft events-data JSON', () => {
+  const html = `<script type="application/json" id="events-data">[{"title":"Current event","url":"https://developer.microsoft.com/reactor/events/29998","description":"Current description","startDateTime":"2026-11-07T10:00:00","endDateTime":"2026-11-07T11:00:00","formats":["Livestream"],"location":"","topics":["Agents"],"languages":["English"],"regions":["Europe"]}]</script>`;
+  const [card] = extractCards(html);
+  assert.equal(card.Title, 'Current event');
+  assert.equal(card.StartDateTime, '2026-11-07T10:00:00');
+  assert.deepEqual(card.Formats, ['Livestream']);
+  assert.deepEqual(card.Languages, ['English']);
+});
 test('converts source-local timestamps through daylight saving time', () => {
   assert.equal(localDateTimeToIso('2026-10-13T10:00:00', 'America/Los_Angeles'), '2026-10-13T17:00:00.000Z');
   assert.equal(localDateTimeToIso('2026-11-18T01:30:00', 'Asia/Jerusalem'), '2026-11-17T23:30:00.000Z');
