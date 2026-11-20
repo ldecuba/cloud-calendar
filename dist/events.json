@@ -837,6 +837,27 @@
       "managedBy": "microsoft-developer-events"
     },
     {
+      "id": "reactor-27717",
+      "title": "Fabric Apps in Action: What the Community Built",
+      "start": "2026-12-09T16:00:00.000Z",
+      "end": "2026-12-10T01:00:00.000Z",
+      "format": "Online",
+      "location": "Worldwide livestream",
+      "topics": [
+        "Data and Analytics",
+        "Fabric",
+        "Data"
+      ],
+      "cost": "Free",
+      "language": "English",
+      "organizer": "Microsoft Reactor",
+      "url": "https://developer.microsoft.com/reactor/events/27717",
+      "source": "Microsoft Reactor",
+      "verified": "2026-11-16",
+      "description": "The best way to understand Fabric Apps is to see what people are building with them. Community members will share their apps, the problems they were trying to solve, what worked, and what they learned while figuring it out. For more information on Data Days and all it has to offer, visit https://aka.ms/DataDays",
+      "managedBy": "microsoft-developer-events"
+    },
+    {
       "id": "reactor-27765",
       "title": "Durable Execution for .NET Workflows with Dapr, Aspire and Diagrid",
       "start": "2026-12-09T17:00:00.000Z",
