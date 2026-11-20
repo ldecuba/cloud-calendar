@@ -1,19 +1,22 @@
 # HANDOVER
 
 ## Actuele status
-- Bijgewerkt: 2026-11-06 13:04 (Europe/Amsterdam).
+- Bijgewerkt: 2026-11-20 09:00 (Europe/Amsterdam).
 - Projectpad: C:\Users\Lisan\Documents\ChatGPT\Microsoft Cloud Events\cloud-calendar
-- Taak: CI-fout verhelpen en gepubliceerde wijzigingen controleren.
-- Status: gebruiker meldt deployment geblokkeerd door 4 CI-testen. Oorzaak: fixtures gebruikten events uit 2099, buiten de nieuwe 7-dagenperiode. Fixtures nu relatief op vandaag gezet; alle 16 tests lokaal geslaagd. Klaar om testfix naar main te pushen en deployment af te wachten.
+- Taak: wekelijkse kalenderverversing voor 20 november 2026.
+- Status: IN UITVOERING. Feed bevat 55 gevalideerde events binnen 20 november 2026 tot en met 20 februari 2027. Geen duplicaten of events buiten het venster. Alle 16 tests en syntax-/diffcontroles geslaagd. Commit, push en private Site-publicatie moeten nog lopen.
 - Bestanden: dist/events.json, dist/events-data.js, dist/index.html, dist/calendar.js (nieuw), dist/calendar-layout.css (nieuw), dist/today.html (nieuw), dist/coming-up.html (nieuw), scripts/calendar-ui.test.mjs, README.md, HANDOVER.md.
 - Gedrag: Today navigeert naar today.html, toont volledige eventkaarten en teruglink. Selectie en dagelijkse hercontrole expliciet Europe/Amsterdam. Meerdaagse ranges inclusief laatste datum. Banner heeft korte titel, geen decoratieve kalender; maandcellen compacter.
 - Controles: 16 Node-tests geslaagd; node --check dist/calendar.js geslaagd. Browsertool faalde bij starten (kernel reset), dus echte weergave en klikken nog niet gecontroleerd.
 - Beslissing: Agentic HR krijgt scheduleType=series en sessionDates=[]: cohortbereik bewijst geen dagelijkse sessie. Geen sessiedatums verzonnen. Maandkalender en Today delen eventsOnDay. Bron Microsoft Digital Accelerator bevat momenteel geen Agentic HR-vermelding. Fabric IQ-bron https://developer.microsoft.com/en-us/reactor/events/27456/ vermeldt 5 november 2026 17:00-18:00 UTC. Dit event staat niet meer in huidige lokale feed; exacte datums als regressiefixture getest.
 - Commit db6a932 gepusht; Pages-run 42214942724 geslaagd. Live titel en 7-dagenfunctie bevestigd via HTTP.
 - Proces: lokale Python HTTP-server gestart op 127.0.0.1:4173, sessie 67547; controleer activiteit bij hervatten.
-- Hervatstap: geen. Publicatie klaar.
+- Hervatstap: wijzigingen committen en naar main pushen; daarna exacte commit naar de private Site publiceren en deploymentstatus controleren.
 
 ## Checkpoints
+- 2026-11-20 09:00: nieuwe wekelijkse verversing gestart. Repository is schoon en main gelijk aan origin/main. Nog geen broncontrole, datawijziging of publicatie uitgevoerd.
+- 2026-11-20 09:08: Microsoft-updater geslaagd. 17 nieuwe Reactor-events gevonden en verlopen events verwijderd. Handmatige broncontrole bevestigde DIWUG 24 november, Dutch Fabric 24 november, PowerAddicts 3 december en 21 januari, Workplace Ninja #7 op 9 december bij Previder Vianen. Cloud Expo 2-3 december en Microsoft AI Race Day 9 december toegevoegd. Tests en publicatie nog niet uitgevoerd.
+- 2026-11-20 09:12: 55 events, venster 20 november tot en met 20 februari, nul duplicaten en nul buiten-vensterrecords. 16/16 Node-tests, events-data.js en calendar.js syntax, diffcontrole en vier vereiste assets geslaagd. Volgende stap: commit/push/deploy.
 - 2026-11-06 12:04 : repository en publicatieworkflow gecontroleerd. Git vereiste een opdrachtgebonden safe.directory-instelling; geen globale configuratie gewijzigd.
 
 ## Nieuwe taak 2026-11-06 12:10
